@@ -1,0 +1,9 @@
+---
+title: "Lösungen"
+weight: 3
+header_menu: true
+---
+
+**Wie sieht die Lösung aus?**
+
+In COMPASS schließen sich in einem interdisziplinären Projekt Wissenschaftler*innen unterschiedlichster Fachrichtungen aus den Universitätskliniken mit Partnern aus Wissenschaft und Wirtschaft zusammen und entwickeln gemeinsam eine Koordinations- und Technologieplattform für Pandemieapps. Diese soll ein integraler Bestandteil des Netzwerks Universitätsmedizin werden, die Forschungsdatenplattform komplementär ergänzen und bereits zur Laufzeit Richtlinien und Methoden bereitstellen, um Gesundheitsapps zur Bekämpfung einer Pandemie möglichst effektiv, effizient und forschungstauglich einsetzen zu können. Neben Best Practices und Leitfäden werden Appkomponenten wie Schnittstellen oder Fragebögen ebenso wie Templates für Nutzungsbedingungen und Datenschutzerklärungen entwickelt. Die notwendige Geschwindigkeit in der Bearbeitung der Inhalte erzielt der Verbund dabei über entsprechende Vorarbeiten und über Synergien mit anderen Projekten. Zunächst bündelt das Projekt COMPASS die Kompetenzen und Erfahrungen im Einsatz von Pandemieapps von neun Unikliniken und externen Partnern. Mithilfe dieser Erfahrungen wird kurzfristig eine gemeinsame Lösung geschaffen, welche einerseits den rechtskonformen Einsatz von Pandemieapps berücksichtigt, andererseits aber auch ermöglicht, dass die Apps in bestehende Lösungen zum besseren Datenaustausch einfacher integriert werden können. Das Projekt vereint vorhandene und im Einsatz befindliche Pandemieapps in einer Open Source Baukastenlösung und einer entsprechenden Baukastenentwicklung (NUM-App), die entweder in der vorhandenen Form direkt von anderen Partnern genutzt oder aber im Rahmen festgelegter Richtlinien angepasst werden kann, um lokale Besonderheiten oder neue Fragestellungen zu berücksichtigen.
