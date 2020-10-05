@@ -1,11 +1,11 @@
 weight = 1
-languageCode = "dede"
+languageCode = "de-de"
 #title = "English title"
 dateFormat = "2 January 2006"
 
 # Site Params
 [params]
-    home = "Projekt"
+    home = "Startseite"
     logo = "images/logo.png"
     menufixed = false
 
