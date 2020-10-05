@@ -1,5 +1,5 @@
 baseURL = "/"
-languageCode = "en-us"
+languageCode = "de-de"
 title = "COMPASS"
 #theme = "navigator-hugo"
 summaryLength = 10
@@ -15,7 +15,7 @@ pygmentsCodeFences = true
 # Multilangues setup
 # Renders the default content language in subdir, e.g. /en/. The root directory / will redirect to /en/
 defaultContentLanguageInSubdir = true
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "de"
 
 # Site Params
 [params]
