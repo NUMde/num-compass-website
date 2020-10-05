@@ -463,7 +463,7 @@ a:focus, a:hover {
 }
 
 .single-page-header .breadcrumb li a {
-  color: #f0326b;
+  color: #e85e6e;
 }
 
 .navigation {
@@ -483,7 +483,7 @@ a:focus, a:hover {
 }
 
 .navigation .navbar-nav > li.active a {
-  color: #fff;
+  color: #f0326b;
 }
 
 .navigation .navbar-nav > li > a {
@@ -508,11 +508,11 @@ a:focus, a:hover {
 
 .navigation .navbar-nav > li > a:hover, .navigation .navbar-nav > li > a:active, .navigation .navbar-nav > li > a:focus {
   background: none;
-  color: #f0326b;
+  color: #e85e6e;
 }
 
 .navigation .navbar-toggler {
-  color: #fff;
+  color: #707d8f;
   font-size: 30px;
   cursor: pointer;
   outline: none;
@@ -528,38 +528,39 @@ a:focus, a:hover {
 
 .navigation .dropdown .dropdown-item {
   padding: 8px 15px;
-  color: #fff;
+  /* color: #fff; */
   font-size: 13px;
 }
 
 .navigation .dropdown .dropdown-item:hover {
   background: transparent;
-  color: #f0326b;
+  color: #e85e6e;
 }
 
 .navigation .dropdown .dropdown-menu {
   border-radius: 0;
-  -webkit-transform-origin: top;
+  border: 0;
+  /* -webkit-transform-origin: top;
           transform-origin: top;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
-  -webkit-transform: scale(1, 0);
-          transform: scale(1, 0);
+  -webkit-transform: scaleY(1);
+          transform: scaleY(1);
   background-color: #000;
   display: block;
   opacity: 0;
   transition: opacity 0.3s ease-in-out,-webkit-transform 0.3s;
   transition: transform 0.3s,opacity 0.3s ease-in-out;
-  transition: transform 0.3s,opacity 0.3s ease-in-out,-webkit-transform 0.3s;
+  transition: transform 0.3s,opacity 0.3s ease-in-out,-webkit-transform 0.3s; */
 }
 
 .navigation .dropdown:hover .dropdown-menu {
-  transition: opacity 0.3s ease-in-out,-webkit-transform 0.3s;
+  /* transition: opacity 0.3s ease-in-out,-webkit-transform 0.3s;
   transition: transform 0.3s,opacity 0.3s ease-in-out;
   transition: transform 0.3s,opacity 0.3s ease-in-out,-webkit-transform 0.3s;
-  -webkit-transform: scale(1, 1);
-          transform: scale(1, 1);
-  opacity: 1;
+  -webkit-transform: scaleY(1);
+          transform: scaleY(1);
+  opacity: 1; */
 }
 
 .navbar-brand {
