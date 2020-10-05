@@ -1,0 +1,14 @@
+<div class="row">
+    <div class="col">
+        <div class="title">
+            {{ with .Params.TopTitle }}<h4>{{ . }}</h4>{{ end }}
+            {{ with .Page.Title }}
+            <h2>{{ . }}</h2>
+            <span class="border"></span>
+            {{ end }}
+            {{ with .Params.SubTitle }}<p>{{ . }}</p>{{ end }}
+        </div>
+        <br/><br/>
+        <br/><br/>
+    </div>
+</div>

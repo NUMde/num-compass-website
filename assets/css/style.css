@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 ol, ul {
-  margin: 0;
+  margin: auto 1rem;
   padding: 0;
   list-style: none;
 }
@@ -712,6 +712,29 @@ a:focus, a:hover {
   position: absolute;
   z-index: -1;
 }
+
+#content ol {
+  list-style: lower-roman;
+}
+
+#content ul {
+  list-style-type: none;
+  list-style-position: inside;
+}
+
+#content ul li {
+  margin: 0.5rem auto;
+}
+
+#content ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #e85e6e; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1rem; /* Also needed for space (tweak if needed) */
+  margin-left: 0rem; /* Also needed for space (tweak if needed) */
+}
+
 
 /*=================================================================
   About us section
