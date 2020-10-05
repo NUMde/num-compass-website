@@ -1,13 +1,13 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "COMPASS | Coordination on mobile pandemic apps best practice and solution sharing"
+title = "COMPASS"
 #theme = "navigator-hugo"
 summaryLength = 10
 
 # Build robots.txt file
 enableRobotsTXT = true
 # google analytics tracking id
-googleAnalytics = "" # your analitics ID
+#googleAnalytics = "" # your analitics ID
 
 enableGitInfo = false
 pygmentsCodeFences = true
@@ -19,7 +19,7 @@ DefaultContentLanguage = "en"
 
 # Site Params
 [params]
-  logo = "images/logo.png"
+  logo = "images/NUM_Compass.png"
 
   # Gestion des langues : FR / EN / NL / DE
   [[Params.listeLangues]]
