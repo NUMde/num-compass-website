@@ -1,20 +1,43 @@
 # Navbar Menus
 [[nav]]
-name    = "profile"
-url     = "projekt/steckbrief"
+name    = "home"
+identifier = "home"
+url     = "/"
 weight  = 1
+hasChildren = true
+
+    [[nav]]
+    name    = "profile"
+    url     = "projekt/steckbrief"
+    weight  = 1
+    parent = "home"
+
+    [[nav]]
+    name    = "network"
+    url     = "https://www.netzwerk-universitaetsmedizin.de/"
+    weight  = 2
+    parent = "home"
+
+    [[nav]]
+    name    = "packages"
+    url     = "projekt/packages"
+    weight  = 3
+    parent = "home"
+
 [[nav]]
 name    = "news"
 url     = "news"
-weight  = 3
+weight  = 30
+
 [[nav]]
 name    = "clinics"
 url     = "kliniken"
-weight  = 4
+weight  = 40
+
 [[nav]]
 name    = "partners"
 url     = "partner"
-weight  = 5
+weight  = 50
 
 
 # Footer Service Menu
@@ -22,10 +45,12 @@ weight  = 5
 name    = "legal"
 url     = "impressum"
 weight  = 1
+
 [[service]]
 name    = "disclaimer"
 url     = "disclaimer"
 weight  = 2
+
 [[service]]
 name    = "privacy"
 url     = "datenschutz"
@@ -36,10 +61,12 @@ weight  = 3
 name    = "q1"
 url     = "about"
 weight  = 1
+
 [[quicklink]]
 name    = "q2"
 url     = "about"
 weight  = 2
+
 [[quicklink]]
 name    = "q3"
 url     = "about"

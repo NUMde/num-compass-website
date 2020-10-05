@@ -1,8 +1,12 @@
 [home]
-other = "Startseite"
-
+other = "Das COMPASS-Projekt"
 [profile]
 other = "Steckbrief"
+[network]
+other = "Das Netzwerk Universitätsmedizin"
+[packages]
+other = "Arbeitspakete"
+
 [clinics]
 other = "Universitätskliniken"
 [partners]

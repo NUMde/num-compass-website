@@ -7,7 +7,6 @@ dateFormat = "2 January 2006"
 
 # Site Params
 [params]
-    home = "Startseite"
     logo = "images/logo.png"
     menufixed = false
 
