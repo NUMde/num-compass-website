@@ -20,7 +20,7 @@ hasChildren = true
 
     [[nav]]
     name    = "packages"
-    url     = "projekt/packages"
+    url     = "projekt/arbeitspakete"
     weight  = 3
     parent = "home"
 
