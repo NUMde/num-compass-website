@@ -1,18 +1,19 @@
 {{ define "main" }}
 
-{{ partial "page-title.html" . }}
-
 {{ "<!-- Blog Section Start -->" | safeHTML }}
 <section class="blog section" id="blog">
     <div class="container">
+        {{ partial "page-headline.html" . }}
         <div class="row">
             {{ range (.Paginator 6).Pages }}
             {{ "<!-- single blog post -->" | safeHTML }}
             <article class="col-12 col-md-4">
                 <div class="post-item">
-                    <div class="post-thumb">
-                        <img class="img-fluid shadow rounded" src="{{ with .Params.image }}{{ . | absURL }}{{ end }}" alt="Generic placeholder image">
-                    </div>
+                    {{ with .Params.image }}
+                        <div class="post-thumb">
+                            <img class="img-fluid shadow rounded" src="{{ . | absURL }}" alt="Generic placeholder image">
+                        </div>
+                    {{ end }}
                     <div class="post-title">
                         <h3 class="mt-0">
                             <a href="{{ .Permalink }}">{{ .Title }}</a>
@@ -21,11 +22,6 @@
                     <div class="post-meta">
                         <ul class="list-inline">
                             <li class="list-inline-item">
-                                <span>By</span>
-                                {{ .Params.author }}
-                            </li>
-                            <li class="list-inline-item">
-                                <span>at</span>
                                 <span>{{ .Date.Format .Site.Params.dateFormat }}</span>
                             </li>
                         </ul>
