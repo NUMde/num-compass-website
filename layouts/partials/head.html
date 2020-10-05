@@ -11,7 +11,7 @@
     {{ template "_internal/twitter_cards.html" . }}
     {{ template "_internal/schema.html" . }}
 
-    <title>{{ if .IsPage }}{{ .Page.Title }} | {{ .Site.Title }}{{ else }}{{ .Site.Title }}{{ end }}</title>
+    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Page.Title }} | {{ .Site.Title }}{{ end }}</title>
 
     <link rel="manifest" href="{{ "manifest.json" | absURL }}" />
     <meta name="msapplication-TileColor" content="#ffffff" />
