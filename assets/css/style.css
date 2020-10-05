@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 ol, ul {
-  margin: auto 1rem;
+  margin: 0;
   padding: 0;
   list-style: none;
 }
@@ -715,11 +715,13 @@ a:focus, a:hover {
 
 #content ol {
   list-style: lower-roman;
+  margin: auto 1rem;
 }
 
 #content ul {
   list-style-type: none;
   list-style-position: inside;
+  margin: auto 1rem;
 }
 
 #content ul li {
