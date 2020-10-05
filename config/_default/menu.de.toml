@@ -1,26 +1,26 @@
 # Navbar Menus
 [[nav]]
-name    = "steckbrief"
-url     = "profile"
-weight  = 2
+name    = "profile"
+url     = "projekt/steckbrief"
+weight  = 1
 [[nav]]
 name    = "news"
 url     = "news"
 weight  = 3
 [[nav]]
-name    = "kliniken"
-url     = "clinics"
+name    = "clinics"
+url     = "kliniken"
 weight  = 4
 [[nav]]
-name    = "partner"
-url     = "partners"
+name    = "partners"
+url     = "partner"
 weight  = 5
 
 
 # Footer Service Menu
 [[service]]
 name    = "legal"
-url     = "legal"
+url     = "impressum"
 weight  = 1
 [[service]]
 name    = "disclaimer"
@@ -28,23 +28,19 @@ url     = "disclaimer"
 weight  = 2
 [[service]]
 name    = "privacy"
-url     = "privacy"
+url     = "datenschutz"
 weight  = 3
 
 # Footer Quick links Menu
 [[quicklink]]
-name    = "partners"
+name    = "q1"
 url     = "about"
 weight  = 1
 [[quicklink]]
-name    = "about"
+name    = "q2"
 url     = "about"
 weight  = 2
 [[quicklink]]
-name    = "faqs"
+name    = "q3"
 url     = "about"
 weight  = 3
-[[quicklink]]
-name    = "badges"
-url     = "about"
-weight  = 4

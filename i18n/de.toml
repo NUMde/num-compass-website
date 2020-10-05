@@ -1,11 +1,11 @@
 [home]
 other = "Startseite"
 
-[steckbrief]
+[profile]
 other = "Steckbrief"
-[kliniken]
+[clinics]
 other = "Universitätskliniken"
-[partner]
+[partners]
 other = "Externe Partner"
 [news]
 other = "News"
@@ -17,9 +17,9 @@ other = "Disclaimer"
 [privacy]
 other = "Datenschutzerklärung"
 
-[partners]
-other = "EN Partners"
-[faqs]
-other = "EN FAQ's"
-[badges]
-other = "EN Badges"
+[q1]
+other = "Link 1"
+[q2]
+other = "Link 2"
+[q3]
+other = "Link 3"

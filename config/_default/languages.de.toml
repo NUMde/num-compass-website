@@ -1,5 +1,7 @@
 weight = 1
 languageCode = "de-de"
+languageName = "deutsch"
+contentDir = "content/de"
 #title = "English title"
 dateFormat = "2 January 2006"
 
