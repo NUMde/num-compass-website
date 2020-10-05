@@ -1,0 +1,59 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "COMPASS | Coordination on mobile pandemic apps best practice and solution sharing"
+#theme = "navigator-hugo"
+summaryLength = 10
+
+# Build robots.txt file
+enableRobotsTXT = true
+# google analytics tracking id
+googleAnalytics = "" # your analitics ID
+
+enableGitInfo = false
+pygmentsCodeFences = true
+
+# Multilangues setup
+# Renders the default content language in subdir, e.g. /en/. The root directory / will redirect to /en/
+defaultContentLanguageInSubdir = true
+DefaultContentLanguage = "en"
+
+# Site Params
+[params]
+  logo = "images/logo.png"
+
+  # Gestion des langues : FR / EN / NL / DE
+  [[Params.listeLangues]]
+  code = "fr"
+  [[Params.listeLangues]]
+  code = "en"
+
+  # meta data
+  author = "Michael Stach"
+  description = "Coordination on mobile pandemic apps best practice and solution sharing"
+
+  # TODO: Include in current theme
+  [params.meta]
+  keywords = "mobile, pandemic, app, covid, covid19, corona, netzwerk universitätsmedizin, universitätsmedizin"
+
+  # TODO: check functionality in current theme
+  # These "images" are used for the structured data templates. This will show up, when
+  # services like Twitter or Slack want to generate a preview of a link to your site.
+  # See https://gohugo.io/templates/internal#twitter-cards and
+  # https://gohugo.io/templates/internal#open-graph.
+  images = ["images/NUM_compass.png", "images/NUM_Compass.svg", "images/NUM_logo.png"]
+
+  # TODO: Include in current theme
+  # A "copyright"-line to be added at the bottom of the page.
+  # Hint: Markdown is supported in here as well. So you may e.g. add a link to your legal imprint-page.
+  copyright = "© 2020, NUM-COMPASS team"
+
+  # TODO: Include in current theme
+  # The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
+  favicon = "favicon-96x96.png"
+
+# We Used Themefisher Icon font for Icon, for more details check this github repository - https://github.com/themefisher/themefisher-font
+
+
+[module]
+  [[module.imports]]
+    path = "github.com/themefisher/navigator-hugo"
