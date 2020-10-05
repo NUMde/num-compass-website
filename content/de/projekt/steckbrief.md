@@ -3,8 +3,8 @@ title   : "Steckbrief"
 date    : 2020-10-04T12:37:52+06:00
 draft   : false
 description: "Steckbrief des COMPASS-Projektes"
-topTitle: "Das COMPASS-Projekt"
-#subTitle: "Das COMPASS-Projekt"
+topTitle: "COMPASS-Projekt"
+#subTitle: "COMPASS-Projekt"
 ---
 
 ## Titel

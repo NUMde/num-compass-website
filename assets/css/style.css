@@ -719,17 +719,17 @@ a:focus, a:hover {
   margin: auto 1rem;
 }
 
-#content ul {
+#content ul:not(.list-inline) {
   list-style-type: none;
   list-style-position: inside;
   margin: auto 1rem;
 }
 
-#content ul li {
+#content ul li:not(.list-inline) {
   margin: 0.5rem auto;
 }
 
-#content ul li::before {
+#content ul li::before:not(.list-inline) {
   content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
   color: #e85e6e; /* Change the color */
   font-weight: bold; /* If you want it to be bold */
@@ -1271,6 +1271,10 @@ a:focus, a:hover {
   margin-bottom: 20px;
   width: 55px;
   transition: all 0.3s ease 0s;
+}
+
+.service-2 .work-package h4 {
+  margin-top: 80px;
 }
 
 .service-list .block {

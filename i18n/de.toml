@@ -1,9 +1,9 @@
 [home]
-other = "Das COMPASS-Projekt"
+other = "COMPASS-Projekt"
 [profile]
 other = "Steckbrief"
 [network]
-other = "Das Netzwerk Universitätsmedizin"
+other = "Netzwerk Universitätsmedizin"
 [packages]
 other = "Arbeitspakete"
 
@@ -27,3 +27,6 @@ other = "Link 1"
 other = "Link 2"
 [q3]
 other = "Link 3"
+
+[futher_information]
+other = "Weitere Informationen"

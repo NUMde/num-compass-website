@@ -1,0 +1,47 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ with $data.workpackages }}
+    {{ if .enable }}
+    {{ "<!-- Work Process Section Start -->" | safeHTML }}
+    <div class="service-2">
+            <div class="row justify-content-center">
+                {{ range $index,  $element:= .item }}
+                    <div class="col-md-12 col-sm-6 p-0">
+                        <div class="service-item work-package">
+                            {{ with .number }}
+                                <span class="count">{{ . }}.</span>
+                            {{ end }}                           
+                            {{ with .title }}
+                                <h4>{{ . }}</h4>
+                            {{ end }}
+                            {{ with .description }}
+                                <p>{{ . }}</p>
+                            {{ end }}
+                            {{ with .attributes }}
+                                <details>
+                                    <summary>{{ i18n "futher_information" }}</summary>
+                                    <div class="row p-2">
+                                        {{ range $index,  $element := . }}
+                                        <dl class="col-sm-6">
+                                            <dt class="col-sm-6">{{ with .title }}{{ . }}{{end}}</dt>
+                                            <dd class="col-sm-6">
+                                                {{ range $index,  $element := .values }}
+                                                    <p>{{ . }}</p>
+                                                {{ end }}
+                                            </dd>
+                                        </dl>
+                                        {{ end }}
+                                    </div>
+                                </details>
+                            {{ end }}
+                        </div>
+                    </div>
+                    {{ if eq (mod $index 2) 1 }}
+                        <div class="w-100"></div>
+                    {{ end }}
+                {{ end }}
+            </div>
+        </div>
+    </div>
+    {{ "<!-- Work Process section end -->" | safeHTML }}
+    {{ end }}
+{{ end }}
