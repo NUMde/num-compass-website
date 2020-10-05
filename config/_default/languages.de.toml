@@ -9,6 +9,20 @@ dateFormat = "2 January 2006"
     logo = "images/logo.png"
     menufixed = false
 
+    # meta data
+    author = "Michael Stach"
+    description = "Coordination on mobile pandemic apps best practice and solution sharing"
+
+    # TODO: Include in current theme
+    # A "copyright"-line to be added at the bottom of the page.
+    # Hint: Markdown is supported in here as well. So you may e.g. add a link to your legal imprint-page.
+    copyright = "© 2020, NUM-COMPASS team"
+    keywords = "mobile, pandemic, app, covid, covid19, corona, netzwerk universitätsmedizin, universitätsmedizin"
+
+    # TODO: Include in current theme
+    # The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
+    favicon = "favicon-96x96.png"
+
     footerServiceTitle = "Service"
     footerQuicklinkTitle = "Quicklinks"
     #footerAboutTitle = "About"
