@@ -3,7 +3,7 @@ languageCode = "de-de"
 languageName = "deutsch"
 contentDir = "content/de"
 #title = "English title"
-dateFormat = "2 January 2006"
+dateFormat = "02. Oktober 2006"
 
 # Site Params
 [params]
