@@ -1,0 +1,60 @@
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="description"
+        content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
+    {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+    {{ with .Site.Params.meta.keywords }}<meta name="keywords" content="{{ . }}"/>{{ end }}
+    {{ hugo.Generator }}
+
+    {{ template "_internal/opengraph.html" . }}
+    {{ template "_internal/twitter_cards.html" . }}
+    {{ template "_internal/schema.html" . }}
+
+    <title>{{ .Title }}</title>
+
+    <link rel="manifest" href="{{ "manifest.json" | absURL }}" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="{{ "images/favicons/ms-icon-144x144.png" | absURL }}" />
+
+    {{ "<!-- Mobile Specific Meta -->" | safeHTML }}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {{ "<!-- Favicon -->" | safeHTML }}
+    <link rel="shortcut icon" type="image/x-icon" href="{{ "images/favicon.ico" | absURL }}" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ "images/favicons/apple-touch-icon.png" | absURL }}" />
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ "images/favicons/favicon-32x32.png" | absURL }}" />
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ "images/favicons/favicon-16x16.png" | absURL }}" />
+    <link rel="apple-touch-icon" sizes="57x57" href="{{ "images/favicons/apple-icon-57x57.png" | absURL }}" />
+    <link rel="apple-touch-icon" sizes="60x60" href="{{ "images/favicons/apple-icon-60x60.png" | absURL }}" />
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ "images/favicons/apple-icon-72x72.png" | absURL }}" />
+    <link rel="apple-touch-icon" sizes="76x76" href="{{ "images/favicons/apple-icon-76x76.png" | absURL }}" />
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ "images/favicons/apple-icon-114x114.png" | absURL }}" />
+    <link rel="apple-touch-icon" sizes="120x120" href="{{ "images/favicons/apple-icon-120x120.png" | absURL }}" />
+    <link rel="apple-touch-icon" sizes="144x144" href="{{ "images/favicons/apple-icon-144x144.png" | absURL }}" />
+    <link rel="apple-touch-icon" sizes="152x152" href="{{ "images/favicons/apple-icon-152x152.png" | absURL }}" />
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ "images/favicons/apple-icon-180x180.png" | absURL }}" />
+    <link rel="icon" type="image/png" sizes="192x192" href="{{ "images/favicons/android-icon-192x192.png" | absURL }}" />
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ "images/favicons/favicon-32x32.png" | absURL }}" />
+    <link rel="icon" type="image/png" sizes="96x96" href="{{ "images/favicons/favicon-96x96.png" | absURL }}" />
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ "images/favicons/favicon-16x16.png" | absURL }}" />
+
+
+    {{"<!-- Stylesheets -->" | safeHTML}}
+    {{ "<!-- Themefisher Icon font -->" | safeHTML }}
+    <link rel="stylesheet" href="{{ `plugins/themefisher-font/style.css` | absURL }}">
+    {{ "<!-- bootstrap.min css -->" | safeHTML}}
+    <link rel="stylesheet" href="{{ `plugins/bootstrap/dist/css/bootstrap.min.css` | absURL }}">
+    {{ "<!-- Lightbox.min css -->" | safeHTML }}
+    <link rel="stylesheet" href="{{ `plugins/lightbox2/dist/css/lightbox.min.css` | absURL }}">
+    {{ "<!-- Slick Carousel -->" | safeHTML }}
+    <link rel="stylesheet" href="{{ `plugins/slick-carousel/slick/slick.css` | absURL }}">
+    <link rel="stylesheet" href="{{ `plugins/slick-carousel/slick/slick-theme.css` | absURL }}">
+    {{ "<!-- Main Stylesheet -->" | safeHTML }}
+
+    {{ $styles := resources.Get "css/style.css" | minify}}
+    <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
+
+</head>
