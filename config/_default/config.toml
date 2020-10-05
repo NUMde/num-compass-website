@@ -23,7 +23,7 @@ DefaultContentLanguage = "en"
 
   # Gestion des langues : FR / EN / NL / DE
   [[Params.listeLangues]]
-  code = "fr"
+  code = "de"
   [[Params.listeLangues]]
   code = "en"
 

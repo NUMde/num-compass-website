@@ -1,0 +1,22 @@
+[steckbrief]
+other = "Steckbrief"
+[kliniken]
+other = "Universitätskliniken"
+[partner]
+other = "Externe Partner"
+[news]
+other = "News"
+
+[legal]
+other = "Impressum"
+[disclaimer]
+other = "Disclaimer"
+[privacy]
+other = "Datenschutzerklärung"
+
+[partners]
+other = "EN Partners"
+[faqs]
+other = "EN FAQ's"
+[badges]
+other = "EN Badges"

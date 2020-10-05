@@ -1,0 +1,50 @@
+# Navbar Menus
+[[nav]]
+name    = "steckbrief"
+url     = "profile"
+weight  = 2
+[[nav]]
+name    = "news"
+url     = "news"
+weight  = 3
+[[nav]]
+name    = "kliniken"
+url     = "clinics"
+weight  = 4
+[[nav]]
+name    = "partner"
+url     = "partners"
+weight  = 5
+
+
+# Footer Service Menu
+[[service]]
+name    = "legal"
+url     = "legal"
+weight  = 1
+[[service]]
+name    = "disclaimer"
+url     = "disclaimer"
+weight  = 2
+[[service]]
+name    = "privacy"
+url     = "privacy"
+weight  = 3
+
+# Footer Quick links Menu
+[[quicklink]]
+name    = "partners"
+url     = "about"
+weight  = 1
+[[quicklink]]
+name    = "about"
+url     = "about"
+weight  = 2
+[[quicklink]]
+name    = "faqs"
+url     = "about"
+weight  = 3
+[[quicklink]]
+name    = "badges"
+url     = "about"
+weight  = 4
