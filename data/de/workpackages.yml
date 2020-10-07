@@ -1,0 +1,45 @@
+enable  : true
+item    :
+  - number  : 1
+    title   : Koordination
+    description : >
+      In einem Projekt Setup soll eine Infrastruktur inklusive regelhafter Meetingstrukturen geschaffen werden, die es erlaubt, den Projektverlauf anhand der gesetzten Meilensteine eng zu monitoren und im Falle von Abweichungen geeignet zu eskalieren und nachzusteuern. Hierüber soll eine nachhaltige Governance-Struktur geschaffen werden, die in enger Abstimmung mit den AP2 Inhalten agiert.
+      Zusätzlich soll durch die Projektsteuerung die geeignete Kommunikation im Sinne der Öffentlichkeitsarbeit sowie die Abstimmung mit international laufenden Aktivitäten und Pandemie-Netzwerkaktivitäten im Sinne einer Synchronisation der fachlichen Aspekte stattfinden. 
+    attributes :
+      - title : "Koordination"
+        values: ["UMM"]
+      - title : "Weitere Beteiligte"
+        values: ["CHA", "UMG", "UKW"]
+
+  - number  : 2
+    title   : Best Practice & Guidance
+    description : >
+      In diesem Arbeitspaket sollen Best Practices definiert und Richtlinien formuliert werden, wie Apps je nach Fokus (Information, Beratung, Datenerhebung) innerhalb einer Pandemiebekämpfung möglichst effektiv, effizient und forschungskompatibel eingesetzt werden können; dabei soll erarbeitet werden, welche Faktoren die Akzeptanz maßgeblich beeinflussen und daraus abgeleitet definiert werden, wie eine möglichst hohe Akzeptanz für Pandemieapps erreicht werden kann. 
+      Dazu werden sukzessive die in AP 3-5 erarbeiteten Ergebnisse zu einer Gesamtbewertung zusammengeführt und die Empfehlungen entsprechend aktualisiert. 
+      Um ein Hilfsangebot zu entwickeln, wie Netzwerkpartnern mit Bedarf an Pandemieapps bezüglich der Anforderungen und Möglichkeiten vorgehen können, sollen diese Richtlinien darüber hinaus operationalisiert werden, indem eine digitale Wissensbasis / FAQ erstellt wird.
+      Zuletzt sollen Beratungsstrukturen geschaffen werden, die in Interaktion mit identifizierten Partnern Auskunft zu den Guidelines und Angeboten aus diesem AP geben.
+    attributes :
+      - title : "Koordination"
+        values: ["UMM"]
+      - title : "Weitere Beteiligte"
+        values: ["CHA", "UMG", "UKW"]
+
+  - number  : 3
+    title   : Regulatorische Anforderungen
+    description : >
+      Dieses Arbeitspaket soll dem Umstand Rechnung tragen, dass regulatorische Anforderungen bei Pandemieapps ungleich wichtiger sind als bei bisherigen Medical Apps, da viel schneller verlässliche Ergebnisse gefordert werden; außerdem auch die Entwicklung solcher Apps nicht auf die Weise planbar ist wie das bei Medical Apps außerhalb einer Pandemie der Fall ist.
+    attributes :
+      - title : "Koordination"
+        values: ["UMM"]
+      - title : "Weitere Beteiligte"
+        values: ["CHA", "UMG", "UKW"]
+
+  - number  : 4
+    title   : Secure System
+    description : >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis.
+    attributes :
+      - title : "Koordination"
+        values: ["UMM"]
+      - title : "Weitere Beteiligte"
+        values: ["CHA", "UMG", "UKW"]
