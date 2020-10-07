@@ -14,19 +14,22 @@
             {{ end }}
         </div>
     </div>
+    <div class="col-md-1"></div>
     {{ with .Get "image" }}
-    <div class="col-md-6 col-sm-12 text-center">
-        <img src="{{ . | absURL }}" class="img-fluid rounded shadow mt-3 mb-3" alt="about-image">
+    <div class="col-md-5 col-sm-12 text-center">
+        <img src="{{ . | absURL }}" class="img-fluid p-5" alt="about-image">
     </div>
     {{ end }}
 </div>
 {{ else }}
 <div class="row align-items-flex-start">
     {{ with .Get "image" }}
-    <div class="col-md-6 col-sm-12 mb-5 text-center">
-        <img src="{{ . | absURL }}" class="img-fluid rounded shadow mt-3 mb-3" alt="about-image">
+    <div class="col-md-5 col-sm-12 mb-5 text-center">
+        <img src="{{ . | absURL }}" class="img-fluid p-5" alt="about-image">
     </div>
     {{ end }}
+
+    <div class="col-md-1"></div>
     <div class="col-md-6 col-sm-12">
         <div class="content">
             {{ with .Get "title"| plainify }}
