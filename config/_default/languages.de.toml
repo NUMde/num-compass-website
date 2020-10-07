@@ -53,29 +53,3 @@ dateFormat = "02. Oktober 2006"
     #topTitle= "OUR UNTOLD STORY"
     title   = "News"
     #subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
-
-    # Contact Section
-    [params.contact]
-    enable  = true
-    topTitle= "DROP US A NOTE"
-    title   = "Contact Us."
-    subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
-    address = "14/05, Stockhome <br> Victori Palace , United States"
-    phone   = "(03) 9283 2617"
-    fax     = "+61 3827 3590"
-    facebook= "https://www.facebook.com/"
-    twitter = "https://twitter.com/"
-    linkedin= "https://www.linkedin.com/"
-    dribbble= "https://dribbble.com/"
-    instagram= "https://www.instagram.com/"
-    mapLatitude = "51.507351"
-    mapLongitude= "-0.127758"
-    mapMarker   = "images/marker.png"
-
-    # Call to Action Section on About Page
-    [params.cta]
-    enable  = true
-    bg      = "images/call-to-action/call-to-action-bg-2.jpg"
-    title   = "Let's Create Something Together"
-    subtitle= "Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum auctor, <br> nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed odio sitain elit."
-    btnText = "Contact Us"
