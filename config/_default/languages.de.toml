@@ -44,8 +44,8 @@ dateFormat = "02. Oktober 2006"
     # About 2 Section
     [params.aboutSm]
     enable  = true
-    title   = "We have explored the digital landscape with passion for a long time"
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae deleniti ipsa labore necessitatibus culpa veritatis quo accusantium, neque enim ea ad eaque iure, quas tempore velit, quibusdam dolor illo! Explicabo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quisquam maiores iste soluta, nihil dolorem?"
+    title   = "Das Smartphone ist das zentrale Mittel zur Kommunikation, um Gesundheitsinformationen schnell und zuverlässig zu teilen"
+    description = "Die Vielfalt an Pandemieapps, also Apps, die z.B. in Hackathons zur Beherrschung von COVID-19 entwickelt wurden, zeigt das große Potenzial, das viele Experten und Expertinnen in ihnen sehen. Damit aber Apps effektiv in der Pandemie sind, müssen sie von vielen Personen genutzt werden. Dies gilt nicht nur für die Corona-Warn-App, sondern insbesondere auch für Apps zur Einschätzung des individuellen Risikos z.B. bei bestimmten Vorerkrankungen. Deshalb ist es notwendig, dass solche Apps in der breiten Bevölkerung Vertrauen genießen und Daten für die medizinische Forschung bei Einwilligung der Nutzer und Nutzerinnen zusammen ausgewertet werden können."
 
     # Blog Section On Homepage
     [params.blog]
