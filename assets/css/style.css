@@ -738,6 +738,13 @@ a:focus, a:hover {
   margin-left: 0rem; /* Also needed for space (tweak if needed) */
 }
 
+@media (min-width: 992px) {
+  .v-center-img-helper {
+    height: 100%;
+    vertical-align: middle;
+    display: inline-block;
+  }
+}
 
 /*=================================================================
   About us section
