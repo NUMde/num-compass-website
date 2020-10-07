@@ -33,13 +33,13 @@ dateFormat = "02. Oktober 2006"
     # Hero Area Section
     [params.hero]
     enable  = true
-    heading = "We love to make brands grow"
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quo dolor est incidunt suscipit minima, alias numquam voluptatum rerum porro. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore at laboriosam unde repellat id expedita quae quisquam libero officia consequatur."
-    button  = true
+    heading = "Bewährte Praktiken und gemeinsame Lösungen für mobile Pandemie-Anwendungen"
+    description = "In COMPASS schließen sich in einem interdisziplinären Projekt Wissenschaftler*innen unterschiedlichster Fachrichtungen aus den Universitätskliniken mit Partnern aus Wissenschaft und Wirtschaft zusammen und entwickeln gemeinsam eine Koordinations- und Technologieplattform für Pandemieapps."
+    button  = false
     btnText = "Know More"
-    btnURL  = "https://themefisher.com/"
-    videoThumb = "images/slider/video-player-thumb.jpg"
-    videoURL   = "https://www.youtube.com/embed/g3-VxLQO7do"
+    btnURL  = "#"
+    image = "images/hero.png"
+    #videoURL   = "https://www.youtube.com/embed/g3-VxLQO7do"
 
     # About 2 Section
     [params.aboutSm]
