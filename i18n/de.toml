@@ -23,12 +23,8 @@ other = "Disclaimer"
 [privacy]
 other = "Datenschutzerklärung"
 
-[q1]
-other = "Link 1"
-[q2]
-other = "Link 2"
-[q3]
-other = "Link 3"
+[read_more]
+other = "mehr dazu"
 
 [futher_information]
 other = "Weitere Informationen"

@@ -1,19 +1,21 @@
-{{ define "main" }}
-
-{{ "<!-- Blog Section Start -->" | safeHTML }}
+{{ if .Site.Params.news.enable }}
+{{ "<!-- News Section Start -->" | safeHTML }}
 <section class="blog section" id="blog">
     <div class="container">
-        {{ partial "page-headline.html" . }}
         <div class="row">
-            {{ range (.Paginator 6).Pages }}
-            {{ "<!-- single blog post -->" | safeHTML }}
+            <div class="col">
+                <div class="title text-center">
+                    {{ with .Site.Params.news.topTitle }}<h4>{{ . }}</h4>{{ end }}
+                    {{ with .Site.Params.news.title }}<h2>{{ . }}</h2><span class="border"></span>{{ end }}
+                    {{ with .Site.Params.news.subtitle }}<p>{{ . }}</p>{{ end }}
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-around">
+            {{ range first 3 (where .Site.RegularPages "Section" "==" "news") }}
+            {{ "<!-- single News post -->" | safeHTML }}
             <article class="col-12 col-md-4">
                 <div class="post-item">
-                    {{ with .Params.image }}
-                        <div class="post-thumb">
-                            <img class="img-fluid shadow rounded" src="{{ . | absURL }}" alt="Generic placeholder image">
-                        </div>
-                    {{ end }}
                     <div class="post-title">
                         <h3 class="mt-0">
                             <a href="{{ .Permalink }}">{{ .Title }}</a>
@@ -32,15 +34,10 @@
                     <a class="btn btn-main" href="{{ .Permalink }}">{{ i18n "read_more" }}</a>
                 </div>
             </article>
-            {{ "<!-- /single blog post -->" | safeHTML }}
+            {{ "<!-- /single News post -->" | safeHTML }}
             {{ end }}
-            <div class="col-12 text-center">
-                {{ template "_internal/pagination.html" . }}
-            </div>
         </div>
     </div>
 </section>
-{{ "<!-- Blog Section End -->" | safeHTML }}
-
+{{ "<!-- News Section End -->" | safeHTML }}
 {{ end }}
-
