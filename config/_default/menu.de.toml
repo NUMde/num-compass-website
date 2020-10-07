@@ -1,33 +1,38 @@
 # Navbar Menus
 [[nav]]
 name    = "home"
-identifier = "home"
 url     = "/"
 weight  = 1
+
+[[nav]]
+name    = "news"
+url     = "news"
+weight  = 10
+
+[[nav]]
+name    = "project"
+identifier = "project"
+#url     = ""
+weight  = 20
 hasChildren = true
 
     [[nav]]
     name    = "profile"
     url     = "projekt/steckbrief"
-    weight  = 1
-    parent = "home"
+    weight  = 21
+    parent = "project"
 
     [[nav]]
     name    = "network"
     url     = "https://www.netzwerk-universitaetsmedizin.de/"
-    weight  = 2
-    parent = "home"
+    weight  = 22
+    parent = "project"
 
     [[nav]]
     name    = "packages"
     url     = "projekt/arbeitspakete"
-    weight  = 3
-    parent = "home"
-
-[[nav]]
-name    = "news"
-url     = "news"
-weight  = 30
+    weight  = 23
+    parent = "project"
 
 [[nav]]
 name    = "clinics"
@@ -58,16 +63,16 @@ weight  = 3
 
 # Footer Quick links Menu
 [[quicklink]]
-name    = "q1"
-url     = "about"
+name    = "news"
+url     = "news"
 weight  = 1
 
 [[quicklink]]
-name    = "q2"
-url     = "about"
+name    = "profile"
+url     = "projekt/steckbrief"
 weight  = 2
 
 [[quicklink]]
-name    = "q3"
-url     = "about"
+name    = "packages"
+url     = "projekt/arbeitspakete"
 weight  = 3

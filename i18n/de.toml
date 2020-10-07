@@ -1,4 +1,6 @@
 [home]
+other = "Startseite"
+[project]
 other = "COMPASS-Projekt"
 [profile]
 other = "Steckbrief"
