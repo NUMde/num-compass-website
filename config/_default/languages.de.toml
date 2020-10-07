@@ -53,3 +53,17 @@ dateFormat = "02. Oktober 2006"
     #topTitle= "OUR UNTOLD STORY"
     title   = "News"
     #subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
+
+    # Clinics Section On Homepage
+    [params.clinics]
+    enable  = true
+    #topTitle= "OUR UNTOLD STORY"
+    title   = "Universitätskliniken"
+    #subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
+
+    # Partners Section On Homepage
+    [params.partners]
+    enable  = true
+    #topTitle= "OUR UNTOLD STORY"
+    title   = "Externe Partner"
+    #subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"

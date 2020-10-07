@@ -34,15 +34,15 @@ hasChildren = true
     weight  = 23
     parent = "project"
 
-[[nav]]
-name    = "clinics"
-url     = "kliniken"
-weight  = 40
+#[[nav]]
+#name    = "clinics"
+#url     = "kliniken"
+#weight  = 40
 
-[[nav]]
-name    = "partners"
-url     = "partner"
-weight  = 50
+#[[nav]]
+#name    = "partners"
+#url     = "partner"
+#weight  = 50
 
 
 # Footer Service Menu

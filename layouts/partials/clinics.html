@@ -1,0 +1,36 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ with $data.clinics }}
+    {{ if $.Site.Params.clinics.enable }}
+    {{ "<!-- clinics Section Start -->" | safeHTML }}
+    <section class="section" id="clinics">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="title text-center">
+                        {{ with $.Site.Params.clinics.topTitle }}<h4>{{ . }}</h4>{{ end }}
+                        {{ with $.Site.Params.clinics.title }}<h2>{{ . }}</h2><span class="border"></span>{{ end }}
+                        {{ with $.Site.Params.clinics.subtitle }}<p>{{ . }}</p>{{ end }}
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                {{ range $index,  $element:= .member }}
+                    <div class="col-md-12 text-center">                    
+                            {{ with .name }}
+                                <h5>{{ . }}</h5>
+                                <p>
+                                    {{ with $element.URL }}
+                                    <a href="{{ . }}" target="_blank" rel="noopener" alt="Link zur {{ $element.name }}">
+                                        <sup class="tf-ion-link"></sup>
+                                    </a>
+                                    {{ end }}
+                                </p>
+                            {{ end }}
+                    </div>
+                {{ end }}
+            </div>
+        </div>
+    </section>
+    {{ "<!-- clinics Section End -->" | safeHTML }}
+    {{ end }}
+{{ end }}
