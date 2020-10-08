@@ -4,7 +4,7 @@
 <section class="blog section" id="blog">
     <div class="container">
         {{ partial "page-headline.html" . }}
-        <div class="row">
+        <div class="row justify-content-around">
             {{ range (.Paginator 6).Pages }}
             {{ "<!-- single blog post -->" | safeHTML }}
             <article class="col-12 col-md-4">
