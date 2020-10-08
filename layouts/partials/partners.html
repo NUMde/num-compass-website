@@ -1,0 +1,20 @@
+{{ if $.Site.Params.partners.enable }}
+{{ "<!-- clinics Section Start -->" | safeHTML }}
+<section class="section" id="clinics">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="title text-center">
+                    {{ with $.Site.Params.partners.topTitle }}<h4>{{ . }}</h4>{{ end }}
+                    {{ with $.Site.Params.partners.title }}<h2>{{ . }}</h2><span class="border"></span>{{ end }}
+                    {{ with $.Site.Params.partners.subtitle }}<p>{{ . }}</p>{{ end }}
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <h5>{{ i18n "coming_soon" }}</h5>
+        </div>
+    </div>
+</section>
+{{ "<!-- clinics Section End -->" | safeHTML }}
+{{ end }}
