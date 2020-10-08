@@ -714,6 +714,18 @@ a:focus, a:hover {
   z-index: -1;
 }
 
+/* ADD FLEX LAYOUT FOR CORRECT FOOTER PLACEMENT */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+}
+
+#content {
+  margin-bottom: auto;
+}
+
 #content ol {
   list-style: lower-roman;
   margin: auto 1rem;
