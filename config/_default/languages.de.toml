@@ -7,7 +7,7 @@ dateFormat = "02. Oktober 2006"
 
 # Site Params
 [params]
-    logo = "images/logo.png"
+    logo = "images/logo.svg"
     menufixed = false
 
     # meta data
