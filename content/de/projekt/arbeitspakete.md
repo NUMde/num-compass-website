@@ -7,7 +7,15 @@ topTitle: "COMPASS-Projekt"
 #subTitle: "COMPASS-Projekt"
 ---
 
-Die folgenden Arbeitspakete werden im Rahmen des Projekts von den verschiedenen [Netzwerkpartnern](#netzwerkpartner) erbracht:
+Die folgenden Arbeitspakete werden im Rahmen des COMPASS-Projektes erbracht. Eine Aufschlüsselung der verschiedenen [Netzwerkpartner](#netzwerkpartner) finden Sie am Ende der Seite.
+
+{{< figure 
+        src="/images/steckbrief/arbeitspakete.png" 
+        class="text-center mb-5"
+        imgClass="img-fluid"
+        width="550"
+        alt="Übersichtsgrafik aller Arbeitspakete"
+>}}
 
 
 {{< workpackages >}}
