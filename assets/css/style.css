@@ -332,7 +332,7 @@ a:focus, a:hover {
 .title h2 {
   font-size: 35px;
   color: #232323;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   margin-bottom: 8px;
   font-weight: 700;
 }
