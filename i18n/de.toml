@@ -8,6 +8,8 @@ other = "Steckbrief"
 other = "Netzwerk Universitätsmedizin"
 [packages]
 other = "Arbeitspakete"
+[press]
+other = "Pressespiegel"
 
 [clinics]
 other = "Universitätskliniken"

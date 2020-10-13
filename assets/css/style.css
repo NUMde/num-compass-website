@@ -750,6 +750,18 @@ body {
   margin-left: 0rem; /* Also needed for space (tweak if needed) */
 }
 
+figure.press:not(:last-child):after {
+  content: " ";
+    border: none;
+    display: inline-block;
+    border-radius: 3px;
+    height: 2px;
+    position: relative;
+    width: 90%;
+    margin: 3rem auto;
+    background-image: linear-gradient(100deg,#f9643d,#fe2a77);
+}
+
 @media (min-width: 992px) {
   .v-center-img-helper {
     height: 100%;

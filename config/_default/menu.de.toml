@@ -34,6 +34,12 @@ hasChildren = true
     weight  = 23
     parent = "project"
 
+    [[nav]]
+    name    = "press"
+    url     = "projekt/pressespiegel"
+    weight  = 24
+    parent = "project"
+
 #[[nav]]
 #name    = "clinics"
 #url     = "kliniken"
