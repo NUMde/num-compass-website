@@ -12,7 +12,7 @@ Die folgenden Arbeitspakete werden im Rahmen des COMPASS-Projektes erbracht. Ein
 {{< figure 
         src="/images/steckbrief/arbeitspakete.png" 
         class="text-center mb-5"
-        imgClass="img-fluid"
+        imgClass="img-fluid shadow"
         width="550"
         alt="Übersichtsgrafik aller Arbeitspakete"
 >}}
