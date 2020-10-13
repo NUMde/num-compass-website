@@ -12,7 +12,7 @@ item    :
         values: ["CHA", "UMG", "UKW"]
 
   - number  : 2
-    title   : Best Practice & Guidance
+    title   : Guidance - Best Practices und Empfehlungen
     description : >
       In diesem Arbeitspaket sollen Best Practices definiert und Richtlinien formuliert werden, wie Apps je nach Fokus (Information, Beratung, Datenerhebung) innerhalb einer Pandemiebekämpfung möglichst effektiv, effizient und forschungskompatibel eingesetzt werden können; dabei soll erarbeitet werden, welche Faktoren die Akzeptanz maßgeblich beeinflussen und daraus abgeleitet definiert werden, wie eine möglichst hohe Akzeptanz für Pandemieapps erreicht werden kann. 
       Dazu werden sukzessive die in AP 3-5 erarbeiteten Ergebnisse zu einer Gesamtbewertung zusammengeführt und die Empfehlungen entsprechend aktualisiert. 
@@ -35,7 +35,7 @@ item    :
         values: ["CHA", "UMG", "UMM", "UKR", "UKEr", "UKU"]
 
   - number  : 4
-    title   : Ethisch-gesellschaftliche Anforderungen
+    title   : Ethische Anforderungen
     description : >
       Dieses Arbeitspaket untersucht die Einführung und auch den Weg zur Einführung zu Pandemieapps wie der Corona Warn App, da der Umgang mit Pandemieapps seitens der Bürger*innen viele Unsicherheiten hervorgerufen hat. Da in Zeiten einer Pandemie die Nutzung solcher Apps aus dem freiwilligen Nutzungsbereich faktisch in den zwingenden Nutzungsbereich gerückt ist, mussten sich die Bürger*innen in kurzer Zeit ein Bild verschaffen, ob der Technologie vertraut werden kann oder nicht. Die gleiche Problematik gilt für viele andere Gruppen wie beispielsweise Wissenschaftler*innen, die schnellstmöglich an verlässliche Daten kommen wollen. 
     attributes :
@@ -45,7 +45,7 @@ item    :
         values: ["UMG", "UKU", "UKR", "RKI"]
 
   - number  : 5
-    title   : Forschungs- kompatibilität und Interoperabilität
+    title   : Forschungskompatibilität & Interoperabilität
     description : >
       Ziel des Arbeitspaketes ist es, die wesentlichen Anforderungen, die sich speziell der (Nach-)nutzung der per App erhobenen Daten für die Pandemieforschung ergeben, zu identifizieren und daraus konkrete Konzepte und Handlungsempfehlungen für die Entwicklung bzw. Konfiguration von Pandemieapps abzuleiten. Die Ergebnisse dieses AP werden in AP2 zu einer konsentierten Empfehlung für die Entwicklung und den Einsatz von Pandemieapps zusammengeführt. Die technische Umsetzung der identifizierten Datenmodelle und Schnittstellen als Komponenten des Frameworks erfolgt parallel in AP6, d.h. es wird z.B. zuerst eine generische HL7-FHIR Schnittstellenkomponente entwickelt, die iterativ um die in diesem AP spezifizierten Datenmodelle erweitert wird. 
     attributes :
@@ -55,7 +55,7 @@ item    :
         values: ["CHA", "UMM", "UKM", "UKW"]
 
   - number  : 6
-    title   : App-Framework
+    title   : App-Technologieplattform
     description : >
       Ziel dieses Arbeitspakets ist es, eine Technologieplattform zu schaffen, die einerseits ein Framework für verschiedene Komponenten von Pandemieapps enthält. Neben Templates und Werkzeugen soll auch eine teilautomatisierte Konformitätsprüfung enthalten sein, die Schnitttstellen und Datensatzstrukturen von Pandemieapps prüft und die Konformität zu den Richtlinien zurückmeldet. Ziele des AP sind weiterhin jeweils Referenzimplementierungen für die verschiedenen Entwicklungsvarianten von Pandemieapps. Alle Entwicklungen werden unter Open Source Lizenz(en) veröffentlicht. Ziel ist es,  Netzwerkpartner und Appentwickler*innen die Lage versetzen, schnellstmöglich Adaptionen u.a. bei neuen Pandemien effizient durchzuführen und auch zu pflegen.
     attributes :
