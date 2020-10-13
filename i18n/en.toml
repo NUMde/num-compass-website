@@ -1,0 +1,35 @@
+[home]
+other = "Home"
+[project]
+other = "The COMPASS Project"
+[profile]
+other = "Profile"
+[network]
+other = "Network University Medicine"
+[packages]
+other = "Work Packages"
+[press]
+other = "Press Review"
+
+[hospitals]
+other = "University Hospitals"
+[partners]
+other = "External Partners"
+[news]
+other = "News"
+
+[legal]
+other = "Legal Notice"
+[disclaimer]
+other = "Disclaimer"
+[privacy]
+other = "Privacy Notice"
+
+[read_more]
+other = "read more"
+
+[futher_information]
+other = "Further Information"
+
+[coming_soon]
+other = "Will be coming soon ..."

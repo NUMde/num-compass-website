@@ -1,0 +1,84 @@
+# Navbar Menus
+[[nav]]
+name    = "home"
+url     = "/"
+weight  = 1
+
+[[nav]]
+name    = "news"
+url     = "news"
+weight  = 10
+
+[[nav]]
+name    = "project"
+identifier = "project"
+#url     = ""
+weight  = 20
+hasChildren = true
+
+    [[nav]]
+    name    = "profile"
+    url     = "project/profile"
+    weight  = 21
+    parent = "project"
+
+    [[nav]]
+    name    = "network"
+    url     = "https://www.netzwerk-universitaetsmedizin.de/"
+    weight  = 22
+    parent = "project"
+
+    [[nav]]
+    name    = "packages"
+    url     = "project/workpackages"
+    weight  = 23
+    parent = "project"
+
+    [[nav]]
+    name    = "press"
+    url     = "project/press"
+    weight  = 24
+    parent = "project"
+
+#[[nav]]
+#name    = "hospitals"
+#url     = "hospitals"
+#weight  = 40
+
+#[[nav]]
+#name    = "partners"
+#url     = "partners"
+#weight  = 50
+
+
+# Footer Service Menu
+[[service]]
+name    = "legal"
+url     = "legal"
+weight  = 1
+
+[[service]]
+name    = "disclaimer"
+url     = "disclaimer"
+weight  = 2
+
+[[service]]
+name    = "privacy"
+url     = "privacy"
+weight  = 3
+
+# Footer Quick links Menu
+[[quicklink]]
+name    = "news"
+url     = "news"
+weight  = 1
+
+[[quicklink]]
+name    = "profile"
+url     = "project/profile"
+weight  = 2
+
+[[quicklink]]
+name    = "packages"
+url     = "project/workpackages"
+weight  = 3

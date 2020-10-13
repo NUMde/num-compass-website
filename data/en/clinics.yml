@@ -1,0 +1,55 @@
+member  :
+  - #image         : images/team/member-1.jpg
+    name          : Charite Berlin
+    #designation   : Head Of Marketing
+    #description   : >
+    #  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+    URL   : https://www.charite.de/service/person/person/address_detail/gocke/
+  - #image         : images/team/member-1.jpg
+    name          : University Medicine Göttingen
+    #designation   : Head Of Marketing
+    #description   : >
+    #  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+    URL   : https://medizininformatik.umg.eu/ueber-uns/team/
+  - #image         : images/team/member-1.jpg
+    name          : University Medicine Mainz
+    #designation   : Head Of Marketing
+    #description   : >
+    #  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+    URL   : https://www.unimedizin-mainz.de/ueber-uns/vorstand/kaufmaennischer-vorstand.html
+  - #image         : images/team/member-1.jpg
+    name          : University Medicine Würzburg
+    #designation   : Head Of Marketing
+    #description   : >
+    #  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+    URL   : https://www.med.uni-wuerzburg.de/epidemiologie/startseite/
+  - #image         : images/team/member-1.jpg
+    name          : University Medicine Köln
+    #designation   : Head Of Marketing
+    #description   : >
+    #  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+    URL   : https://www.uk-koeln.de/
+  - #image         : images/team/member-1.jpg
+    name          : University Hospital Münster
+    #designation   : Head Of Marketing
+    #description   : >
+    #  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+    URL   : https://www.medizin.uni-muenster.de/imi/das-institut.html
+  - #image         : images/team/member-1.jpg
+    name          : University Hospital Regensburg
+    #designation   : Head Of Marketing
+    #description   : >
+    #  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+    URL   : https://www.tinnituszentrum-regensburg.de/index.php
+  - #image         : images/team/member-1.jpg
+    name          : Ulm University
+    #designation   : Head Of Marketing
+    #description   : >
+    #  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+    URL   : https://www.uni-ulm.de/in/psy-klips/
+  - #image         : images/team/member-1.jpg
+    name          : University Hospital Erlangen
+    #designation   : Head Of Marketing
+    #description   : >
+    #  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+    URL   : https://www.cdh.med.fau.de/

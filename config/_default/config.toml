@@ -27,8 +27,8 @@ images = ["images/NUM_compass.png", "images/NUM_Compass.svg", "images/NUM_logo.p
 # Gestion des langues : FR / EN / NL / DE
 [[Params.listeLangues]]
 code = "de"
-#[[Params.listeLangues]]
-#code = "en"
+[[Params.listeLangues]]
+code = "en"
 
 
 # We Used Themefisher Icon font for Icon, for more details check this github repository - https://github.com/themefisher/themefisher-font

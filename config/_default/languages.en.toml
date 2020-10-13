@@ -1,0 +1,69 @@
+weight = 1
+languageCode = "en-us"
+languageName = "English"
+contentDir = "content/en"
+#title = "English title"
+dateFormat = "January 2, 2006"
+
+# Site Params
+[params]
+    logo = "images/logo.svg"
+    menufixed = false
+
+    # meta data
+    author = "Michael Stach"
+    description = "Coordination on mobile pandemic apps best practice and solution sharing"
+
+    # TODO: Include in current theme
+    # A "copyright"-line to be added at the bottom of the page.
+    # Hint: Markdown is supported in here as well. So you may e.g. add a link to your legal imprint-page.
+    copyright = "© 2020, NUM-COMPASS team"
+    keywords = "mobile, pandemic, app, covid, covid19, corona, network university medicine, university medicine"
+
+    # TODO: Include in current theme
+    # The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
+    favicon = "favicon-96x96.png"
+
+    footerServiceTitle = "Service"
+    footerQuicklinkTitle = "Quicklinks"
+    #footerAboutTitle = "About"
+    #footerDescription = "Integer posuere erat a ante venenati dapibus posuere velit aliquet. Fusce dapibus, tellus cursus commodo, tortor mauris sed posuere."
+    footerFundingTitle = "Funding"
+
+    # Hero Area Section
+    [params.hero]
+    enable  = true
+    heading = "Best practices and common solutions for mobile pandemic applications"
+    description = "In COMPASS, scientists from a wide range of disciplines from university hospitals join forces with partners from science and industry in an interdisciplinary project and jointly develop a coordination and technology platform for pandemic applications."
+    button  = false
+    btnText = "Know More"
+    btnURL  = "#"
+    image = "images/hero.png"
+    #videoURL   = "https://www.youtube.com/embed/g3-VxLQO7do"
+
+    # About 2 Section
+    [params.aboutSm]
+    enable  = true
+    title   = "The smartphone is the central means of communication to share health information quickly and reliably"
+    description = "The variety of pandemic apps, i.e. apps that were developed e.g. in hackathons to master COVID-19, shows the great potential that many experts see in them. But for apps to be effective in a pandemic, they must be used by many people. This is not only true for the Corona-Warn-App, but especially for apps for the assessment of individual risk, e.g. in case of certain pre-existing conditions. It is therefore essential that such apps enjoy the trust of the general population and that data for medical research can be evaluated together with the consent of the users."
+
+    # News Section On Homepage
+    [params.news]
+    enable  = true
+    #topTitle= "OUR UNTOLD STORY"
+    title   = "News"
+    #subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
+
+    # Clinics Section On Homepage
+    [params.clinics]
+    enable  = true
+    #topTitle= "OUR UNTOLD STORY"
+    title   = "University Hospitals"
+    #subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
+
+    # Partners Section On Homepage
+    [params.partners]
+    enable  = true
+    #topTitle= "OUR UNTOLD STORY"
+    title   = "External Partners"
+    #subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
