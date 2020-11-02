@@ -26,9 +26,11 @@ dateFormat = "January 2, 2006"
 
     footerServiceTitle = "Service"
     footerQuicklinkTitle = "Quicklinks"
-    #footerAboutTitle = "About"
-    #footerDescription = "Integer posuere erat a ante venenati dapibus posuere velit aliquet. Fusce dapibus, tellus cursus commodo, tortor mauris sed posuere."
     footerFundingTitle = "Funding"
+
+    footerSocialTitle = "Social Media"
+    footerSocialText = "We keep you up to date! Subscribe to our channel on the following platforms:"
+    footerSocialTwitter = "https://twitter.com/CompassNum/"
 
     # Hero Area Section
     [params.hero]

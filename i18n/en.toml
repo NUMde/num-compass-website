@@ -33,3 +33,6 @@ other = "Further Information"
 
 [coming_soon]
 other = "Will be coming soon ..."
+
+[external_link]
+other = "External link"
