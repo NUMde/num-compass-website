@@ -20,7 +20,7 @@
                                 <p>
                                     {{ . }}
                                     {{ with $element.URL }}
-                                    <a class="ml-1" href="{{ . }}" target="_blank" rel="noopener" alt="Link zur {{ $element.name }}">
+                                    <a class="ml-1" href="{{ . }}" target="_blank" rel="noopener" alt="{{ i18n "external_link" }}: {{ $element.name }}" title="{{ i18n "external_link" }}: {{ $element.name }}">
                                         <sup class="tf-ion-ios-information"></sup>
                                     </a>
                                     {{ end }}
