@@ -750,6 +750,15 @@ body {
   margin-left: 0rem; /* Also needed for space (tweak if needed) */
 }
 
+#content #mdcontent h1, 
+#content #mdcontent h2, 
+#content #mdcontent h3, 
+#content #mdcontent h4, 
+#content #mdcontent h5, 
+#content #mdcontent h6 {
+  margin-top: 3rem;
+}
+
 figure.press:not(:last-child):after {
   content: " ";
     border: none;
