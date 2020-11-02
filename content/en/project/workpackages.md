@@ -1,5 +1,5 @@
 ---
-title   : "Arbeitspakete"
+title   : "Work Packages"
 date    : 2020-10-04T12:37:52+06:00
 draft   : false
 description: "Arbeitspakete des COMPASS-Projektes"
@@ -7,8 +7,8 @@ topTitle: "COMPASS Project"
 #subTitle: "COMPASS-Projekt"
 ---
 
-The following work packages are provided within the COMPASS project. A breakdown of the different [network partners](#network_partners) can be found at the bottom of the page.
-
+The following work packages are provided within the COMPASS project. A breakdown of the different [network partners](#network_partners) can be found at the bottom of the page. \
+\
 {{< figure 
         src="/images/steckbrief/arbeitspakete.png" 
         class="text-center mb-5"
@@ -22,8 +22,8 @@ The following work packages are provided within the COMPASS project. A breakdown
 
 
 #### Network Partners
-
 In the following you will find an overview of all network partners including the abbreviations used.
+
 
 
 |            |                                   |
