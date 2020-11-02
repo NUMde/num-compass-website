@@ -18,7 +18,7 @@ hasChildren = true
 
     [[nav]]
     name    = "profile"
-    url     = "projekt/steckbrief"
+    url     = "project/steckbrief"
     weight  = 21
     parent = "project"
 
@@ -30,13 +30,13 @@ hasChildren = true
 
     [[nav]]
     name    = "packages"
-    url     = "projekt/arbeitspakete"
+    url     = "project/arbeitspakete"
     weight  = 23
     parent = "project"
 
     [[nav]]
     name    = "press"
-    url     = "projekt/pressespiegel"
+    url     = "project/pressespiegel"
     weight  = 24
     parent = "project"
 
@@ -70,10 +70,10 @@ weight  = 1
 
 [[quicklink]]
 name    = "profile"
-url     = "projekt/steckbrief"
+url     = "project/steckbrief"
 weight  = 2
 
 [[quicklink]]
 name    = "packages"
-url     = "projekt/arbeitspakete"
+url     = "project/arbeitspakete"
 weight  = 3
