@@ -7,4 +7,10 @@ topTitle: "COMPASS-Projekt"
 #subTitle: "COMPASS-Projekt"
 ---
 
-Hier finden Sie zukünftig eine Auswahl bereits veröffentlicher Presseartikel. Sollten Sie Fragen, Anregungen oder Beschwerden zu den hier veröffentlichten Inhalten haben, wenden Sie sich bitte an Ansprechpartner im [Impressum]({{< relref "impressum.md" >}} "Impressum").
+Im Folgenden finden Sie eine Auswahl bereits veröffentlicher Presseartikel. Sollten Sie Fragen, Anregungen oder Beschwerden zu den hier veröffentlichten Inhalten haben, wenden Sie sich bitte an Ansprechpartner im [Impressum]({{< relref "impressum.md" >}} "Impressum").
+
+{{< press 
+        src="/images/press/20200910_HNA.png"
+        alt="Zeitungsartikel der Hessischen/Niedersächsischen Allgemeine (HNA)" 
+        caption="Zeitungsartikel der *Hessischen/Niedersächsischen Allgemeine (HNA)* vom 10. September 2020." 
+>}}

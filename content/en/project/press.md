@@ -7,4 +7,12 @@ topTitle: "COMPASS Project"
 #subTitle: "COMPASS-Projekt"
 ---
 
-Here you will find a selection of already published press articles. If you have any questions, suggestions or complaints regarding the content published here, please contact the contact persons in the [legal notice]({{< relref "legal.md" >}} "Legal Notice").
+In the following you will find a selection of press articles that have already been published. If you have any questions, suggestions or complaints regarding the contents published here, please contact the contact persons in the [legal notice]({{< relref "legal.md" >}} "Legal Notice").
+
+{{< press 
+        src="/images/press/20200910_HNA.png"
+        alt="Newspaper article of the Hessischen/Niedersächsischen Allgemeine (HNA)" 
+        caption="Newspaper article of the *Hessischen/Niedersächsischen Allgemeine (HNA)* from September 10th, 2020." 
+>}}
+
+
