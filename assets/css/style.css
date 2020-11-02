@@ -49,7 +49,7 @@ a, a:focus, a:hover {
 }
 
 a:focus, a:hover {
-  color: #f0326b;
+  color: #e85e6e;
 }
 
 .btn-main, .btn-main-sm {
@@ -400,7 +400,7 @@ a:focus, a:hover {
 }
 
 .header-bradcrumb a:hover {
-  color: #f0326b;
+  color: #e85e6e;
 }
 
 .slick-slide {
@@ -424,15 +424,15 @@ a:focus, a:hover {
 }
 
 .commonTab .nav-tabs .nav-item .nav-link.active {
-  border: 1px solid #f0326b;
-  background: #f0326b;
+  border: 1px solid #e85e6e;
+  background: #e85e6e;
   color: #fff;
 }
 
 .commonTab .nav-tabs .nav-item .nav-link:hover {
-  border: 1px solid #f0326b;
+  border: 1px solid #e85e6e;
   border-radius: 0;
-  background: #f0326b;
+  background: #e85e6e;
   color: #fff;
 }
 
@@ -483,7 +483,7 @@ a:focus, a:hover {
 }
 
 .navigation .navbar-nav > li.active a {
-  color: #f0326b;
+  color: #e85e6e;
 }
 
 .navigation .navbar-nav > li > a {
@@ -663,7 +663,7 @@ a:focus, a:hover {
   transition: transform 300ms ease;
   transition: transform 300ms ease, -webkit-transform 300ms ease;
   background: #fff;
-  color: #f0326b;
+  color: #e85e6e;
   line-height: 80px;
   font-size: 30px;
   margin-left: 5px;
@@ -791,7 +791,7 @@ figure.press:not(:last-child):after {
 
 .about h4 {
   font-size: 14px;
-  color: #f0326b;
+  color: #e85e6e;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
@@ -912,7 +912,7 @@ figure.press:not(:last-child):after {
 .contact-form input:hover,
 .contact-form textarea:hover,
 .contact-form #contact-submit:hover {
-  border-color: #f0326b;
+  border-color: #e85e6e;
 }
 
 .contact-form #contact-submit {
@@ -920,7 +920,7 @@ figure.press:not(:last-child):after {
   padding: 15px 0;
   width: 100%;
   margin: 0;
-  background: #f0326b;
+  background: #e85e6e;
   color: #fff;
   border-radius: 0;
   cursor: pointer;
@@ -950,7 +950,7 @@ figure.press:not(:last-child):after {
   height: 30px;
   width: 30px;
   text-align: center;
-  color: #f0326b;
+  color: #e85e6e;
 }
 
 .social-icon li a i {
@@ -1041,7 +1041,7 @@ figure.press:not(:last-child):after {
 .counters-item i {
   font-size: 40px;
   display: inline-block;
-  color: #f0326b;
+  color: #e85e6e;
 }
 
 .counters-item h3 {
@@ -1135,12 +1135,12 @@ figure.press:not(:last-child):after {
 }
 
 .portfolio-filter button:hover {
-  border-bottom: 2px solid #f0326b;
+  border-bottom: 2px solid #e85e6e;
   color: #000;
 }
 
 .portfolio-filter button.active {
-  border-bottom: 2px solid #f0326b;
+  border-bottom: 2px solid #e85e6e;
   color: #000;
 }
 
@@ -1207,7 +1207,7 @@ figure.press:not(:last-child):after {
 }
 
 .portfolio-block .caption .search-icon {
-  background: #f0326b;
+  background: #e85e6e;
   color: #fff;
   display: inline-block;
   padding: 4px 13px;
@@ -1236,7 +1236,7 @@ figure.press:not(:last-child):after {
 
 .services .service-block i {
   font-size: 40px;
-  color: #f0326b;
+  color: #e85e6e;
   background: linear-gradient(100deg, #f9643d, #fe2a77);
   background-clip: text;
   -webkit-background-clip: text;
@@ -1309,7 +1309,7 @@ figure.press:not(:last-child):after {
 }
 
 .service-list .block {
-  background: #f0326b;
+  background: #e85e6e;
   color: #fff;
   padding: 30px;
 }
@@ -1333,7 +1333,7 @@ figure.press:not(:last-child):after {
 }
 .client-service-list li i{
   margin-right: 10px;
-  color: #f0326b;
+  color: #e85e6e;
 }
 
 /*=================================================================
@@ -1356,7 +1356,7 @@ figure.press:not(:last-child):after {
 }
 
 .team-skills .progress-block .progress .progress-bar {
-  background: #f0326b;
+  background: #e85e6e;
   box-shadow: none;
 }
 
@@ -1401,7 +1401,7 @@ figure.press:not(:last-child):after {
 }
 
 .development-steps .step-2 {
-  background-color: #f0326b;
+  background-color: #e85e6e;
 }
 
 .development-steps .step-2 h4, .development-steps .step-2 p {
@@ -1477,7 +1477,7 @@ figure.press:not(:last-child):after {
 }
 
 .team-member .member-content ul li a i {
-  color: #f0326b;
+  color: #e85e6e;
   background: linear-gradient(100deg, #f9643d, #fe2a77);
   background-clip: text;
   -webkit-background-clip: text;
@@ -1502,7 +1502,7 @@ figure.press:not(:last-child):after {
   Testimonial section
 ==================================================================*/
 .testimonial {
-  background: #f0326b;
+  background: #e85e6e;
   position: relative;
 }
 
@@ -1647,7 +1647,7 @@ figure.press:not(:last-child):after {
 }
 
 .next-prev a:hover {
-  color: #f0326b;
+  color: #e85e6e;
 }
 
 .next-prev .prev-post i {
@@ -1670,7 +1670,7 @@ figure.press:not(:last-child):after {
 }
 
 .social-profile ul li a i:hover {
-  color: #f0326b;
+  color: #e85e6e;
 }
 
 .comments-section {
@@ -1718,7 +1718,7 @@ figure.press:not(:last-child):after {
 }
 
 .comment-wrap .media .media-heading a {
-  color: #f0326b;
+  color: #e85e6e;
   font-size: 13px;
 }
 
@@ -1743,7 +1743,7 @@ figure.press:not(:last-child):after {
 
 .comment-reply-form input:focus, .comment-reply-form textarea:focus {
   box-shadow: none;
-  border: 1px solid #f0326b;
+  border: 1px solid #e85e6e;
 }
 
 .comment-reply-form textarea, .comment-reply-form .btn-main, .comment-reply-form .btn-main-sm {
@@ -1764,7 +1764,7 @@ figure.press:not(:last-child):after {
   color: #cccccc;
 }
 .pagination li.active a{
-  color: #f0326b;
+  color: #e85e6e;
   font-weight: 600;
 }
 
@@ -1845,7 +1845,7 @@ figure.press:not(:last-child):after {
 }
 
 .footer-bottom a {
-  color: #f0326b;
+  color: #e85e6e;
 }
 
 .subscribe-form .form-control {
