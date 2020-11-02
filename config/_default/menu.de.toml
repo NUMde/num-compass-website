@@ -58,11 +58,6 @@ url     = "impressum"
 weight  = 1
 
 [[service]]
-name    = "disclaimer"
-url     = "disclaimer"
-weight  = 2
-
-[[service]]
 name    = "privacy"
 url     = "datenschutz"
 weight  = 3
