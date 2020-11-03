@@ -32,16 +32,8 @@ Im Folgenden finden Sie eine Übersicht aller Netzwerkpartner inklusive der verw
 | **UMG**         | Universitätsmedizin Göttingen      |
 | **UMM**         | Universitätsmedizin Mainz          |
 | **UKW**         | Universitätsklinik Würzburg        |
-| **UKK**         | Universitätsklinik <br>Köln        |
-| **UKM**         | Universitätsklinik <br>Münster     |
+| **UKK**         | Universitätsklinik Köln            |
+| **UKM**         | Universitätsklinik Münster         |
 | **UKR**         | Universitätsklinik Regensburg      |
 | **UKU**         | Universitätsklinik Ulm             |
 | **UKEr**        | Universitätsklinik Erlangen        |
-| **Healex**      | Healex GmbH                        |
-| **IBM**         | IBM Deutschland <br>GmbH           |
-| **WIG2**        | WIG2 GmbH                          |
-| **D4L**         | Data 4 Life GmbH <br>Berlin        |
-| **KKU**         | Kanzlei Kunke                      |
-| **LA2**         | LA2 GmbH                           |
-| **RKI**         | Robert Koch-Institut               |
-| **GAU**         | Georg-August Universität Göttingen |

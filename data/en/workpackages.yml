@@ -42,7 +42,7 @@ item    :
       - title : "Coordination"
         values: ["UKW"]
       - title : "Other Parties"
-        values: ["UMG", "UKU", "UKR", "RKI"]
+        values: ["UMG", "UKU", "UKR"]
 
   - number  : 5
     title   : Research Compatibility & Interoperability
@@ -62,7 +62,7 @@ item    :
       - title : "Coordination"
         values: ["CHA", "UMM"]
       - title : "Other Parties"
-        values: ["UKM", "UKEr", "UKW", "UKK", "RKI", "Industriepartner"]
+        values: ["UKM", "UKEr", "UKW", "UKK"]
 
   - number  : 7
     title   : Sustainability
@@ -74,7 +74,7 @@ item    :
       - title : "Coordination"
         values: ["UMG"]
       - title : "Other Parties"
-        values: ["UMM", "GAU"]
+        values: ["UMM"]
 
 
 

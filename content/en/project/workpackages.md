@@ -32,16 +32,8 @@ In the following you will find an overview of all network partners including the
 | **UMG**    | University Medicine Göttingen     |
 | **UMM**    | University Medicine Mainz         |
 | **UKW**    | University Hospital Würzburg      |
-| **UKK**    | University Hospital <br>Cologne   |
-| **UKM**    | University Hospital <br>Münster   |
+| **UKK**    | University Hospital Cologne       |
+| **UKM**    | University Hospital Münster       |
 | **UKR**    | University Hospital Regensburg    |
 | **UKU**    | University Hospital Ulm           |
 | **UKEr**   | University Hospital Erlangen      |
-| **Healex** | Healex GmbH                       |
-| **IBM**    | IBM Deutschland <br>GmbH          |
-| **WIG2**   | WIG2 GmbH                         |
-| **D4L**    | Data 4 Life GmbH <br>Berlin       |
-| **KKU**    | Kunke Law Office                  |
-| **LA2**    | LA2 GmbH                          |
-| **RKI**    | Robert Koch Institute             |
-| **GAU**    | Georg-August University Göttingen |
