@@ -4,43 +4,53 @@
 <section class="blog section" id="blog">
     <div class="container">
         {{ partial "page-headline.html" . }}
-        <div class="row justify-content-around">
-            {{ range (.Paginator 6).Pages }}
-            {{ "<!-- single blog post -->" | safeHTML }}
-            <article class="col-12 col-md-4">
-                <div class="post-item">
-                    {{ with .Params.image }}
+        <div class="row justify-content-between">
+            <div class="col-md-5">
+                {{ range (.Paginator 6).Pages }}
+                {{ "<!-- single blog post -->" | safeHTML }}
+                <article class="col-12 col-md-12">
+                    <div class="post-item">
+                        {{ with .Params.image }}
                         <div class="post-thumb">
-                            <img class="img-fluid shadow rounded" src="{{ . | absURL }}" alt="Generic placeholder image">
+                            <img class="img-fluid shadow rounded" src="{{ . | absURL }}"
+                                alt="Generic placeholder image">
                         </div>
-                    {{ end }}
-                    <div class="post-title">
-                        <h3 class="mt-0">
-                            <a href="{{ .Permalink }}">{{ .Title }}</a>
-                        </h3>
+                        {{ end }}
+                        <div class="post-title">
+                            <h3 class="mt-0">
+                                <a href="{{ .Permalink }}">{{ .Title }}</a>
+                            </h3>
+                        </div>
+                        <div class="post-meta">
+                            <ul class="list-inline">
+                                <li class="list-inline-item">
+                                    <span>{{ .Date.Format .Site.Params.dateFormat }}</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="post-content">
+                            <p>{{ .Summary }}</p>
+                        </div>
+                        <a class="btn btn-main" href="{{ .Permalink }}">{{ i18n "read_more" }}</a>
                     </div>
-                    <div class="post-meta">
-                        <ul class="list-inline">
-                            <li class="list-inline-item">
-                                <span>{{ .Date.Format .Site.Params.dateFormat }}</span>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="post-content">
-                        <p>{{ .Summary }}</p>
-                    </div>
-                    <a class="btn btn-main" href="{{ .Permalink }}">{{ i18n "read_more" }}</a>
+                </article>
+                {{ "<!-- /single blog post -->" | safeHTML }}
+                {{ end }}
+                <div class="col-12 text-center">
+                    {{ template "_internal/pagination.html" . }}
                 </div>
-            </article>
-            {{ "<!-- /single blog post -->" | safeHTML }}
-            {{ end }}
-            <div class="col-12 text-center">
-                {{ template "_internal/pagination.html" . }}
+            </div>
+            <div class="col-md-6">
+                <a class="twitter-timeline" href="https://twitter.com/CompassNum?ref_src=twsrc%5Etfw">
+                    <p>Tweets by CompassNum
+                        <br>
+                        <small>{{ i18n "news_twitter_error" }}</small>
+                    </p>
+                </a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
         </div>
     </div>
 </section>
 {{ "<!-- Blog Section End -->" | safeHTML }}
-
 {{ end }}
-

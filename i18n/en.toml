@@ -27,6 +27,13 @@ other = "News"
 
 [news_latest]
 other = "Latest News"
+
+[news_teaser]
+other = "Below you will find the latest articles about the COMPASS project. You can find an overview of all articles and our Twitter feed in the"
+
+[news_twitter_error]
+other = "If you do not see the feed, check the privacy settings of your browser."
+
 [legal]
 other = "Legal Notice"
 
