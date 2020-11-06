@@ -1,23 +1,32 @@
 [home]
 other = "Home"
+
 [project]
 other = "The COMPASS Project"
+
 [profile]
 other = "Profile"
+
 [network]
 other = "Network University Medicine"
+
 [packages]
 other = "Work Packages"
+
 [press]
 other = "Press Review"
 
-[hospitals]
+[clinics]
 other = "University Hospitals"
+
 [partners]
 other = "External Partners"
+
 [news]
 other = "News"
 
+[news_latest]
+other = "Latest News"
 [legal]
 other = "Legal Notice"
 

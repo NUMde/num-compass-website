@@ -6,7 +6,7 @@
             <div class="col">
                 <div class="title text-center">
                     {{ with $.Site.Params.partners.topTitle }}<h4>{{ . }}</h4>{{ end }}
-                    {{ with $.Site.Params.partners.title }}<h2>{{ . }}</h2><span class="border"></span>{{ end }}
+                    {{ with $.Site.Params.partners.title }}<h2>{{ i18n . }}</h2><span class="border"></span>{{ end }}
                     {{ with $.Site.Params.partners.subtitle }}<p>{{ . }}</p>{{ end }}
                 </div>
             </div>

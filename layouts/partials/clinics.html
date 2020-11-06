@@ -8,7 +8,7 @@
                 <div class="col">
                     <div class="title text-center">
                         {{ with $.Site.Params.clinics.topTitle }}<h4>{{ . }}</h4>{{ end }}
-                        {{ with $.Site.Params.clinics.title }}<h2>{{ . }}</h2><span class="border"></span>{{ end }}
+                        {{ with $.Site.Params.clinics.title }}<h2>{{ i18n . }}</h2><span class="border"></span>{{ end }}
                         {{ with $.Site.Params.clinics.subtitle }}<p>{{ . }}</p>{{ end }}
                     </div>
                 </div>

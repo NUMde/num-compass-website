@@ -1,23 +1,32 @@
 [home]
 other = "Startseite"
+
 [project]
 other = "Das COMPASS-Projekt"
+
 [profile]
 other = "Steckbrief"
+
 [network]
 other = "Netzwerk Universitätsmedizin"
+
 [packages]
 other = "Arbeitspakete"
+
 [press]
 other = "Pressespiegel"
 
 [clinics]
 other = "Universitätskliniken"
+
 [partners]
 other = "Externe Partner"
+
 [news]
 other = "News"
 
+[news_latest]
+other = "Aktuelle News"
 [legal]
 other = "Impressum"
 
