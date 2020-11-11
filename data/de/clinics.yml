@@ -1,6 +1,6 @@
 member  :
   - #image         : images/team/member-1.jpg
-    name          : Charite Berlin
+    name          : Charité – Universitätsmedizin Berlin
     #designation   : Head Of Marketing
     #description   : >
     #  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
@@ -18,37 +18,37 @@ member  :
     #  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
     URL   : https://www.unimedizin-mainz.de/ueber-uns/vorstand/kaufmaennischer-vorstand.html
   - #image         : images/team/member-1.jpg
-    name          : Universitätsmedizin Würzburg
+    name          : Universitätsklinikum Würzburg
     #designation   : Head Of Marketing
     #description   : >
     #  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
     URL   : https://www.med.uni-wuerzburg.de/epidemiologie/startseite/
   - #image         : images/team/member-1.jpg
-    name          : Universitätsmedizin Köln
+    name          : Uniklinik Köln
     #designation   : Head Of Marketing
     #description   : >
     #  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
     URL   : https://www.uk-koeln.de/
   - #image         : images/team/member-1.jpg
-    name          : Universitätsklinik Münster
+    name          : Universitätsklinikum Münster
     #designation   : Head Of Marketing
     #description   : >
     #  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
     URL   : https://www.medizin.uni-muenster.de/imi/das-institut.html
   - #image         : images/team/member-1.jpg
-    name          : Universitätsklinik Regensburg
+    name          : Universitätsklinikum Regensburg
     #designation   : Head Of Marketing
     #description   : >
     #  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
     URL   : https://www.uni-regensburg.de/medizin/psychiatrie-psychotherapie/forschung/e-health/index.html
   - #image         : images/team/member-1.jpg
-    name          : Universität Ulm
+    name          : Universitätsklinikum Ulm
     #designation   : Head Of Marketing
     #description   : >
     #  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
     URL   : https://www.uni-ulm.de/in/psy-klips/
   - #image         : images/team/member-1.jpg
-    name          : Universitätsklinik Erlangen
+    name          : Universitätsklinikum Erlangen
     #designation   : Head Of Marketing
     #description   : >
     #  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.

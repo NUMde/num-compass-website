@@ -1,6 +1,6 @@
 member  :
   - #image         : images/team/member-1.jpg
-    name          : Charite Berlin
+    name          : Charité – Universitätsmedizin Berlin
     #designation   : Head Of Marketing
     #description   : >
     #  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
@@ -42,7 +42,7 @@ member  :
     #  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
     URL   : https://www.uni-regensburg.de/medizin/psychiatrie-psychotherapie/forschung/e-health/index.html
   - #image         : images/team/member-1.jpg
-    name          : Ulm University
+    name          : University Hospital Ulm
     #designation   : Head Of Marketing
     #description   : >
     #  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.

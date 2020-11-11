@@ -25,15 +25,15 @@ The following work packages are provided within the COMPASS project. A breakdown
 In the following you will find an overview of all network partners including the abbreviations used.
 
 
+|          |                                      |
+| -------- | ------------------------------------ |
+| **CHA**  | Charité - University Medicine Berlin |
+| **UMG**  | University Medicine Göttingen        |
+| **UMM**  | University Medicine Mainz            |
+| **UKW**  | University Hospital Würzburg         |
+| **UKK**  | University Hospital Cologne          |
+| **UKM**  | University Hospital Münster          |
+| **UKR**  | University Hospital Regensburg       |
+| **UKU**  | University Hospital Ulm              |
+| **UKEr** | University Hospital Erlangen         |
 
-|            |                                   |
-| ---------- | --------------------------------- |
-| **CHA**    | Charité Berlin                    |
-| **UMG**    | University Medicine Göttingen     |
-| **UMM**    | University Medicine Mainz         |
-| **UKW**    | University Hospital Würzburg      |
-| **UKK**    | University Hospital Cologne       |
-| **UKM**    | University Hospital Münster       |
-| **UKR**    | University Hospital Regensburg    |
-| **UKU**    | University Hospital Ulm           |
-| **UKEr**   | University Hospital Erlangen      |

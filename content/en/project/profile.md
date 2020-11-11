@@ -30,8 +30,7 @@ The nationwide network of partners from science and industry will contribute to 
 {{< imagecol position="right" title="Participating University Hospitals" image="images/steckbrief/teilnehmer_compass.png" >}}
 The following university hospitals of the University Medicine Network are participating in the COMPASS project:
 
-- Charité
-- University Medicine Berlin
+- Charité - University Medicine Berlin
 - University Medicine Göttingen
 - University Medicine Mainz
 - University Hospital Würzburg

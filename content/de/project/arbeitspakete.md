@@ -26,14 +26,14 @@ Die folgenden Arbeitspakete werden im Rahmen des COMPASS-Projektes erbracht. Ein
 Im Folgenden finden Sie eine Übersicht aller Netzwerkpartner inklusive der verwendeten Abkürzungen.
 
 
-|  |                    |
-| --------------- | ---------------------------------- |
-| **CHA**         | Charité Berlin                     |
-| **UMG**         | Universitätsmedizin Göttingen      |
-| **UMM**         | Universitätsmedizin Mainz          |
-| **UKW**         | Universitätsklinik Würzburg        |
-| **UKK**         | Universitätsklinik Köln            |
-| **UKM**         | Universitätsklinik Münster         |
-| **UKR**         | Universitätsklinik Regensburg      |
-| **UKU**         | Universitätsklinik Ulm             |
-| **UKEr**        | Universitätsklinik Erlangen        |
+|             |                                      |
+| ----------- | ------------------------------------ |
+| **CHA**     | Charité – Universitätsmedizin Berlin |
+| **UMG**     | Universitätsmedizin Göttingen        |
+| **UMM**     | Universitätsmedizin Mainz            |
+| **UKW**     | Universitätsklinikum Würzburg        |
+| **UKK**     | Uniklinik Köln                       |
+| **UKM**     | Universitätsklinikum Münster         |
+| **UKR**     | Universitätsklinikum Regensburg      |
+| **UKU**     | Universitätsklinikum Ulm             |
+| **UKEr**    | Universitätsklinikum Erlangen        |

@@ -31,15 +31,14 @@ Der bundesweite Verbund von Partnern aus Wissenschaft und Wirtschaft wird durch 
 {{< imagecol position="right" title="Teilnehmende Universitätskliniken" image="images/steckbrief/teilnehmer_compass.png" >}}
 Folgende Universitätskliniken des Netzwerks Universitätsmedizin nehmen am COMPASS-Projekt teil:
 
-- Charité
-- Universitätsmedizin Berlin
+- Charité – Universitätsmedizin Berlin
 - Universitätsmedizin Göttingen
 - Universitätsmedizin Mainz
-- Universitätsklinik  Würzburg
-- Universitätsklinik Köln
-- Universitätsklinik Münster
-- Universitätsklinik  Regensburg
-- Universitätsklinik Ulm
-- Universitätsklinik Erlangen
+- Universitätsklinikum Würzburg
+- Uniklinik Köln
+- Universitätsklinikum Münster
+- Universitätsklinikum Regensburg
+- Universitätsklinikum Ulm
+- Universitätsklinikum Erlangen
   
 {{< /imagecol >}}
