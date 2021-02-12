@@ -20,11 +20,12 @@
                 <span>.</span>
             </p>
         </div>
-        <div class="row justify-content-center">
+        <br/>
+        <div class="row justify-content-center service-2">
             {{ range first 3 (where .Site.RegularPages "Section" "==" "news") }}
             {{ "<!-- single News post -->" | safeHTML }}
             <article class="col-12 col-md-4">
-                <div class="post-item m-5">
+                <div class="post-item service-item m-3 p-4">
                     <div class="post-title">
                         <h3 class="mt-0">
                             <a href="{{ .Permalink }}">{{ .Title }}</a>

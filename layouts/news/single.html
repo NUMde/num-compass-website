@@ -3,8 +3,8 @@
 <section class="blog-single section">
     <div class="container">
         {{ partial "page-headline.html" .Parent }}
-        <div class="row">
-            <div class="col-md-12 mx-auto">
+        <div class="row service-2">
+            <div class="col-md-12 mx-auto service-item">
                 {{ with .Params.Image }}
                     <img src="{{ . | absURL }}" class="w-100 mb-3" alt="News Image">
                 {{ end }}
