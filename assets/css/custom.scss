@@ -1,3 +1,45 @@
-section.section:nth-of-type(odd):not(:first-of-type) {
-    background-color: #fff;
+// section.section:nth-of-type(odd):not(:first-of-type) {
+//     background-color: #fff;
+// }
+
+h1, h2, h3, h4, h5, h6 {
+    &.line:before {
+        position: absolute;
+        left: -12%;
+        top: 18px;
+        content: '';
+        display: inline-block;
+        width: 12%;
+        height: 3px;
+        background-color: #ffa535;
+        background-image: linear-gradient(100deg, #f9643d, #fe2a77);
+        background-image: linear-gradient(100deg, #f9643d, #fe2a77);
+      }
+}
+
+section {
+    &.bg-gray {
+        .team-member {
+            background-color: #1f2532 !important;
+            color: #fff !important;
+
+            .member-content {
+                * {
+                    color: lightgray !important;
+                }
+            }
+        }
+    }
+
+    &.bg-white {
+        .service-2 {
+            .service-item {
+                background-color: #f7f7f7;
+            }
+        }
+    }
+
+    .team-member {
+        border: 1px solid #eee;
+    }
 }
