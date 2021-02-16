@@ -1,54 +1,63 @@
-member  :
+clinics  :
   - #image         : images/team/member-1.jpg
-    name          : Charité – Universitätsmedizin Berlin
+    name           : Charité – Universitätsmedizin Berlin
+    short          : CHA
     #designation   : Head Of Marketing
     #description   : >
     #  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
     URL   : https://www.charite.de/service/person/person/address_detail/gocke/
   - #image         : images/team/member-1.jpg
-    name          : Universitätsmedizin Göttingen
+    name           : Universitätsmedizin Göttingen
+    short          : UMG
     #designation   : Head Of Marketing
     #description   : >
     #  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
     URL   : https://medizininformatik.umg.eu/ueber-uns/team/
   - #image         : images/team/member-1.jpg
-    name          : Universitätsmedizin Mainz
+    name           : Universitätsmedizin Mainz
+    short          : UMM
     #designation   : Head Of Marketing
     #description   : >
     #  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
     URL   : https://www.unimedizin-mainz.de/ueber-uns/vorstand/kaufmaennischer-vorstand.html
   - #image         : images/team/member-1.jpg
-    name          : Universitätsklinikum Würzburg
+    name           : Universitätsklinikum Würzburg
+    short          : UKW
     #designation   : Head Of Marketing
     #description   : >
     #  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
     URL   : https://www.med.uni-wuerzburg.de/epidemiologie/startseite/
   - #image         : images/team/member-1.jpg
-    name          : Uniklinik Köln
+    name           : Uniklinik Köln
+    short          : UKK
     #designation   : Head Of Marketing
     #description   : >
     #  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
     URL   : https://www.uk-koeln.de/
   - #image         : images/team/member-1.jpg
-    name          : Universitätsklinikum Münster
+    name           : Universitätsklinikum Münster
+    short          : UKM
     #designation   : Head Of Marketing
     #description   : >
     #  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
     URL   : https://www.medizin.uni-muenster.de/imi/das-institut.html
   - #image         : images/team/member-1.jpg
-    name          : Universitätsklinikum Regensburg
+    name           : Universitätsklinikum Regensburg
+    short          : UKR
     #designation   : Head Of Marketing
     #description   : >
     #  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
     URL   : https://www.uni-regensburg.de/medizin/psychiatrie-psychotherapie/forschung/e-health/index.html
   - #image         : images/team/member-1.jpg
-    name          : Universitätsklinikum Ulm
+    name           : Universitätsklinikum Ulm
+    short          : UKU
     #designation   : Head Of Marketing
     #description   : >
     #  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
     URL   : https://www.uni-ulm.de/in/psy-klips/
   - #image         : images/team/member-1.jpg
-    name          : Universitätsklinikum Erlangen
+    name           : Universitätsklinikum Erlangen
+    short          : UKEr
     #designation   : Head Of Marketing
     #description   : >
     #  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
