@@ -51,3 +51,6 @@ other = "In Kürze finden Sie hier weitere Informationen..."
 
 [external_link]
 other = "Externer Link"
+
+[image]
+other = "Bild"

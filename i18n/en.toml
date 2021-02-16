@@ -51,3 +51,6 @@ other = "Will be coming soon ..."
 
 [external_link]
 other = "External link"
+
+[image]
+other = "image"
