@@ -1,64 +1,36 @@
-member  :
-  - #image         : images/team/member-1.jpg
-    name           : Charité – University Medicine Berlin
-    short          : CHA
-    #designation   : Head Of Marketing
-    #description   : >
-    #  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
-    URL   : https://www.charite.de/service/person/person/address_detail/gocke/
-  - #image         : images/team/member-1.jpg
-    name           : University Medicine Göttingen
-    name           : Universitätsmedizin Göttingen
-    #designation   : Head Of Marketing
-    #description   : >
-    #  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
-    URL   : https://medizininformatik.umg.eu/ueber-uns/team/
-  - #image         : images/team/member-1.jpg
-    name           : University Medicine Mainz
-    short          : UMM
-    #designation   : Head Of Marketing
-    #description   : >
-    #  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
-    URL   : https://www.unimedizin-mainz.de/ueber-uns/vorstand/kaufmaennischer-vorstand.html
-  - #image         : images/team/member-1.jpg
-    name           : University Medicine Würzburg
-    short          : UKW
-    #designation   : Head Of Marketing
-    #description   : >
-    #  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
-    URL   : https://www.med.uni-wuerzburg.de/epidemiologie/startseite/
-  - #image         : images/team/member-1.jpg
-    name           : University Medicine Cologne
-    short          : UKK
-    #designation   : Head Of Marketing
-    #description   : >
-    #  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
-    URL   : https://www.uk-koeln.de/
-  - #image         : images/team/member-1.jpg
-    name           : University Hospital Münster
-    short          : UKM
-    #designation   : Head Of Marketing
-    #description   : >
-    #  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
-    URL   : https://www.medizin.uni-muenster.de/imi/das-institut.html
-  - #image         : images/team/member-1.jpg
-    name           : University Hospital Regensburg
-    short          : UKR
-    #designation   : Head Of Marketing
-    #description   : >
-    #  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
-    URL   : https://www.uni-regensburg.de/medizin/psychiatrie-psychotherapie/forschung/e-health/index.html
-  - #image         : images/team/member-1.jpg
-    name           : University Hospital Ulm
-    short          : UKU
-    #designation   : Head Of Marketing
-    #description   : >
-    #  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
-    URL   : https://www.uni-ulm.de/in/psy-klips/
-  - #image         : images/team/member-1.jpg
-    name           : University Hospital Erlangen
-    short          : UKEr
-    #designation   : Head Of Marketing
-    #description   : >
-    #  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
-    URL   : https://www.cdh.med.fau.de/
+clinics:
+  - name: Charité – University Medicine Berlin
+    short: CHA
+    URL: https://www.charite.de/service/person/person/address_detail/gocke/
+  #
+  - name: University Medicine Göttingen
+    short: UMG
+    URL: https://medizininformatik.umg.eu/ueber-uns/team/
+  #
+  - name: University Medicine Mainz
+    short: UMM
+    URL: https://www.unimedizin-mainz.de/ueber-uns/vorstand/kaufmaennischer-vorstand.html
+  #
+  - name: University Medicine Würzburg
+    short: UKW
+    URL: https://www.med.uni-wuerzburg.de/epidemiologie/startseite/
+  #
+  - name: University Medicine Cologne
+    short: UKK
+    URL: https://www.uk-koeln.de/
+  #
+  - name: University Hospital Münster
+    short: UKM
+    URL: https://www.medizin.uni-muenster.de/imi/das-institut.html
+  #
+  - name: University Hospital Regensburg
+    short: UKR
+    URL: https://www.uni-regensburg.de/medizin/psychiatrie-psychotherapie/forschung/e-health/index.html
+  #
+  - name: University Hospital Ulm
+    short: UKU
+    URL: https://www.uni-ulm.de/in/psy-klips/
+  #
+  - name: University Hospital Erlangen
+    short: UKEr
+    URL: https://www.cdh.med.fau.de/
