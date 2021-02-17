@@ -9,7 +9,7 @@ clinics:
       #
       - name: Antonia Rollwage
         image: images/team/rollwage_670.jpg
-        project_role: Project coordination for Charité
+        project_role: Project Coordination for Charité
   #
   - name: University Medicine Göttingen
     short: UMG
@@ -17,20 +17,20 @@ clinics:
     team:
       - name: Prof. Dagmar Krefting, PhD
         image: images/team/krefting_670.jpg
-        project_role: Mitglied Lenkungsausschuss und Projektkoordinatorin
+        project_role: Member of the Steering Sommittee and Project Coordinator
       #
       - name: Adj. Prof. Ralf Dressel, MD
         image: images/team/dressel_670.jpg
-        project_role: Mitglied Lenkungsausschuss
+        project_role: Member of the Steering Committee
       #
       - name: Volkmar von Arnim, PhD
         image: images/team/arnim_670.jpg 
-        project_role: Mitglied Lenkungsausschuss
+        project_role: Member of the Steering Committee
       #
       - name: Prof. Silke Schicktanz, PhD
         image: images/team/schicktanz_670.jpg
         copyright: Vincent Leifer
-        project_role: Beteiligung in AP4
+        project_role: Participation in WP4
   #
   - name: University Medicine Mainz
     short: UMM
@@ -38,26 +38,26 @@ clinics:
     team:
       - name: Christian Elsner, MD, MBA 
         image: images/team/elsner_670.jpg
-        project_role: Mitglied des Lenkungsausschusses
+        project_role: Member of the Steering Committee
       #
       - name: Marcus Will
         image: images/team/will_670.jpg
-        project_role: Projektkoordination (AP1)
+        project_role: Project Coordination (WP1)
       #
       - name: Derian Boer
         image: images/team/boer_670.jpg
-        project_role: Projektkoordination (AP1)
+        project_role: Project Coordination (WP1)
       #
       - name: Marcel Bastian
         image: images/team/bastan_670.jpg
-        project_role: App-Framework-Entwicklung (AP6)
+        project_role: App Framework Development (WP6)
       #
       - name: Torsten Panholzer, PhD
         image: images/team/panholzer_670.jpg
-        project_role: Koordination der technischen Komponenten (AP6)
+        project_role: Coordination of the Technical Components (WP6)
       #
       - name: Tim Simonis
-        project_role: Projektkoordination (AP1)
+        project_role: Project Coordination (WP1)
   #
   - name: University Medicine Würzburg
     short: UKW
@@ -65,31 +65,31 @@ clinics:
     team:
       - name: Prof. Rüdiger Pryss, PhD
         image: images/team/pryss_670.jpg
-        project_role: Mitglied des Lenkungsausschusses, Leitung AP3 & AP4
+        project_role: Member of the Steering Committee, Management of WP3 & WP4
       #
       - name: Prof. Peter U. Heuschmann, MD
         image: images/team/heuschmann_670.jpg
-        project_role: Wissenschaftliche Mitarbeit
+        project_role: Scientific Collaboration
       #
       - name: Felix Beierle, PhD
         image: images/team/beierle_670.jpg
-        project_role: Wissenschaftliche Mitarbeit
+        project_role: Scientific Collaboration
       #
       - name: Julian Haug
         image: images/team/haugj_670.jpg
-        project_role: Wissenschaftliche Mitarbeit
+        project_role: Scientific Collaboration
       #
       - name: Fabian Haug
         image: images/team/haugf_670.jpg
-        project_role: Wissenschaftliche Mitarbeit
+        project_role: Scientific Collaboration
       #
       - name: Steffi Jírů-Hillmann
         image: images/team/hillmann_670.jpg
-        project_role: Wissenschaftliche Mitarbeit
+        project_role: Scientific Collaboration
       #
       - name: Klaus Kammerer
         image: images/team/kammerer_670.jpg
-        project_role: Wissenschaftliche Mitarbeit
+        project_role: Scientific Collaboration
   #
   - name: University Medicine Cologne
     short: UKK
@@ -98,7 +98,7 @@ clinics:
       - name: Georg Langebartels, MD
         image: images/team/langebartels_670.jpg
         copyright: Michael Wodak
-        project_role: Projektleiter im Teilprojekt 6.2
+        project_role: Project Manager in Subproject 6.2
   #
   - name: University Hospital Münster
     short: UKM
@@ -106,10 +106,10 @@ clinics:
     team:
       - name: Prof. Martin Dugas, MD, Dipl.-Inf.
         image: images/team/dugas_670.jpg
-        project_role: Arbeitsgruppe UKM
+        project_role: Working Group UKM
       #
       - name: Michael Storck, PhD
-        project_role: Arbeitsgruppe UKM
+        project_role: Working Group UKM
   #
   - name: University Hospital Regensburg
     short: UKR
@@ -117,23 +117,23 @@ clinics:
     team:
       - name: Winfried Schlee, PhD
         image: images/team/schlee_670.jpg
-        project_role: Leitung der Arbeitsgruppe
+        project_role: Head of the Working Group
       #
       - name: Axel Schiller
         image: images/team/schiller_670.JPG
-        project_role: Koordination und wissenschaftliche Mitarbeit
+        project_role: Coordination und Scientific Collaboration
       #
       - name: Andrea Madesta, PhD
         image: images/team/madesta_670.jpg
-        project_role: Wissenschaftliche Mitarbeit
+        project_role: Scientific Collaboration
       #
       - name: Sebastian Gräf
         image: images/team/graef_670.jpg
-        project_role: Wissenschaftliche Mitarbeit
+        project_role: Scientific Collaboration
       #
       - name: Markus Krippner
         image: images/team/krippner_670.jpeg
-        project_role: Wissenschaftliche Mitarbeit
+        project_role: Scientific Collaboration
   #
   - name: University Hospital Ulm
     short: UKU
@@ -141,19 +141,19 @@ clinics:
     team:
       - name: Prof. Harald Baumeister, PhD
         image: images/team/baumeister_670.jpg
-        project_role: Leitung der Arbeitsgruppe
+        project_role: Head of the Working Group
       #
       - name: Michael Winter
         image: images/team/winter_670.jpg
-        project_role: Wissenschaftliche Mitarbeit
+        project_role: Scientific Collaboration
       #
       - name: Funda Uz
         image: images/team/uz_670.jpg
-        project_role: Wissenschaftliche Mitarbeit
+        project_role: Scientific Collaboration
       #
       - name: Michael Stach
         image: images/team/stach_670.jpg
-        project_role: Wissenschaftliche Mitarbeit
+        project_role: Scientific Collaboration
   #
   - name: University Hospital Erlangen
     short: UKEr
@@ -161,4 +161,4 @@ clinics:
     team:
       - name: Prof. Oliver Amft, PhD
         image: images/team/amft_670.jpg
-        project_role: App-Framework (AP6), automatisierte Konformitätsüberprüfung
+        project_role: App Framework (WP6), Automated Conformance Checking
