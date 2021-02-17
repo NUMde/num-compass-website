@@ -67,26 +67,6 @@
                     </div>
             </div>
             {{ end }}
-
-
-
-
-            <div class="row justify-content-center">
-                {{ range $index,  $element:= .clinics }}
-                    <div class="col-md-12 text-center p-2">                    
-                            {{ with .name }}
-                                <p>
-                                    {{ . }}
-                                    {{ with $element.URL }}
-                                    <a class="ml-1" href="{{ . }}" target="_blank" rel="noopener" alt="{{ i18n "external_link" }}: {{ $element.name }}" title="{{ i18n "external_link" }}: {{ $element.name }}">
-                                        <sup class="tf-ion-ios-information"></sup>
-                                    </a>
-                                    {{ end }}
-                                </p>
-                            {{ end }}
-                    </div>
-                {{ end }}
-            </div>
         </div>
     </section>
     {{ "<!-- clinics Section End -->" | safeHTML }}
