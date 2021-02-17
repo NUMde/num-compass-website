@@ -4,58 +4,57 @@ clinics:
     URL: https://www.charite.de/service/person/person/address_detail/gocke/
     team:
       - name: Dr. med. Peter Gocke
-        project_role: Mitglied im Lenkungsausschuss
         image: images/team/glocke_670.jpg
+        project_role: Mitglied im Lenkungsausschuss
       #
       - name: Antonia Rollwage
-        project_role: Projektkoordination für Charité
         image: images/team/rollwage_670.jpg
-        copyright: Peter Gedöhns
+        project_role: Projektkoordination für Charité
   #
   - name: Universitätsmedizin Göttingen
     short: UMG
     URL: https://medizininformatik.umg.eu/ueber-uns/team/
     team:
       - name: Prof. Dr. Dagmar Krefting
-        project_role: Mitglied Lenkungsausschuss und Projektkoordinatorin
         image: images/team/krefting_670.jpg
+        project_role: Mitglied Lenkungsausschuss und Projektkoordinatorin
       #
       - name: apl. Prof. Dr. med. Ralf Dressel
-        project_role: Mitglied Lenkungsausschuss
         image: images/team/dressel_670.jpg
+        project_role: Mitglied Lenkungsausschuss
       #
       - name: Dr. Volkmar von Arnim
-        project_role: Mitglied Lenkungsausschuss
         image: images/team/arnim_670.jpg 
+        project_role: Mitglied Lenkungsausschuss
       #
       - name: Prof. Dr. Silke Schicktanz
-        project_role: Beteiligung in AP4
         image: images/team/schicktanz_670.jpg
         copyright: Vincent Leifer
+        project_role: Beteiligung in AP4
   #
   - name: Universitätsmedizin Mainz
     short: UMM
     URL: https://www.unimedizin-mainz.de/ueber-uns/vorstand/kaufmaennischer-vorstand.html
     team:
       - name: PD Dr. Christian Elsner, MBA 
-        project_role: Mitglied des Lenkungsausschusses
         image: images/team/elsner_670.jpg
+        project_role: Mitglied des Lenkungsausschusses
       #
       - name: Marcus Will
-        project_role: Projektkoordination (AP1)
         image: images/team/will_670.jpg
+        project_role: Projektkoordination (AP1)
       #
       - name: Derian Boer
-        project_role: Projektkoordination (AP1)
         image: images/team/boer_670.jpg
+        project_role: Projektkoordination (AP1)
       #
       - name: Marcel Bastian
-        project_role: Entwickler (AP6)
         image: images/team/bastan_670.jpg
+        project_role: App-Framework-Entwicklung (AP6)
       #
       - name: Dr. Torsten Panholzer
-        project_role: Koordination der technischen Komponenten (AP6)
         image: images/team/panholzer_670.jpg
+        project_role: Koordination der technischen Komponenten (AP6)
       #
       - name: Tim Simonis
         project_role: Projektkoordination (AP1)
@@ -65,49 +64,49 @@ clinics:
     URL: https://www.med.uni-wuerzburg.de/epidemiologie/startseite/
     team:
       - name: Prof. Dr. Rüdiger Pryss
-        project_role: Mitglied des Lenkungsausschusses, Leitung AP3 & AP4
         image: images/team/pryss_670.jpg
+        project_role: Mitglied des Lenkungsausschusses, Leitung AP3 & AP4
       #
       - name: Prof. Dr. Peter U. Heuschmann
-        project_role: Arbeitsgruppe UKW
         image: images/team/heuschmann_670.jpg
+        project_role: Wissenschaftliche Mitarbeit
       #
       - name: Dr. Felix Beierle
-        project_role: Arbeitsgruppe UKW
         image: images/team/beierle_670.jpg
+        project_role: Wissenschaftliche Mitarbeit
       #
       - name: Julian Haug
-        project_role: Arbeitsgruppe UKW
         image: images/team/haugj_670.jpg
+        project_role: Wissenschaftliche Mitarbeit
       #
       - name: Fabian Haug
-        project_role: Arbeitsgruppe UKW
         image: images/team/haugf_670.jpg
+        project_role: Wissenschaftliche Mitarbeit
       #
       - name: Steffi Jírů-Hillmann
-        project_role: Arbeitsgruppe UKW
         image: images/team/hillmann_670.jpg
+        project_role: Wissenschaftliche Mitarbeit
       #
       - name: Klaus Kammerer
-        project_role: Arbeitsgruppe UKW
         image: images/team/kammerer_670.jpg
+        project_role: Wissenschaftliche Mitarbeit
   #
   - name: Uniklinik Köln
     short: UKK
     URL: https://www.uk-koeln.de/
     team:
       - name: Dr. Georg Langebartels
-        project_role: Projektleiter im Teilprojekt 6.2
         image: images/team/langebartels_670.jpg
         copyright: Michael Wodak
+        project_role: Projektleiter im Teilprojekt 6.2
   #
   - name: Universitätsklinikum Münster
     short: UKM
     URL: https://www.medizin.uni-muenster.de/imi/das-institut.html
     team:
       - name: Univ.-Prof. Dr. med. Dipl.-Inform. Martin Dugas
-        project_role: Arbeitsgruppe UKM
         image: images/team/dugas_670.jpg
+        project_role: Arbeitsgruppe UKM
       #
       - name: Dr. rer. medic. Michael Storck
         project_role: Arbeitsgruppe UKM
@@ -117,29 +116,49 @@ clinics:
     URL: https://www.uni-regensburg.de/medizin/psychiatrie-psychotherapie/forschung/e-health/index.html
     team:
       - name: PD Dr. Winfried Schlee
-        project_role: Leitung der Arbeitsgruppe
         image: images/team/schlee_670.jpg
+        project_role: Leitung der Arbeitsgruppe
       #
       - name: Axel Schiller
-        project_role: Koordination und wissenschaftliche Mitarbeit
         image: images/team/schiller_670.JPG
+        project_role: Koordination und wissenschaftliche Mitarbeit
       #
       - name: Dr. Andrea Madesta
-        project_role: Wissenschaftliche Mitarbeit in der Arbeitsgruppe
         image: images/team/madesta_670.jpg
+        project_role: Wissenschaftliche Mitarbeit
       #
       - name: Sebastian Gräf
-        project_role: Wissenschaftliche Mitarbeit in der Arbeitsgruppe Regensburg
         image: images/team/graef_670.jpg
+        project_role: Wissenschaftliche Mitarbeit
       #
       - name: Markus Krippner
-        project_role: Wissenschaftliche Mitarbeit in der Arbeitsgruppe Regensburg
         image: images/team/krippner_670.jpeg
+        project_role: Wissenschaftliche Mitarbeit
   #
   - name: Universitätsklinikum Ulm
     short: UKU
     URL: https://www.uni-ulm.de/in/psy-klips/
+    team:
+      - name: Prof. Dr. Harald Baumeister
+        image: images/team/baumeister_670.jpg
+        project_role: Leitung der Arbeitsgruppe
+      #
+      - name: Michael Winter
+        image: images/team/winter_670.jpg
+        project_role: Wissenschaftliche Mitarbeit
+      #
+      - name: Funda Uz
+        image: images/team/uz_670.jpg
+        project_role: Wissenschaftliche Mitarbeit
+      #
+      - name: Michael Stach
+        image: images/team/stach_670.jpg
+        project_role: Wissenschaftliche Mitarbeit
   #
   - name: Universitätsklinikum Erlangen
     short: UKEr
     URL: https://www.cdh.med.fau.de/
+    team:
+      - name: Prof. Dr. Oliver Amft
+        image: images/team/amft_670.jpg
+        project_role: App-Framework (AP6), automatisierte Konformitätsüberprüfung
