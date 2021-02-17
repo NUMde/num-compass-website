@@ -47,6 +47,18 @@ section {
   .team-member {
     border: 1px solid #eee;
   }
+
+  &#clinics {
+    a {
+      h4 {
+        color: #000;
+
+        &:hover {
+          color: unset;
+        }
+      }
+    }
+  }
 }
 
 #mdcontent {

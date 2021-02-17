@@ -18,7 +18,11 @@
             {{ range $index,  $element:= .clinics }}
             <div class="row mt-5">
                 <div class="col-12 col-sm-6">
-                    {{ with .name }}<h4 class="line">{{ . }}</h4>{{ end }}
+                    {{ with .name }}
+                    <a class="" href="{{ $element.URL }}" target="_blank" rel="noopener" alt="{{ i18n "external_link" }}: {{ $element.name }}" title="{{ i18n "external_link" }}: {{ $element.name }}">
+                        <h4 class="line">{{ . }}</h4>
+                    </a>
+                    {{ end }}
                 </div>
             </div>
             <div class="col-12 pb-5">
