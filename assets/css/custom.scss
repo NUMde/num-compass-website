@@ -48,6 +48,15 @@ section {
     border: 1px solid #eee;
   }
 
+  &#about {
+    &.about-2 {
+      h2 {
+        // word-wrap: break-word;
+        // hyphens: auto;
+      }
+    }
+  }
+
   &#clinics {
     a {
       h4 {
