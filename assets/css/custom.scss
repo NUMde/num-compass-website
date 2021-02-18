@@ -23,14 +23,14 @@ h6 {
 }
 
 section {
-  &.bg-gray {
+  &.bg-white {
     .team-member {
-      background-color: #1f2532 !important;
-      color: #fff !important;
+      background-color: #f7f7f7 !important;
+      color: #000 !important;
 
       .member-content {
         * {
-          color: lightgray !important;
+          color: #000 !important;
         }
       }
     }
