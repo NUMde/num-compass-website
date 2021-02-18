@@ -34,7 +34,7 @@
                     <div class="post-meta">
                         <ul class="list-inline">
                             <li class="list-inline-item">
-                                <span>{{ .Date.Format .Site.Params.dateFormat }}</span>
+                                <span>{{ partial "date.html" (dict "date" .Date "ctx" $) }}</span>
                             </li>
                         </ul>
                     </div>

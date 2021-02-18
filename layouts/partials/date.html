@@ -1,0 +1,6 @@
+{{ if eq "de" $.ctx.Site.Language.Lang }}
+    {{ $data := index $.ctx.Site.Data $.ctx.Site.Language.Lang }}
+    {{ .date.Day }}. {{ index $data.month (printf "%d" .date.Month) }} {{ .date.Year }}
+{{ else }}
+    {{ .date.Format $.ctx.Site.Params.DateFormat }}
+{{ end }}

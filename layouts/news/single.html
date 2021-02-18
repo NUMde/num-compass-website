@@ -10,11 +10,13 @@
                 {{ end }}
                 <h2>{{ .Title }}</h2>
                 <div class="post-meta mb-5">
+                    {{ with .Date}}
                     <ul class="list-inline">
                         <li class="list-inline-item">
-                            <span>{{ .Date.Format .Site.Params.dateFormat }}</span>
+                            <span class="text-muted">{{ partial "date.html" (dict "date" . "ctx" $) }}</span>
                         </li>
                     </ul>
+                    {{ end }}
                 </div>
                 {{ .Content }}
             </div>
