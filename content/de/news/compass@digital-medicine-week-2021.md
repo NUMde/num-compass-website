@@ -3,7 +3,7 @@ title: "COMPASS @ Digital Medicine Week 2021"
 date: 2021-02-18T11:45:56+01:00
 author: Admin
 description: "Event-Ankündigung: COMPASS Project NUM @ Digital Medicine Week 2021"
-draft: true
+draft: false
 ---
 
 Universitätsmedizin Mainz präsentiert *COMPASS Project NUM @ Digital Medicine Week 2021* am **Mittwoch, den 24. Februar 2021**. \
