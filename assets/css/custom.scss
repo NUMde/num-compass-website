@@ -87,3 +87,15 @@ img + .img-copyright {
   padding: 3px;
   right: 0;
 }
+
+.btn-main {
+  &:hover,
+  &:focus,
+  &:active {
+    background-image: linear-gradient(100deg, #fe2a77, #f9643d) !important;
+    color: #fff;
+  }
+  &:active {
+    font-weight: 600;
+  }
+}
