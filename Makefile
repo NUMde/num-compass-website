@@ -28,4 +28,4 @@ build_dev: clean
 .PHONY: serve
 serve:
 	@echo "\n» Serving to http://localhost:$(LOCAL_PORT) "
-	hugo serve --disableFastRender --i18n-warnings --noHTTPCache --navigateToChanged --gc -p $(LOCAL_PORT)
+	hugo serve --disableFastRender --i18n-warnings --noHTTPCache --navigateToChanged --buildDrafts --buildDrafts --gc -p $(LOCAL_PORT)
