@@ -1,0 +1,12 @@
+{
+    "recommendations": [
+        "bungcip.better-toml",
+        "ecmel.vscode-html-css",
+        "abusaidm.html-snippets",
+        "christian-kohler.path-intellisense",
+        "ban.spellright",
+        "redhat.vscode-yaml",
+        "fivethree.vscode-hugo-snippets",
+        "mrmlnc.vscode-scss"
+    ]
+}
