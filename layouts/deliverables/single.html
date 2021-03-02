@@ -1,0 +1,24 @@
+{{ define "main" }}
+
+<section class="blog-single section">
+    <div class="container">
+        {{ partial "page-headline.html" .Parent }}
+        <div class="row service-2">
+            <div class="col-md-12 mx-auto service-item">
+                <h2>{{ .Title }}</h2>
+                <div class="post-meta mb-5">
+                    {{ with .Date}}
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <span class="text-muted">{{ partial "date.html" (dict "date" . "ctx" $) }}</span>
+                        </li>
+                    </ul>
+                    {{ end }}
+                </div>
+                {{ .Content }}
+            </div>
+        </div>
+    </div>
+</section>
+
+{{ end }}

@@ -1,0 +1,42 @@
+{{ if .Site.Params.deliverables.enable }}
+{{ "<!-- Deliverables Section Start -->" | safeHTML }}
+<section class="blog section bg-white" id="deliverables">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="title text-center">
+                    {{ with .Site.Params.deliverables.topTitle }}<h4>{{ . }}</h4>{{ end }}
+                    {{ with .Site.Params.deliverables.title }}<h2>{{ i18n . }}</h2><span class="border"></span>{{ end }}
+                    {{ with .Site.Params.deliverables.subtitle }}<p>{{ . }}</p>{{ end }}
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center service-2">
+            {{ range (where .Site.RegularPages "Section" "==" "deliverables") }}
+            {{ "<!-- single deliverables -->" | safeHTML }}
+            <article class="col-12 col-lg-6">
+                <div class="post-item service-item m-3 p-4">
+                    <div class="post-title">
+                        <h3 class="mt-0">
+                            <a href="{{ .Permalink }}">{{ .Title }}</a>
+                        </h3>
+                    </div>
+                    <div class="post-meta">
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <span>{{ partial "date.html" (dict "date" .Date "ctx" $) }}</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="post-content">
+                        <p>{{ .Content }}</p>
+                    </div>
+                </div>
+            </article>
+            {{ "<!-- /single deliverables -->" | safeHTML }}
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ "<!-- Deliverables Section End -->" | safeHTML }}
+{{ end }}

@@ -19,6 +19,9 @@ other = "Press Review"
 [clinics]
 other = "University Hospitals"
 
+[deliverables]
+other = "Deliverables"
+
 [partners]
 other = "External Partners"
 

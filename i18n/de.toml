@@ -19,6 +19,9 @@ other = "Pressespiegel"
 [clinics]
 other = "Universitätskliniken"
 
+[deliverables]
+other = "Arbeitsergebnisse"
+
 [partners]
 other = "Externe Partner"
 

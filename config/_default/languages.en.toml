@@ -63,6 +63,13 @@ dateFormat = "January 2, 2006"
     title   = "clinics"
     #subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
 
+    # Deliverables Section On Homepage
+    [params.deliverables]
+    enable  = true
+    #topTitle= "OUR UNTOLD STORY"
+    title   = "deliverables"
+    #subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
+
     # Partners Section On Homepage
     [params.partners]
     enable  = true
