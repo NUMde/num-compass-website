@@ -1,0 +1,20 @@
+# Item Template
+#
+#   - name: Uniklinik Köln
+#     short: UKK
+#     URL: https://www.uk-koeln.de/
+#     team:
+#       - name: Dr. Georg Langebartels
+#         image: images/team/langebartels_670.jpg
+#         copyright: Michael Wodak
+#         project_role: Projektleiter im Teilprojekt 6.2
+
+partners:
+  - name: LA2 GmbH, Die Software-Manufaktur
+    short: LA2
+    URL: https://www.la2.de/
+    team:
+      - name: Marc Holfelder
+        image: images/partners/holfelder_670.jpg
+        project_role: Regulatorische Beratung
+  #

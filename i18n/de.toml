@@ -25,6 +25,9 @@ other = "Arbeitsergebnisse"
 [partners]
 other = "Externe Partner"
 
+[partners_teaser]
+other = "Weitere Partner werden demnächst veröffentlicht..."
+
 [news]
 other = "News"
 

@@ -57,12 +57,15 @@ section {
     }
   }
 
-  &#clinics {
+  &#clinics,
+  &#partners {
     a {
       h4 {
         color: #000;
 
-        &:hover {
+        &:hover,
+        &:active,
+        &:focus {
           color: unset;
         }
       }

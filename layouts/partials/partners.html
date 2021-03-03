@@ -1,20 +1,31 @@
-{{ if $.Site.Params.partners.enable }}
-{{ "<!-- clinics Section Start -->" | safeHTML }}
-<section class="section bg-gray" id="partners">
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <div class="title text-center">
-                    {{ with $.Site.Params.partners.topTitle }}<h4>{{ . }}</h4>{{ end }}
-                    {{ with $.Site.Params.partners.title }}<h2>{{ i18n . }}</h2><span class="border"></span>{{ end }}
-                    {{ with $.Site.Params.partners.subtitle }}<p>{{ . }}</p>{{ end }}
-                </div>
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <p>{{ i18n "coming_soon" }}</p>
-        </div>
-    </div>
-</section>
-{{ "<!-- clinics Section End -->" | safeHTML }}
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ with $data.partners }}
+  {{ if $.Site.Params.partners.enable }}
+  {{ "<!-- clinics Section Start -->" | safeHTML }}
+  <section class="section bg-gray" id="partners">
+      <div class="container">
+          <div class="row">
+              <div class="col">
+                  <div class="title text-center">
+                      {{ with $.Site.Params.partners.topTitle }}<h4>{{ . }}</h4>{{ end }}
+                      {{ with $.Site.Params.partners.title }}<h2>{{ i18n . }}</h2><span class="border"></span>{{ end }}
+                      {{ with $.Site.Params.partners.subtitle }}<p>{{ . }}</p>{{ end }}
+                  </div>
+              </div>
+          </div>
+
+          <div class="row justify-content-center mb-5">
+              <p>{{ i18n "partners_teaser" }}</p>
+          </div>
+          <br>
+
+
+          {{ range $index,  $element:= .partners }}
+            {{ partial "team-row.html" $element }}
+          {{ end }}
+
+      </div>
+  </section>
+  {{ "<!-- clinics Section End -->" | safeHTML }}
+  {{ end }}
 {{ end }}
