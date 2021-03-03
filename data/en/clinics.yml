@@ -1,3 +1,15 @@
+# Item Template
+#
+#   - name: University Medicine Cologne
+#     short: UKK
+#     URL: https://www.uk-koeln.de/
+#     team:
+#       - name: Georg Langebartels, MD
+#         image: images/team/langebartels_670.jpg
+#         copyright: Michael Wodak
+#         project_role: Project Manager in Subproject 6.2
+
+
 clinics:
   - name: Charité – University Medicine Berlin
     short: CHA
@@ -24,7 +36,7 @@ clinics:
         project_role: Member of the Steering Committee
       #
       - name: Volkmar von Arnim, PhD
-        image: images/team/arnim_670.jpg 
+        image: images/team/arnim_670.jpg
         project_role: Member of the Steering Committee
       #
       - name: Prof. Silke Schicktanz, PhD

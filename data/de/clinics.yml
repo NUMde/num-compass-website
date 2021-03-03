@@ -1,3 +1,14 @@
+# Item Template
+#
+#   - name: Uniklinik Köln
+#     short: UKK
+#     URL: https://www.uk-koeln.de/
+#     team:
+#       - name: Dr. Georg Langebartels
+#         image: images/team/langebartels_670.jpg
+#         copyright: Michael Wodak
+#         project_role: Projektleiter im Teilprojekt 6.2
+
 clinics:
   - name: Charité – Universitätsmedizin Berlin
     short: CHA
@@ -24,7 +35,7 @@ clinics:
         project_role: Mitglied Lenkungsausschuss
       #
       - name: Dr. Volkmar von Arnim
-        image: images/team/arnim_670.jpg 
+        image: images/team/arnim_670.jpg
         project_role: Mitglied Lenkungsausschuss
       #
       - name: Prof. Dr. Silke Schicktanz
