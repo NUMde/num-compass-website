@@ -16,56 +16,7 @@
 
 
             {{ range $index,  $element:= .clinics }}
-            <div class="row mt-5">
-                <div class="col-12 col-sm-6">
-                    {{ with .name }}
-                    <a class="" href="{{ $element.URL }}" target="_blank" rel="noopener" alt="{{ i18n "external_link" }}: {{ $element.name }}" title="{{ i18n "external_link" }}: {{ $element.name }}">
-                        <h4 class="line">{{ . }}</h4>
-                    </a>
-                    {{ end }}
-                </div>
-            </div>
-            <div class="col-12 pb-5">
-                <div class="row justify-content-start">
-                    {{ range $index, $element := .team }}
-                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-2">
-                            <div class="team-member text-center">
-                                {{ with .image }}
-                                <div class="member-photo">
-                                    <img class="img-fluid"
-                                        src="{{ . | absURL }}"
-                                        alt='{{ i18n "image" }}: {{ $element.name}}'>
-                                        {{ with $element.copyright }}
-                                        <p class="img-copyright">
-                                            <span>{{ i18n "image"}}:&nbsp;</span>
-                                            <span>{{ . }}</span>
-                                        </p>
-                                        {{ end }}
-                                </div>
-                                {{ end }}
-                                <div class="member-content">
-                                    <h3 class="mb-3">{{ $element.name }}</h3>
-                                    {{ with .project_role }}
-                                        <span>{{ . }}</span>
-                                    {{ end }}
-                                    {{ with .about }}
-                                    <p>{{ . }}</p>
-                                    {{ end }}
-                                    {{ with .website }}
-                                    <ul class="list-inline">
-                                        <li class="list-inline-item">
-                                            <a href="{{ . }}" target="_blank" rel="noopener" alt="{{ i18n "external_link" }}: {{ $element.name }}" title="{{ i18n "external_link" }}: {{ $element.name }}">
-                                                <i class="tf-ion-ios-world-outline"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                    {{ end }}
-                                </div>
-                            </div>
-                        </div>
-                    {{ end }}
-                    </div>
-            </div>
+              {{ partial "team-row.html" $element }}
             {{ end }}
         </div>
     </section>
