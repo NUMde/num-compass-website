@@ -3,7 +3,7 @@ title: "COMPASS AP06 goes OpenSource"
 date: 2021-03-15T11:27:41+01:00
 author: Admin
 description: "COMPASS AP06 goes OpenSource - herzliche Einladung an alle technisch interessierten Studenten und IT-Mitarbeiter"
-draft: true
+draft: false
 ---
 
 **Ihre Unterstützung ist gefragt!**
