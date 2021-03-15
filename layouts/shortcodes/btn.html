@@ -1,3 +1,6 @@
-<a class='btn btn-main {{ with .Get "icon"}}{{ . }}{{ end }}' href="{{ .Get "URL" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{ end }}>
-    {{ .Get "text" }}
+<a class='btn btn-main' href="{{ .Get "URL" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{ end }}>
+  {{ with .Get "icon"}}
+  <span class="{{ . }} mr-2"></span>
+  {{ end }}
+  {{ .Get "text" }}
 </a>
