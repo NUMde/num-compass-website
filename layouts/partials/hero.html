@@ -3,10 +3,19 @@
 <section class="hero-area">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 mb-5">
-                <img class="img-fluid rounded shadow" src="{{ with .Site.Params.hero.image }}{{ . | absURL }}{{ end }}" alt="Collaborating Team">
+            <div class="col-12 col-lg-6 mb-5">
+                <!-- <img class="img-fluid rounded shadow" src="{{ with .Site.Params.hero.image }}{{ . | absURL }}{{ end }}" alt="Collaborating Team"> -->
+                <div class="video-player" title="YouTube Video" alt="YouTube Video">
+                  <img class="img-fluid rounded" src="{{ with .Site.Params.hero.videoThumb }}{{.| absURL }}{{ end }}" alt="video-thumb">
+                  <p class="img-copyright">
+                   <span class="tf-ion-social-youtube p-2"></span>
+                  </p>
+                  <a class="play-icon" href="javascript:void(0)">
+                      <i class="tf-ion-play" data-video="{{ with .Site.Params.hero.videoURL }}{{.}}{{ end }}?autoplay=1"></i>
+                  </a>
+              </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-12 col-lg-6">
                 <div class="block">
                     {{ with .Site.Params.hero.heading }}
                         <h2>{{ . }}</h2>

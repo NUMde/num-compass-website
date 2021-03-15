@@ -40,8 +40,8 @@ dateFormat = "January 2, 2006"
     button  = false
     btnText = "Know More"
     btnURL  = "#"
-    image = "images/hero.png"
-    #videoURL   = "https://www.youtube.com/embed/g3-VxLQO7do"
+    videoThumb = "images/hero.png"
+    videoURL   = "https://www.youtube-nocookie.com/embed/J0lChOw97bo"
 
     # About 2 Section
     [params.aboutSm]
