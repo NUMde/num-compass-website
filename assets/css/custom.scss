@@ -127,7 +127,7 @@ img + .img-copyright {
   .tf-ion-social-youtube {
     color: #ff0000;
     font-size: 3em;
-}
+  }
 }
 
 .btn-main {
@@ -139,5 +139,21 @@ img + .img-copyright {
   }
   &:active {
     font-weight: 600;
+  }
+}
+
+a {
+  .tf-ion-social-twitter,
+  .tf-ion-social-twitter:hover,
+  .tf-ion-social-twitter:focus,
+  .tf-ion-social-twitter:active {
+    color: #2e9fec;
+  }
+
+  .tf-ion-social-youtube,
+  .tf-ion-social-youtube:hover,
+  .tf-ion-social-youtube:focus,
+  .tf-ion-social-youtube:active {
+    color: #ff0000;
   }
 }

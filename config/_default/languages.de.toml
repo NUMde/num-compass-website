@@ -33,6 +33,7 @@ dateFormat = "02. 02. 2006"
     footerSocialTitle = "Social Media"
     footerSocialText = "Wir halten Sie auf dem Laufenden! Abbonnieren Sie unseren Kanal auf den folgenden Plattformen:"
     footerSocialTwitter = "https://twitter.com/CompassNum/"
+    footerSocialYouTube = "https://www.youtube.com/channel/UC_JVfREe2bDR87dPjV7Y8og"
 
     # Hero Area Section
     [params.hero]
