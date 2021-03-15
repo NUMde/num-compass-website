@@ -27,13 +27,19 @@
                                 </a>
                                 <div class="dropdown-menu">
                                     {{ range .Children }}
-                                    <a class="dropdown-item" href="{{ .URL | absLangURL }}">{{ i18n .Name }}</a>
+                                    <a class="dropdown-item" href="{{ .URL | absLangURL }}"
+                                    {{ if (hasPrefix .URL "http") }} target="_blank" rel="noopener noreferrer" {{ end }}>
+                                      {{ i18n .Name }}
+                                    </a>
                                     {{ end }}
                                 </div>
                             </li>
                             {{ else }}
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ .URL | absLangURL }}">{{ i18n .Name }}</a>
+                                <a class="nav-link" href="{{ .URL | absLangURL }}"
+                                {{ if (hasPrefix .URL "http") }} target="_blank" rel="noopener noreferrer" {{ end }}>
+                                  {{ i18n .Name }}
+                                </a>
                             </li>
                             {{ end }}
                             {{ end }}

@@ -40,6 +40,9 @@ other = "Below you will find the latest articles about the COMPASS project. You 
 [news_twitter_error]
 other = "If you do not see the feed, check the privacy settings of your browser."
 
+[videos]
+other = "Videos"
+
 [legal]
 other = "Legal Notice"
 

@@ -10,6 +10,11 @@ url     = "news"
 weight  = 10
 
 [[nav]]
+name    = "videos"
+url     = "https://www.youtube.com/channel/UC_JVfREe2bDR87dPjV7Y8og"
+weight  = 15
+
+[[nav]]
 name    = "project"
 identifier = "project"
 #url     = ""
