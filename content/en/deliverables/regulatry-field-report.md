@@ -13,5 +13,5 @@ draft: false
         target="_blank"
         rel="no-opener"
         text="Download"
-        icon="tf-ion-document mr-2"
+        icon="tf-ion-document"
 >}}
