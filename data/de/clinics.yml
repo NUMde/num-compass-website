@@ -18,6 +18,10 @@ clinics:
         image: images/team/glocke_670.jpg
         project_role: Mitglied im Lenkungsausschuss
       #
+      - name: Prof. Dr. Sylvia Thun
+        project_role: Hauptuntersuchungsleiterin
+        image: images/team/thun_670.jpg
+      #
       - name: Antonia Rollwage
         image: images/team/rollwage_670.jpg
         project_role: Projektkoordination für Charité
@@ -33,9 +37,6 @@ clinics:
       - name: Andrea Elizabeth Essenwanger
         image: images/team/essenwanger_670.jpg
         project_role: Wissenschaftliche Mitarbeit
-      #
-      - name: Prof. Dr. Sylvia Thun
-        project_role: Hauptuntersuchungsleiterin
   #
   - name: Universitätsmedizin Göttingen
     short: UMG

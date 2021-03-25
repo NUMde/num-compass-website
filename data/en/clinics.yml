@@ -19,6 +19,10 @@ clinics:
         image: images/team/glocke_670.jpg
         project_role: Member of the Steering Committee
       #
+      - name: Prof. Dr. Sylvia Thun
+        image: images/team/thun_670.jpg
+        project_role: Principle Investigator
+      #
       - name: Antonia Rollwage
         image: images/team/rollwage_670.jpg
         project_role: Project Coordination for Charité
@@ -34,9 +38,6 @@ clinics:
       - name: Andrea Elizabeth Essenwanger
         image: images/team/essenwanger_670.jpg
         project_role: Scientific Collaboration
-      #
-      - name: Prof. Dr. Sylvia Thun
-        project_role: Principle Investigator
   #
   - name: University Medicine Göttingen
     short: UMG
