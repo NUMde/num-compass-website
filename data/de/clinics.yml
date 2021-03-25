@@ -21,6 +21,18 @@ clinics:
       - name: Antonia Rollwage
         image: images/team/rollwage_670.jpg
         project_role: Projektkoordination für Charité
+      #
+      - name: Michael Rusongoza Muzoora
+        image: images/team/muzoora_670.jpg
+        project_role: Wissenschaftliche Mitarbeit
+      #
+      - name: Rasim Atakan Poyraz
+        image: images/team/poyraz_670.jpg
+        project_role: Wissenschaftliche Mitarbeit
+      #
+      - name: Andrea Elizabeth Essenwanger
+        image: images/team/essenwanger_670.jpg
+        project_role: Wissenschaftliche Mitarbeit
   #
   - name: Universitätsmedizin Göttingen
     short: UMG
