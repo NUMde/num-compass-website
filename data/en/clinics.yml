@@ -34,6 +34,9 @@ clinics:
       - name: Andrea Elizabeth Essenwanger
         image: images/team/essenwanger_670.jpg
         project_role: Scientific Collaboration
+      #
+      - name: Prof. Dr. Sylvia Thun
+        project_role: Principle Investigator
   #
   - name: University Medicine Göttingen
     short: UMG

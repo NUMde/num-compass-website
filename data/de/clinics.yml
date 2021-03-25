@@ -33,6 +33,9 @@ clinics:
       - name: Andrea Elizabeth Essenwanger
         image: images/team/essenwanger_670.jpg
         project_role: Wissenschaftliche Mitarbeit
+      #
+      - name: Prof. Dr. Sylvia Thun
+        project_role: Hauptuntersuchungsleiterin
   #
   - name: Universitätsmedizin Göttingen
     short: UMG
