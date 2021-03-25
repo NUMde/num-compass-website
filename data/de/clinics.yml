@@ -19,8 +19,8 @@ clinics:
         project_role: Mitglied im Lenkungsausschuss
       #
       - name: Prof. Dr. Sylvia Thun
-        project_role: Hauptuntersuchungsleiterin
         image: images/team/thun_670.jpg
+        project_role: Principle Investigator
       #
       - name: Antonia Rollwage
         image: images/team/rollwage_670.jpg
@@ -28,7 +28,7 @@ clinics:
       #
       - name: Michael Rusongoza Muzoora
         image: images/team/muzoora_670.jpg
-        project_role: Wissenschaftliche Mitarbeit
+        project_role: Wissenschaftliche Mitarbeit und Projektkoordination für Berlin Institute of Health
       #
       - name: Rasim Atakan Poyraz
         image: images/team/poyraz_670.jpg
@@ -96,7 +96,7 @@ clinics:
       #
       - name: Prof. Dr. Peter U. Heuschmann
         image: images/team/heuschmann_670.jpg
-        project_role: Co-Leitung AP3 und AP4
+        project_role: Co-Leitung AP3 & AP4
       #
       - name: Dr. Felix Beierle
         image: images/team/beierle_670.jpg
