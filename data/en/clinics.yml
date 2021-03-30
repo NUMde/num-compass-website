@@ -190,3 +190,11 @@ clinics:
       - name: Prof. Oliver Amft, PhD
         image: images/team/amft_670.jpg
         project_role: App Framework (WP6), Automated Conformance Checking
+      #
+      - name: Dr. Luis Lopera
+        image: images/team/lopera_670.jpg
+        project_role: Scientific Collaboration in WP6
+      #
+      - name: David Kopyto
+        image: images/team/kopyto_670.jpg
+        project_role: Scientific Collaboration in WP6

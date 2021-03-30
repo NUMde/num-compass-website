@@ -189,3 +189,11 @@ clinics:
       - name: Prof. Dr. Oliver Amft
         image: images/team/amft_670.jpg
         project_role: App-Framework (AP6), automatisierte Konformitätsüberprüfung
+      #
+      - name: Dr. Luis Lopera
+        image: images/team/lopera_670.jpg
+        project_role: Wissenschaftliche Mitarbeit in AP6
+      #
+      - name: David Kopyto
+        image: images/team/kopyto_670.jpg
+        project_role: Wissenschaftliche Mitarbeit in AP6
