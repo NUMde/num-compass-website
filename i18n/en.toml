@@ -10,6 +10,9 @@ other = "Profile"
 [network]
 other = "Network University Medicine"
 
+[package]
+other = "Work Package"
+
 [packages]
 other = "Work Packages"
 

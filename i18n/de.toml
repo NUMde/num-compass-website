@@ -10,6 +10,9 @@ other = "Steckbrief"
 [network]
 other = "Netzwerk Universitätsmedizin"
 
+[package]
+other = "Arbeitspaket"
+
 [packages]
 other = "Arbeitspakete"
 

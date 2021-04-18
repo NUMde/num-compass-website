@@ -5,7 +5,7 @@
     {{ partial "page-headline.html" . }}
     <div class="row justify-content-between service-2">
       {{ range (.Paginator 6).Pages }}
-      <article class="col-12">
+      <article class="col-sm-6">
         <div class="post-item service-item m-3 p-4">
           {{ with .Params.image }}
           <div class="post-thumb">
@@ -22,6 +22,14 @@
               <li class="list-inline-item">
                 <span>{{ partial "date.html" (dict "date" .Date "ctx" $) }}</span>
               </li>
+              {{ with .Params.workpackage}}
+              <li class="list-inline-item">
+                <span>|</span>
+              </li>
+              <li class="list-inline-item">
+                <span>{{ i18n "package"}} {{ . }}</span>
+              </li>
+              {{ end }}
             </ul>
           </div>
           <div class="post-content">
