@@ -68,7 +68,7 @@ dateFormat = "02. 02. 2006"
 
     # Deliverables Section On Homepage
     [params.deliverables]
-    enable  = true
+    enable  = false
     #topTitle= "OUR UNTOLD STORY"
     title   = "deliverables"
     #subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
