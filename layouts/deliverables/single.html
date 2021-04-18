@@ -7,13 +7,21 @@
             <div class="col-md-12 mx-auto service-item">
                 <h2>{{ .Title }}</h2>
                 <div class="post-meta mb-5">
+                  <ul class="list-inline">
                     {{ with .Date}}
-                    <ul class="list-inline">
-                        <li class="list-inline-item">
-                            <span class="text-muted">{{ partial "date.html" (dict "date" . "ctx" $) }}</span>
-                        </li>
-                    </ul>
+                      <li class="list-inline-item">
+                          <span class="text-muted">{{ partial "date.html" (dict "date" . "ctx" $) }}</span>
+                      </li>
+                      {{ end }}
+                    {{ with .Params.workpackage}}
+                    <li class="list-inline-item">
+                      <span class="text-muted">|</span>
+                    </li>
+                    <li class="list-inline-item">
+                      <span class="text-muted">{{ i18n "package"}} {{ . }}</span>
+                    </li>
                     {{ end }}
+                  </ul>
                 </div>
                 {{ .Content }}
             </div>
