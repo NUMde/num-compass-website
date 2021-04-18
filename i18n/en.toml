@@ -43,6 +43,9 @@ other = "If you do not see the feed, check the privacy settings of your browser.
 [videos]
 other = "Videos"
 
+[progress]
+other = "Progress"
+
 [legal]
 other = "Legal Notice"
 
