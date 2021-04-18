@@ -11,6 +11,8 @@ clean:
 .PHONY: build
 build: build_prod build_dev
 
+# ---
+
 .PHONY: build_prod
 build_prod: clean
 	@echo "\n» Generating site"
@@ -18,12 +20,16 @@ build_prod: clean
 	@echo "\n» Compress $(DESTDIR)"
 	cd $(DESTDIR) && zip -rq ../compass_prod_$(CURR_DATE).zip *
 
+# ---
+
 .PHONY: build_dev
 build_dev: clean
 	@echo "\n» Generating site"
 	hugo --minify --gc --cleanDestinationDir -d $(DESTDIR) --environment="development"
 	@echo "\n» Compress $(DESTDIR)"
 	cd $(DESTDIR) && zip -rq ../compass_dev_$(CURR_DATE).zip *
+
+# ---
 
 .PHONY: serve
 serve:
