@@ -10,9 +10,9 @@ Hier steht etwas Text zur Ankündigung.
 
 
 {{< btn
-        URL="/deliverables/COMPASS_Deliverable_02032021.pdf"
+        URL="/deliverables/FILE.pdf"
         target="_blank"
         rel="no-opener"
-        text="PDF herunterladen"
-        icon="tf-ion-document mr-2"
+        text="herunterladen"
+        icon="tf-ion-document"
 >}}
