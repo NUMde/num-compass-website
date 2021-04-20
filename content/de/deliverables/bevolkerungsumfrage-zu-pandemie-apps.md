@@ -4,14 +4,14 @@ date: 2021-04-18T14:29:42+02:00
 author: Admin
 description: "Bevölkerungsumfrage zu Pandemie-Apps: Vorläufige Auswertung"
 workpackage: 4
-draft: true
+draft: false
 ---
 
 Bevölkerungsumfrage zu Pandemie-Apps: Vorläufige Auswertung
 
 
 {{< btn
-        URL="/deliverables/FILE.pdf"
+        URL="/deliverables/COMPASS_Deliverable_WP4_2_20210418.pdf"
         target="_blank"
         rel="no-opener"
         text="herunterladen"
