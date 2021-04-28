@@ -1,9 +1,10 @@
 ---
 title: "Template_05"
 date: 2021-04-28T10:01:33+02:00
-author: "Admin" #TODO: Bitte "Admin" mit Ihrem Namen ersetzen. Wird auf der Website nicht angezeigt!
-description: "Kurzbeschreibung" #TODO: Diese Beschreibung wird in der Übersicht aller Arbeitsergebnisse angezeigt.
-draft: true #TODO: Um auf der Website angezeigt zu werden, muss der Wert auf "false" gesetzt werden.
+author: "Admin"                     #TODO: Bitte "Admin" mit Ihrem Namen ersetzen. Wird auf der Website nicht angezeigt!
+description: "Kurzbeschreibung"     #TODO: Diese Beschreibung wird in der Übersicht aller Arbeitsergebnisse angezeigt.
+workpackage: 0                      #TODO: Tragen Sie hier die Nummer Ihres Arbeitspakets ein.
+draft: true                         #TODO: Um auf der Website angezeigt zu werden, muss der Wert auf "false" gesetzt werden.
 ---
 
 Hier steht der ausführliche Text zu Ihrem Arbeitsergebnis. 
