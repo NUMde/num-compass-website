@@ -1,5 +1,5 @@
 <div class="pdf-list">
-  {{ range .Page.Resources }}
+  {{ range .Page.Resources.Match "**.pdf" }}
   <details class="pdf-item">
     <summary>{{ .Title }}</summary>
     <object data='{{ . }}'
