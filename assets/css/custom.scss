@@ -167,3 +167,13 @@ ul.pagination {
     }
   }
 }
+
+div.pdf-list {
+  details.pdf-item {
+    padding: 10px 0;
+
+    summary::marker {
+      color: #e85e6e;
+    }
+  }
+}
