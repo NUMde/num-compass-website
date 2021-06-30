@@ -33,8 +33,9 @@
             </ul>
           </div>
           <div class="post-content">
-            <p>{{ .Content }}</p>
+            <p>{{ .Summary }}</p>
           </div>
+          <a class="btn btn-main" href="{{ .Permalink }}">{{ i18n "read_more" }}</a>
         </div>
       </article>
       {{ end }}
