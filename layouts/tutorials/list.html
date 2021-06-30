@@ -1,0 +1,33 @@
+{{ define "main" }}
+
+<section class="blog section" id="blog">
+  <div class="container">
+    {{ partial "page-headline.html" . }}
+    <div class="row justify-content-between service-2">
+      {{ range (.Paginator 6).Pages.Reverse }}
+      <article class="col-sm-12">
+        <div class="post-item service-item m-3 p-4">
+          {{ with .Params.image }}
+          <div class="post-thumb">
+            <img class="img-fluid shadow rounded" src="{{ . | absURL }}" alt="Generic placeholder image">
+          </div>
+          {{ end }}
+          <div class="post-title">
+            <h3 class="mt-0">
+              <a href="{{ .Permalink }}">{{ .Title }}</a>
+            </h3>
+          </div>
+          <div class="post-content">
+            <p>{{ .Params.description }}</p>
+          </div>
+          <a class="btn btn-main" href="{{ .Permalink }}">{{ i18n "read_more" }}</a>
+        </div>
+      </article>
+      {{ end }}
+      <div class="col-12 text-center">
+        {{ template "_internal/pagination.html" . }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

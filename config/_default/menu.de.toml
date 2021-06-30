@@ -10,14 +10,46 @@ url     = "news"
 weight  = 10
 
 [[nav]]
-name    = "videos"
-url     = "https://www.youtube.com/channel/UC_JVfREe2bDR87dPjV7Y8og"
-weight  = 15
-
-[[nav]]
 name    = "progress"
 url     = "de/deliverables"
 weight  = 17
+
+[[nav]]
+name    = "tutorials"
+identifier = "tutorials"
+#url     = ""
+weight  = 17
+hasChildren = true
+
+    [[nav]]
+    name    = "tutorials_kickoff"
+    url     = "tutorials/kickoff"
+    weight  = 10
+    parent = "tutorials"
+
+    [[nav]]
+    name    = "tutorials_generalist"
+    url     = "tutorials/generalist"
+    weight  = 20
+    parent = "tutorials"
+
+    [[nav]]
+    name    = "tutorials_platform"
+    url     = "tutorials/platform"
+    weight  = 30
+    parent = "tutorials"
+
+    [[nav]]
+    name    = "tutorials_backend"
+    url     = "tutorials/backend"
+    weight  = 40
+    parent = "tutorials"
+
+    [[nav]]
+    name    = "tutorials_frontend"
+    url     = "tutorials/frontend"
+    weight  = 50
+    parent = "tutorials"
 
 [[nav]]
 name    = "compass"

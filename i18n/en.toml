@@ -49,6 +49,24 @@ other = "Videos"
 [progress]
 other = "Progress"
 
+[tutorials]
+other = "Tutorials"
+
+[tutorials_kickoff]
+other = "Native APP: Kickoff"
+
+[tutorials_generalist]
+other = "Native APP: Enabling Generalist"
+
+[tutorials_platform]
+other = "Native APP: Enabling Platform Contributor"
+
+[tutorials_backend]
+other = "Native APP: Enabling Backend Contributor"
+
+[tutorials_frontend]
+other = "Native APP: Enabling Frontend Contributor"
+
 [legal]
 other = "Legal Notice"
 
