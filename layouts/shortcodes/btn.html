@@ -1,4 +1,4 @@
-<a class='btn btn-main' href="{{ .Get "URL" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{ end }}>
+<a class='btn btn-main' href="{{ .Get "URL" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{ end }}{{ with .Get "download" }} download="{{ . }}"{{ end }}>
   {{ with .Get "icon"}}
   <span class="{{ . }} mr-2"></span>
   {{ end }}
