@@ -1,7 +1,7 @@
 <object data='{{ .Get "URL" }}'
         type='application/pdf'
-        width='100%'
-        height='500px'
+        width='{{ default "100%" (.Get "width") }}'
+        height='{{ default "500px" (.Get "height") }}'
         style='min-height:400px'>
   <p>
     {{ i18n "inline_pdf_error" }}
