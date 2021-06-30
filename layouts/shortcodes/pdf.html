@@ -1,0 +1,10 @@
+<object data='{{ .Get "URL" }}'
+        type='application/pdf'
+        width='100%'
+        height='500px'
+        style='min-height:400px'>
+  <p>
+    {{ i18n "inline_pdf_error" }}
+    <a href='{{ .Get "URL" }}' download>{{ .Get "text" }}</a>
+  </p>
+</object>

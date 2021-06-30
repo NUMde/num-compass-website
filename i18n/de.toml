@@ -69,3 +69,6 @@ other = "Externer Link"
 
 [image]
 other = "Bild"
+
+[inline_pdf_error]
+other = "Dieser Browser unterstützt keine Inline-PDFs. Bitte laden Sie das PDF herunter, um es zu betrachten:"
