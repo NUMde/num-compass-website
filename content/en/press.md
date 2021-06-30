@@ -3,7 +3,7 @@ title   : "Press Review"
 date    : 2020-10-13T11:37:52+06:00
 draft   : false
 description: "Articles from the press about the COMPASS project"
-topTitle: "COMPASS"
+#topTitle: "COMPASS"
 #subTitle: "COMPASS-Projekt"
 ---
 

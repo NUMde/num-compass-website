@@ -44,12 +44,6 @@ hasChildren = true
     weight  = 23
     parent = "compass"
 
-    [[nav]]
-    name    = "press"
-    url     = "compass/press"
-    weight  = 24
-    parent = "compass"
-
 #[[nav]]
 #name    = "hospitals"
 #url     = "hospitals"
@@ -70,6 +64,11 @@ weight  = 1
 [[service]]
 name    = "privacy"
 url     = "privacy"
+weight  = 2
+
+[[service]]
+name    = "press"
+url     = "compass/press"
 weight  = 3
 
 # Footer Quick links Menu
