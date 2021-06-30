@@ -20,35 +20,35 @@ url     = "de/deliverables"
 weight  = 17
 
 [[nav]]
-name    = "project"
-identifier = "project"
+name    = "compass"
+identifier = "compass"
 #url     = ""
 weight  = 20
 hasChildren = true
 
     [[nav]]
     name    = "profile"
-    url     = "project/steckbrief"
+    url     = "compass/steckbrief"
     weight  = 21
-    parent = "project"
+    parent = "compass"
 
     [[nav]]
     name    = "network"
     url     = "https://www.netzwerk-universitaetsmedizin.de/"
     weight  = 22
-    parent = "project"
+    parent = "compass"
 
     [[nav]]
     name    = "packages"
-    url     = "project/arbeitspakete"
+    url     = "compass/arbeitspakete"
     weight  = 23
-    parent = "project"
+    parent = "compass"
 
     [[nav]]
     name    = "press"
-    url     = "project/pressespiegel"
+    url     = "compass/pressespiegel"
     weight  = 24
-    parent = "project"
+    parent = "compass"
 
 #[[nav]]
 #name    = "clinics"
@@ -80,10 +80,10 @@ weight  = 1
 
 [[quicklink]]
 name    = "profile"
-url     = "project/steckbrief"
+url     = "compass/steckbrief"
 weight  = 2
 
 [[quicklink]]
 name    = "packages"
-url     = "project/arbeitspakete"
+url     = "compass/arbeitspakete"
 weight  = 3

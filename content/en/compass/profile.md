@@ -3,7 +3,7 @@ title   : "Profile"
 date    : 2020-10-04T12:37:52+06:00
 draft   : false
 description: "Profile of the COMPASS Project"
-topTitle: "COMPASS Project"
+topTitle: "COMPASS"
 #subTitle: "Coordination on mobile pandemic apps best practice and solution sharing"
 ---
 

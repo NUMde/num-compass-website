@@ -1,8 +1,8 @@
 [home]
 other = "Home"
 
-[project]
-other = "The COMPASS Project"
+[compass]
+other = "COMPASS"
 
 [profile]
 other = "Profile"

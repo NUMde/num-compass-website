@@ -3,7 +3,7 @@ title   : "Pressespiegel"
 date    : 2020-10-13T11:37:52+06:00
 draft   : false
 description: "Artikel aus der Presse zum COMPASS-Projekt"
-topTitle: "COMPASS-Projekt"
+topTitle: "COMPASS"
 #subTitle: "COMPASS-Projekt"
 ---
 
