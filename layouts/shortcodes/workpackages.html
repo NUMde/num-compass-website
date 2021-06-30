@@ -1,47 +1,60 @@
 {{ $data := index .Site.Data .Site.Language.Lang }}
 {{ with $data.workpackages }}
-    {{ if .enable }}
-    {{ "<!-- Work Process Section Start -->" | safeHTML }}
-    <div class="service-2 mt-5 mb-5">
-            <div class="row justify-content-center">
-                {{ range $index,  $element:= .item }}
-                    <div class="col-12 p-0">
-                        <div class="service-item work-package mb-5">
-                            {{ with .number }}
-                                <span class="count">{{ . }}.</span>
-                            {{ end }}                           
-                            {{ with .title }}
-                                <h4>{{ . }}</h4>
-                            {{ end }}
-                            {{ with .description }}
-                                <p>{{ . }}</p>
-                            {{ end }}
-                            {{ with .attributes }}
-                                <details>
-                                    <summary>{{ i18n "futher_information" }}</summary>
-                                    <div class="row p-2">
-                                        {{ range $index,  $element := . }}
-                                        <dl class="col-sm-6">
-                                            <dt class="col-sm-6">{{ with .title }}{{ . }}{{end}}</dt>
-                                            <dd class="col-sm-6">
-                                                {{ range $index,  $element := .values }}
-                                                    <p>{{ . }}</p>
-                                                {{ end }}
-                                            </dd>
-                                        </dl>
-                                        {{ end }}
-                                    </div>
-                                </details>
-                            {{ end }}
-                        </div>
-                    </div>
-                    {{ if eq (mod $index 2) 1 }}
-                        <div class="w-100"></div>
-                    {{ end }}
+{{ if .enable }}
+{{ "<!-- Work Process Section Start -->" | safeHTML }}
+<div class="service-2 mt-5 mb-5">
+  <div class="row justify-content-center">
+    {{ range $index, $package:= .item }}
+    <div class="col-12 p-0">
+      <div class="service-item work-package mb-5">
+        {{ with .number }}
+        <span class="count">{{ . }}.</span>
+        {{ end }}
+        {{ with .title }}
+        <h4>{{ . }}</h4>
+        {{ end }}
+        {{ with .description }}
+        <p>{{ . }}</p>
+        {{ end }}
+        {{ with .attributes }}
+        <details>
+          <summary>{{ i18n "futher_information" }}</summary>
+          <div class="row p-2">
+            {{ range $index, $element := . }}
+            <dl class="col-sm-12 col-md-3">
+              <dt class="">{{ with .title }}{{ . }}{{end}}</dt>
+              <dd class="">
+                {{ range $index, $element := .values }}
+                <p>{{ . }}</p>
                 {{ end }}
-            </div>
-        </div>
+              </dd>
+            </dl>
+            {{ end }}
+            {{ $deliverables := where $.Site.RegularPages "Params.workpackage" $package.number }}
+            {{ with $deliverables}}
+            <dl class="col-sm-12 col-md-6">
+              <dt class="">{{ i18n "deliverables" }}</dt>
+              {{ range $index, $item := . }}
+              <dd class="">
+                <p>
+                  <a href="{{ $item.Permalink }}">{{ $item.Title }}</a>
+                </p>
+              </dd>
+              {{ end }}
+            </dl>
+            {{ end }}
+          </div>
+        </details>
+        {{ end }}
+      </div>
     </div>
-    {{ "<!-- Work Process section end -->" | safeHTML }}
+    {{ if eq (mod $index 2) 1 }}
+    <div class="w-100"></div>
     {{ end }}
+    {{ end }}
+  </div>
+</div>
+</div>
+{{ "<!-- Work Process section end -->" | safeHTML }}
+{{ end }}
 {{ end }}
