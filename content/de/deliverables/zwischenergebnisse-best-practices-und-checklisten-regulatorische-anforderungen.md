@@ -9,6 +9,11 @@ draft: false
 
 Zwischenergebnisse Best Practices und Checklisten Regulatorische Anforderungen
 
+{{< pdf
+    URL="/deliverables/COMPASS_Deliverable_WP3_20210418.pdf"
+    text="PDF herunterladen"
+>}}
+
 
 {{< btn
         URL="/deliverables/COMPASS_Deliverable_WP3_20210418.pdf"

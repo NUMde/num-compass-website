@@ -9,6 +9,11 @@ draft: false
 
 Bevölkerungsumfrage zu Pandemie-Apps: Vorläufige Auswertung
 
+{{< pdf
+    URL="/deliverables/COMPASS_Deliverable_WP4_2_20210418.pdf"
+    text="PDF herunterladen"
+>}}
+
 
 {{< btn
         URL="/deliverables/COMPASS_Deliverable_WP4_2_20210418.pdf"

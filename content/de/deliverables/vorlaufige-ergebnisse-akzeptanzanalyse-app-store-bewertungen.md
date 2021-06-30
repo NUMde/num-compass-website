@@ -9,6 +9,11 @@ draft: false
 
 Vorläufige Ergebnisse der Akzeptanzanalyse anhand von App-Store-Bewertungen am Beispiel der Corona-Warn-App
 
+{{< pdf
+    URL="/deliverables/COMPASS_Deliverable_WP4_1_20210418.pdf"
+    text="PDF herunterladen"
+>}}
+
 
 {{< btn
         URL="/deliverables/COMPASS_Deliverable_WP4_1_20210418.pdf"

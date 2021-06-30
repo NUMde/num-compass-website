@@ -9,11 +9,16 @@ draft: false
 
 Preliminary results of the acceptance analysis based on app store reviews by the example of the Corona-Warn-App
 
+{{< pdf
+    URL="/deliverables/COMPASS_Deliverable_WP4_1_20210418.pdf"
+    text="Download PDF"
+>}}
+
 
 {{< btn
         URL="/deliverables/COMPASS_Deliverable_WP4_1_20210418.pdf"
         target="_blank"
         rel="no-opener"
-        text="herunterladen"
+        text="Download"
         icon="tf-ion-document"
 >}}

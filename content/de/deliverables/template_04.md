@@ -9,7 +9,12 @@ draft: true                         #TODO: Um auf der Website angezeigt zu werde
 
 Hier steht der ausführliche Text zu Ihrem Arbeitsergebnis. 
 
-Falls Sie eine Datei einbinden möchten, können Sie diesen Shortcut für einen Button verwenden. Der Pfad muss auf Ihre Datei zeigen. Dateien legen Sie im Verzeichnis `/static/deliverables` ab. Sie können den Text des Buttons ändern, indem Sie das Feld `text` entsprechend abändern.
+Falls Sie eine Datei einbinden möchten, können Sie diese Shortcuts für eine eingebettete PDF-Ansicht und einen Button verwenden. Der Pfad muss auf Ihre Datei zeigen. Dateien legen Sie im Verzeichnis `/static/deliverables` ab. Sie können den Text des Buttons ändern, indem Sie das Feld `text` entsprechend abändern.
+
+{{< pdf
+    URL="/deliverables/FILE.pdf"
+    text="PDF herunterladen"
+>}}
 
 {{< btn
         URL="/deliverables/FILE.pdf"
@@ -20,3 +25,4 @@ Falls Sie eine Datei einbinden möchten, können Sie diesen Shortcut für einen 
 >}}
 
 Es kann auch das komplette Arbeitsergebnis hier eingetragen werden, falls keine Datei eingebunden werden soll.
+
