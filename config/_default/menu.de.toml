@@ -101,7 +101,7 @@ weight  = 2
 
 [[service]]
 name    = "press"
-url     = "compass/pressespiegel"
+url     = "pressespiegel"
 weight  = 3
 
 

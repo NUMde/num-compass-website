@@ -100,7 +100,7 @@ weight  = 2
 
 [[service]]
 name    = "press"
-url     = "compass/press"
+url     = "press"
 weight  = 3
 
 # Footer Quick links Menu
