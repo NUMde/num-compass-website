@@ -1,5 +1,5 @@
 ---
-title: "EHFF-Mitglieder Rüdiger Pryss über COMPASS"
+title: "EHFF-Mitglied Rüdiger Pryss über COMPASS"
 date: 2021-06-01T18:01:53+00:00
 author: "Admin"
 description: "Rüdiger Pryss spricht beim EHFF über das NUM-COMPASS-Projekt"
