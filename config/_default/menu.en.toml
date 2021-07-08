@@ -104,17 +104,18 @@ url     = "press"
 weight  = 3
 
 # Footer Quick links Menu
-[[quicklink]]
-name    = "news"
-url     = "news"
-weight  = 1
 
 [[quicklink]]
 name    = "profile"
 url     = "compass/profile"
-weight  = 2
+weight  = 1
 
 [[quicklink]]
 name    = "packages"
 url     = "compass/workpackages"
+weight  = 2
+
+[[quicklink]]
+name    = "tutorials"
+url     = "tutorials"
 weight  = 3
