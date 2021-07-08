@@ -3,6 +3,7 @@ title: "Dokumentation zur Wissensplattform"
 date: 2021-07-01T10:30:20+02:00
 author: "Admin"
 description: "Dokumentation zur Nutzung der NUM-COMPASS Wissensplattform"
+workpackage: 2
 draft: false
 ---
 

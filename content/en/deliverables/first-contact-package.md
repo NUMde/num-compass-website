@@ -3,6 +3,7 @@ title: "Working and sharing „FAIR“: Sharing research data"
 date: 2021-06-30T18:58:15+02:00
 author: "Admin"
 description: "The NUM-COMPASS team presents results: After six months of project work, we have now published the First Contact Package „Apps for the Pandemic“. What is it about and for whom is this reading just right?"
+workpackage: 5
 draft: false
 ---
 

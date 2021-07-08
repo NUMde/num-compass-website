@@ -3,6 +3,7 @@ title: "„FAIR“ arbeiten und teilen: Forschungsdaten gemeinsam nutzen"
 date: 2021-06-30T18:58:15+02:00
 author: "Admin"
 description: "Das NUM-COMPASS-Team stellt Ergebnisse vor: Nach sechs Monaten Projektarbeit haben wir jetzt das First Contact Package „Apps für die Pandemie“ veröffentlicht. Worum geht es und für wen kommt diese Lektüre genau richtig? "
+workpackage: 5
 draft: false
 ---
 

@@ -3,6 +3,7 @@ title: "Knowledge Platform Documentation"
 date: 2021-07-01T10:30:20+02:00
 author: "Admin"
 description: "Documentation on the use of the NUM-COMPASS knowledge platform"
+workpackage: 2
 draft: false
 ---
 
