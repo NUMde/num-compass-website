@@ -65,14 +65,14 @@ hasChildren = true
     parent = "compass"
 
     [[nav]]
-    name    = "network"
-    url     = "https://www.netzwerk-universitaetsmedizin.de/"
+    name    = "packages"
+    url     = "compass/arbeitspakete"
     weight  = 22
     parent = "compass"
 
     [[nav]]
-    name    = "packages"
-    url     = "compass/arbeitspakete"
+    name    = "network"
+    url     = "https://www.netzwerk-universitaetsmedizin.de/"
     weight  = 23
     parent = "compass"
 
