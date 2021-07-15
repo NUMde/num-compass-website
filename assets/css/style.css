@@ -760,6 +760,11 @@ body {
   margin-top: 3rem;
 }
 
+figure.press {
+  max-width: 90%;
+  margin: 3rem auto;
+}
+
 figure.press:not(:last-child):after {
   content: " ";
     border: none;
@@ -767,9 +772,17 @@ figure.press:not(:last-child):after {
     border-radius: 3px;
     height: 2px;
     position: relative;
-    width: 90%;
+    width: 100%;
     margin: 3rem auto;
     background-image: linear-gradient(100deg,#f9643d,#fe2a77);
+}
+
+figure.press img {
+  border: 1px solid #bdbdbd;
+}
+
+figure.press figcaption {
+  font-weight: 900;
 }
 
 @media (min-width: 992px) {
