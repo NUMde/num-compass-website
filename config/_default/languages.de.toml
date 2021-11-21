@@ -40,9 +40,9 @@ dateFormat = "02. 02. 2006"
     enable  = true
     heading = "Bewährte Praktiken und gemeinsame Lösungen für mobile Pandemie-Anwendungen"
     description = "In COMPASS schließen sich in einem interdisziplinären Projekt Wissenschaftler*innen unterschiedlichster Fachrichtungen aus den Universitätskliniken mit Partnern aus Wissenschaft und Wirtschaft zusammen und entwickeln gemeinsam eine Koordinations- und Technologieplattform für Pandemieapps."
-    button  = false
-    btnText = "Know More"
-    btnURL  = "#"
+    button  = true
+    btnText = "jetzt mitgestalten!"
+    btnURL  = "compass/first-contact-package/"
     videoThumb = "images/hero.png"
     videoURL   = "https://www.youtube-nocookie.com/embed/J0lChOw97bo"
 

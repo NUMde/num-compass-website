@@ -13,6 +13,9 @@ other = "Network University Medicine"
 [knowledge_db]
 other = "Knowledge Database"
 
+[first_contact]
+other = "First Contact Package"
+
 [package]
 other = "Work Package"
 

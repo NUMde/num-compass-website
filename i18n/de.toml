@@ -13,6 +13,9 @@ other = "Netzwerk Universitätsmedizin"
 [knowledge_db]
 other = "Wissensdatenbank"
 
+[first_contact]
+other = "First Contact Package"
+
 [package]
 other = "Arbeitspaket"
 

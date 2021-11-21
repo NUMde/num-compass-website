@@ -38,9 +38,9 @@ dateFormat = "January 2, 2006"
     enable  = true
     heading = "Best practices and common solutions for mobile pandemic applications"
     description = "In COMPASS, scientists from a wide range of disciplines from university hospitals join forces with partners from science and industry in an interdisciplinary project and jointly develop a coordination and technology platform for pandemic applications."
-    button  = false
-    btnText = "Know More"
-    btnURL  = "#"
+    button  = true
+    btnText = "participate now!"
+    btnURL  = "compass/first-contact-package/"
     videoThumb = "images/hero.png"
     videoURL   = "https://www.youtube-nocookie.com/embed/J0lChOw97bo"
 
