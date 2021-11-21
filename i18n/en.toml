@@ -10,6 +10,9 @@ other = "Profile"
 [network]
 other = "Network University Medicine"
 
+[knowledge_db]
+other = "Knowledge Database"
+
 [package]
 other = "Work Package"
 

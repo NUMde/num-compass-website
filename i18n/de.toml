@@ -10,6 +10,9 @@ other = "Steckbrief"
 [network]
 other = "Netzwerk Universitätsmedizin"
 
+[knowledge_db]
+other = "Wissensdatenbank"
+
 [package]
 other = "Arbeitspaket"
 

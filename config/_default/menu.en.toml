@@ -71,10 +71,17 @@ hasChildren = true
     parent = "compass"
 
     [[nav]]
-    name    = "network"
-    url     = "https://www.netzwerk-universitaetsmedizin.de/"
+    name    = "knowledge_db"
+    url     = "https://num.umg.eu/"
     weight  = 23
     parent = "compass"
+
+    [[nav]]
+    name    = "network"
+    url     = "https://www.netzwerk-universitaetsmedizin.de/"
+    weight  = 24
+    parent = "compass"
+
 
 #[[nav]]
 #name    = "hospitals"
