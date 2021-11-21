@@ -4,6 +4,7 @@
 {{ else }}
 <section class="header navigation bg-white">
 {{ end }}
+    {{ partial "github-corner.html" }}
     <div class="container">
         <div class="row">
             <div class="col-md-12 p-1">
@@ -17,7 +18,7 @@
                     </button>
 
                     <div class="collapse navbar-collapse" id="navigation">
-                        <ul class="navbar-nav ml-auto">
+                        <ul class="navbar-nav ml-auto  mr-auto">
                              {{ range .Site.Menus.nav }}
                             {{ if .HasChildren }}
                             <li class="nav-item dropdown">
@@ -43,15 +44,16 @@
                             </li>
                             {{ end }}
                             {{ end }}
-                        </ul>
-                    </div>
 
-                    <!-- Icones & drapeaux de choix des langues -->
-                    <div id="drapeaux">
-                        <!-- Pour passer la langue actuelle (variable globale) dans la range => explicitement -->
-                        {{ range .Site.Params.listeLangues }}
-                        {{ partial "flags.html" (dict "site" $.Site "liste" .) }}
-                        {{ end }}
+                        </ul>
+
+                        <!-- Icones & drapeaux de choix des langues -->
+                        <div id="drapeaux">
+                            <!-- Pour passer la langue actuelle (variable globale) dans la range => explicitement -->
+                            {{ range .Site.Params.listeLangues }}
+                            {{ partial "flags.html" (dict "site" $.Site "liste" .) }}
+                            {{ end }}
+                        </div>
                     </div>
                 </nav>
             </div>
