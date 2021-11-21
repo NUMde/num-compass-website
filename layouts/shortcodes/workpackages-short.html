@@ -1,0 +1,47 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ with $data.workpackages }}
+{{ if .enable }}
+{{ "<!-- Work Process Section Start -->" | safeHTML }}
+<div class="service-2 mt-5 mb-5">
+  <div class="row justify-content-center">
+    {{ range $index, $package:= .item }}
+    <div class="col-12 p-0">
+      <div class="service-item work-package mb-5">
+        {{ with .number }}
+        <span class="count mt-2">{{ i18n "package" }} {{ . }}</span>
+        {{ end }}
+        <div class="row">
+          <div class="col-12 pl-3 pr-3">
+            {{ with .title }}
+            <h4>{{ . }}</h4>
+            {{ end }}
+            {{ with .description }}
+            <p>{{ . }}</p>
+            {{ end }}
+          </div>
+          <div class="col-12 pl-3 pr-3">
+            {{ $deliverables := where $.Site.RegularPages "Params.workpackage" $package.number }}
+            {{ with $deliverables}}
+            <h4 class="mt-4">{{ i18n "deliverables" }}</h4>
+            <dl class="col-12">
+              {{ range $index, $item := . }}
+              <dd class="">
+                <p>
+                  <a href="{{ $item.Permalink }}">{{ $item.Title }}</a>
+                </p>
+              </dd>
+              {{ end }}
+            </dl>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="w-100"></div>
+    {{ end }}
+  </div>
+</div>
+</div>
+{{ "<!-- Work Process section end -->" | safeHTML }}
+{{ end }}
+{{ end }}
