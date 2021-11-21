@@ -2,7 +2,8 @@
         type='application/pdf'
         width='{{ default "100%" (.Get "width") }}'
         height='{{ default "500px" (.Get "height") }}'
-        style='min-height:400px'>
+        style='min-height:400px; {{ with .Get "aspectratio" }} height:calc(100vw/{{ . }}) {{ end }}'
+        class='{{ with .Get "class" }} {{ . }} {{ end }}'>
   <p>
     {{ i18n "inline_pdf_error" }}
     <a href='{{ .Get "URL" }}' download>{{ .Get "text" }}</a>
