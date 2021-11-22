@@ -217,3 +217,10 @@ div.pdf-list {
   }
 
 }
+
+
+.service-2.wp-short {
+	.count {
+		font-size: calc(max(2.8rem,min(5vw,60px)));
+	}
+}

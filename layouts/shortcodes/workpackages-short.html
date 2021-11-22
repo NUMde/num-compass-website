@@ -2,13 +2,13 @@
 {{ with $data.workpackages }}
 {{ if .enable }}
 {{ "<!-- Work Process Section Start -->" | safeHTML }}
-<div class="service-2 mt-5 mb-5">
+<div class="service-2 wp-short mt-5 mb-5">
   <div class="row justify-content-center">
     {{ range $index, $package:= .item }}
     <div class="col-12 p-0">
       <div class="service-item work-package mb-5">
         {{ with .number }}
-        <span class="count mt-2">{{ i18n "package" }} {{ . }}</span>
+        <span class="count mt-3">{{ i18n "package" }} {{ . }}</span>
         {{ end }}
         <div class="row">
           <div class="col-12 pl-3 pr-3">
