@@ -77,3 +77,7 @@ dateFormat = "January 2, 2006"
     #topTitle= "OUR UNTOLD STORY"
     title   = "partners"
     #subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
+
+    # Subscription
+    [params.subscription]
+    mailAddress = "compass@unimedizin-mainz.de"

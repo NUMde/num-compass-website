@@ -96,3 +96,18 @@ other = "image"
 
 [inline_pdf_error]
 other = "This browser does not support inline PDFs. Please download the PDF to view it:"
+
+[contact_us]
+other = "Contact us!"
+
+[contact_us_text]
+other = "Do you have a question or comment about the COMPASS project? Then visit us on the social networks shown below or send us an email. We look forward to hearing from you!"
+
+[contact_btn]
+other = "Compose Mail"
+
+[contact_subject]
+other = "Question or comment about the COMPASS project"
+
+[contact_body]
+other = "Please describe your request here.\n\nThank you very much!\n\n"
