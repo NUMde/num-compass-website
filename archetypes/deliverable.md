@@ -5,6 +5,7 @@ author: "Admin"                     #TODO: Bitte "Admin" mit Ihrem Namen ersetze
 description: "Kurzbeschreibung"     #TODO: Diese Beschreibung wird in der Übersicht aller Arbeitsergebnisse angezeigt.
 workpackage: 0                      #TODO: Tragen Sie hier die Nummer Ihres Arbeitspakets ein.
 code: X.X                           #TODO: Nummer des Arbeitsergebnisses
+directlink: ""                      #TODO: Falls Arbeitsergebnis auf andere Seite verweist.
 draft: true                         #TODO: Um auf der Website angezeigt zu werden, muss der Wert auf "false" gesetzt werden.
 ---
 
