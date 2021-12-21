@@ -9,7 +9,7 @@
       {{  $wp_index := add $index 1 }}
       <div id="wp_{{  $wp_index  }}" class="service-item work-package mb-5">
         {{ with .number }}
-        <span class="count mt-3">{{ i18n "package" }} {{ . }}</span>
+        <span class="count mt-3">{{ . }}.</span>
         {{ end }}
         <div class="row">
           <div class="col-12 pl-3 pr-3">
