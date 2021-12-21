@@ -19,6 +19,8 @@ Diese und weitere Fragen beantwortet das NUM-Team im First Contact Package „Ap
     URL="/news/Apps für die Pandemie_First Contact Package.pdf"
     text="PDF herunterladen"
     height="700px"
+    aspectratio="1.4142"
+    class="mt-5 mb-5"
 >}}
 
 

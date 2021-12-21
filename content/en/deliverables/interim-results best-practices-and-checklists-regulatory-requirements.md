@@ -12,6 +12,9 @@ Interim results best practices and checklists regulatory requirements
 {{< pdf
     URL="/deliverables/COMPASS_Deliverable_WP3_20210418.pdf"
     text="Download PDF"
+    height="700px"
+    aspectratio="1.4142"
+    class="mt-5 mb-5"
 >}}
 
 

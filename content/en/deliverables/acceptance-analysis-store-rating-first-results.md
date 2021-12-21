@@ -12,6 +12,7 @@ Preliminary results of the acceptance analysis based on app store reviews by the
 {{< pdf
     URL="/deliverables/COMPASS_Deliverable_WP4_1_20210418.pdf"
     text="Download PDF"
+    class="mt-5 mb-5"
 >}}
 
 

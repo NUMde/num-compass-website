@@ -12,6 +12,9 @@ draft: false
 {{< pdf
     URL="/deliverables/COMPASS_Deliverable_WP3_20210302.pdf"
     text="PDF herunterladen"
+    height="700px"
+    aspectratio="1.4142"
+    class="mt-5 mb-5"
 >}}
 
 {{< btn
