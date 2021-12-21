@@ -15,7 +15,6 @@ FAIR stands for findable, accessible, interoperable, reusable. Through the FAIR 
     URL="/flyer/num-compass_flyer.pdf"
     text="Download PDF"
     height="700px"
-    aspectratio="1.4142"
     class="mt-5 mb-5"
 >}}
 
