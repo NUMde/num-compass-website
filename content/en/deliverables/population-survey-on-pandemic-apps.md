@@ -19,7 +19,7 @@ Population survey on pandemic apps: preliminary results
 {{< btn
         URL="/deliverables/COMPASS_Deliverable_WP4_2_20210418.pdf"
         target="_blank"
-        rel="no-opener"
+        rel="noopener noreferrer"
         text="Download"
         icon="tf-ion-document"
 >}}

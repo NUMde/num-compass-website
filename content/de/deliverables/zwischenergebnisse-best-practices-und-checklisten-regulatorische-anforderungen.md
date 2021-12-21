@@ -21,7 +21,7 @@ Zwischenergebnisse Best Practices und Checklisten Regulatorische Anforderungen
 {{< btn
         URL="/deliverables/COMPASS_Deliverable_WP3_20210418.pdf"
         target="_blank"
-        rel="no-opener"
+        rel="noopener noreferrer"
         text="herunterladen"
         icon="tf-ion-document"
 >}}

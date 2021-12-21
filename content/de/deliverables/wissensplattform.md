@@ -23,7 +23,7 @@ Die Wissensplattform finden Sie über: [https://num.umg.eu](https://num.umg.eu)
 {{< btn
         URL="/news/NUM COMPASS Wissensmanagementplattform.pdf"
         target="_blank"
-        rel="no-opener"
+        rel="noopener noreferrer"
         text="herunterladen"
         icon="tf-ion-document"
         download="true"

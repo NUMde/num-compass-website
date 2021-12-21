@@ -24,7 +24,7 @@ You can find the knowledge platform via: [https://num.umg.eu](https://num.umg.eu
 {{< btn
         URL="/news/NUM COMPASS Wissensmanagementplattform.pdf"
         target="_blank"
-        rel="no-opener"
+        rel="noopener noreferrer"
         text="Download"
         icon="tf-ion-document"
         download="true"

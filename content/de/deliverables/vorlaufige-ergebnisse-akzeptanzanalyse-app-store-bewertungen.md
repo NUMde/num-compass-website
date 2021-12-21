@@ -19,7 +19,7 @@ Vorläufige Ergebnisse der Akzeptanzanalyse anhand von App-Store-Bewertungen am 
 {{< btn
         URL="/deliverables/COMPASS_Deliverable_WP4_1_20210418.pdf"
         target="_blank"
-        rel="no-opener"
+        rel="noopener noreferrer"
         text="herunterladen"
         icon="tf-ion-document"
 >}}

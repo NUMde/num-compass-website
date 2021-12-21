@@ -14,7 +14,7 @@ Falls Sie eine Datei einbinden möchten, können Sie diesen Shortcut für einen 
 {{< btn
         URL="/deliverables/FILE.pdf"
         target="_blank"
-        rel="no-opener"
+        rel="noopener noreferrer"
         text="herunterladen"
         icon="tf-ion-document"
 >}}

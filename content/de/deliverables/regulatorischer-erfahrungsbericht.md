@@ -20,7 +20,7 @@ draft: false
 {{< btn
         URL="/deliverables/COMPASS_Deliverable_WP3_20210302.pdf"
         target="_blank"
-        rel="no-opener"
+        rel="noopener noreferrer"
         text="Herunterladen"
         icon="tf-ion-document"
 >}}

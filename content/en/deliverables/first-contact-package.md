@@ -27,7 +27,7 @@ The NUM team answers these and other questions in the First Contact Package "App
 {{< btn
         URL="/news/Apps für die Pandemie_First Contact Package.pdf"
         target="_blank"
-        rel="no-opener"
+        rel="noopener noreferrer"
         text="Download"
         icon="tf-ion-document"
         download="true"

@@ -11,7 +11,7 @@ Rüdiger Pryss speaks at the European Health Futures Forum (EHFF) about the NUM-
 {{< btn
         URL="https://ehff.eu/ehff-members-in-their-own-words-ruediger-pryss/"
         target="_blank"
-        rel="no-opener"
+        rel="noopener noreferrer"
         text="Access Website"
         icon=" tf-ion-chevron-right"
 >}}
