@@ -11,7 +11,7 @@ Rüdiger Pryss spricht beim European Health Futures Forum (EHFF) über das NUM-C
 {{< btn
         URL="https://ehff.eu/ehff-members-in-their-own-words-ruediger-pryss/"
         target="_blank"
-        rel="no-opener"
+        rel="noopener noreferrer"
         text="Website aufrufen"
         icon=" tf-ion-chevron-right"
 >}}

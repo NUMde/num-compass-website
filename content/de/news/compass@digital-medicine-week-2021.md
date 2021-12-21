@@ -16,7 +16,7 @@ Informieren Sie sich über das Event und darüber, wie Sie an Tickets gelangen.
         width="550"
         link="https://www.eventbrite.de/e/compass-project-num-digital-medicine-week-2021-tickets-141269712513?aff=ebdssbonlinesearch"
         target="_blank"
-        rel="no-opener"
+        rel="noopener noreferrer"
         alt="COMPASS Project NUM @ Digital Medicine Week 2021"
         caption="Quelle: eventbrite.de"
 >}}
@@ -27,7 +27,7 @@ Informieren Sie sich über das Event und darüber, wie Sie an Tickets gelangen.
 {{< btn
         URL="https://www.eventbrite.de/e/compass-project-num-digital-medicine-week-2021-tickets-141269712513?aff=ebdssbonlinesearch"
         target="_blank"
-        rel="no-opener"
+        rel="noopener noreferrer"
         text="registrieren"
         icon=" tf-ion-chevron-right"
 >}}
