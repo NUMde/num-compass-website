@@ -6,7 +6,8 @@
   <div class="row justify-content-center">
     {{ range $index, $package:= .item }}
     <div class="col-12 p-0">
-      <div class="service-item work-package mb-5">
+      {{  $wp_index := add $index 1 }}
+      <div id="wp_{{  $wp_index  }}" class="service-item work-package mb-5">
         {{ with .number }}
         <span class="count mt-3">{{ i18n "package" }} {{ . }}</span>
         {{ end }}
