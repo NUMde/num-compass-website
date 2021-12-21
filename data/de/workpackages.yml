@@ -4,7 +4,7 @@ item    :
     title   : Koordination
     description : >
       In einem Projekt Setup soll eine Infrastruktur inklusive regelhafter Meetingstrukturen geschaffen werden, die es erlaubt, den Projektverlauf anhand der gesetzten Meilensteine eng zu monitoren und im Falle von Abweichungen geeignet zu eskalieren und nachzusteuern. Hierüber soll eine nachhaltige Governance-Struktur geschaffen werden, die in enger Abstimmung mit den AP2 Inhalten agiert.
-      Zusätzlich soll durch die Projektsteuerung die geeignete Kommunikation im Sinne der Öffentlichkeitsarbeit sowie die Abstimmung mit international laufenden Aktivitäten und Pandemie-Netzwerkaktivitäten im Sinne einer Synchronisation der fachlichen Aspekte stattfinden. 
+      Zusätzlich soll durch die Projektsteuerung die geeignete Kommunikation im Sinne der Öffentlichkeitsarbeit sowie die Abstimmung mit international laufenden Aktivitäten und Pandemie-Netzwerkaktivitäten im Sinne einer Synchronisation der fachlichen Aspekte stattfinden.
     attributes :
       - title : "Koordination"
         values: ["UMM"]
@@ -14,15 +14,15 @@ item    :
   - number  : 2
     title   : Guidance - Best Practices und Empfehlungen
     description : >
-      In diesem Arbeitspaket sollen Best Practices definiert und Richtlinien formuliert werden, wie Apps je nach Fokus (Information, Beratung, Datenerhebung) innerhalb einer Pandemiebekämpfung möglichst effektiv, effizient und forschungskompatibel eingesetzt werden können; dabei soll erarbeitet werden, welche Faktoren die Akzeptanz maßgeblich beeinflussen und daraus abgeleitet definiert werden, wie eine möglichst hohe Akzeptanz für Pandemieapps erreicht werden kann. 
-      Dazu werden sukzessive die in AP 3-5 erarbeiteten Ergebnisse zu einer Gesamtbewertung zusammengeführt und die Empfehlungen entsprechend aktualisiert. 
+      In diesem Arbeitspaket sollen Best Practices definiert und Richtlinien formuliert werden, wie Apps je nach Fokus (Information, Beratung, Datenerhebung) innerhalb einer Pandemiebekämpfung möglichst effektiv, effizient und forschungskompatibel eingesetzt werden können; dabei soll erarbeitet werden, welche Faktoren die Akzeptanz maßgeblich beeinflussen und daraus abgeleitet definiert werden, wie eine möglichst hohe Akzeptanz für Pandemieapps erreicht werden kann.
+      Dazu werden sukzessive die in AP 3-5 erarbeiteten Ergebnisse zu einer Gesamtbewertung zusammengeführt und die Empfehlungen entsprechend aktualisiert.
       Um ein Hilfsangebot zu entwickeln, wie Netzwerkpartnern mit Bedarf an Pandemieapps bezüglich der Anforderungen und Möglichkeiten vorgehen können, sollen diese Richtlinien darüber hinaus operationalisiert werden, indem eine digitale Wissensbasis / FAQ erstellt wird.
       Zuletzt sollen Beratungsstrukturen geschaffen werden, die in Interaktion mit identifizierten Partnern Auskunft zu den Guidelines und Angeboten aus diesem AP geben.
     attributes :
       - title : "Koordination"
         values: ["CHA"]
       - title : "Weitere Beteiligte"
-        values: ["UMG", "UMM"]
+        values: ["UMG", "UMM", "Data4Life"]
 
   - number  : 3
     title   : Regulatorische Anforderungen
@@ -37,7 +37,7 @@ item    :
   - number  : 4
     title   : Ethische Anforderungen
     description : >
-      Dieses Arbeitspaket untersucht die Einführung und auch den Weg zur Einführung zu Pandemieapps wie der Corona Warn App, da der Umgang mit Pandemieapps seitens der Bürger*innen viele Unsicherheiten hervorgerufen hat. Da in Zeiten einer Pandemie die Nutzung solcher Apps aus dem freiwilligen Nutzungsbereich faktisch in den zwingenden Nutzungsbereich gerückt ist, mussten sich die Bürger*innen in kurzer Zeit ein Bild verschaffen, ob der Technologie vertraut werden kann oder nicht. Die gleiche Problematik gilt für viele andere Gruppen wie beispielsweise Wissenschaftler*innen, die schnellstmöglich an verlässliche Daten kommen wollen. 
+      Dieses Arbeitspaket untersucht die Einführung und auch den Weg zur Einführung zu Pandemieapps wie der Corona Warn App, da der Umgang mit Pandemieapps seitens der Bürger*innen viele Unsicherheiten hervorgerufen hat. Da in Zeiten einer Pandemie die Nutzung solcher Apps aus dem freiwilligen Nutzungsbereich faktisch in den zwingenden Nutzungsbereich gerückt ist, mussten sich die Bürger*innen in kurzer Zeit ein Bild verschaffen, ob der Technologie vertraut werden kann oder nicht. Die gleiche Problematik gilt für viele andere Gruppen wie beispielsweise Wissenschaftler*innen, die schnellstmöglich an verlässliche Daten kommen wollen.
     attributes :
       - title : "Koordination"
         values: ["UKW"]
@@ -47,7 +47,7 @@ item    :
   - number  : 5
     title   : Forschungskompatibilität & Interoperabilität
     description : >
-      Ziel des Arbeitspaketes ist es, die wesentlichen Anforderungen, die sich speziell der (Nach-)nutzung der per App erhobenen Daten für die Pandemieforschung ergeben, zu identifizieren und daraus konkrete Konzepte und Handlungsempfehlungen für die Entwicklung bzw. Konfiguration von Pandemieapps abzuleiten. Die Ergebnisse dieses AP werden in AP2 zu einer konsentierten Empfehlung für die Entwicklung und den Einsatz von Pandemieapps zusammengeführt. Die technische Umsetzung der identifizierten Datenmodelle und Schnittstellen als Komponenten des Frameworks erfolgt parallel in AP6, d.h. es wird z.B. zuerst eine generische HL7-FHIR Schnittstellenkomponente entwickelt, die iterativ um die in diesem AP spezifizierten Datenmodelle erweitert wird. 
+      Ziel des Arbeitspaketes ist es, die wesentlichen Anforderungen, die sich speziell der (Nach-)nutzung der per App erhobenen Daten für die Pandemieforschung ergeben, zu identifizieren und daraus konkrete Konzepte und Handlungsempfehlungen für die Entwicklung bzw. Konfiguration von Pandemieapps abzuleiten. Die Ergebnisse dieses AP werden in AP2 zu einer konsentierten Empfehlung für die Entwicklung und den Einsatz von Pandemieapps zusammengeführt. Die technische Umsetzung der identifizierten Datenmodelle und Schnittstellen als Komponenten des Frameworks erfolgt parallel in AP6, d.h. es wird z.B. zuerst eine generische HL7-FHIR Schnittstellenkomponente entwickelt, die iterativ um die in diesem AP spezifizierten Datenmodelle erweitert wird.
     attributes :
       - title : "Koordination"
         values: ["UMG"]
@@ -62,14 +62,14 @@ item    :
       - title : "Koordination"
         values: ["CHA", "UMM"]
       - title : "Weitere Beteiligte"
-        values: ["UKM", "UKEr", "UKW", "UKK"]
+        values: ["UKM", "UKEr", "UKW", "UKK", "Data4Life", "Healex", "IBM"]
 
   - number  : 7
     title   : Verstetigung und Nachhaltigkeit
     description : >
-      Ziel dieses AP ist die Entwicklung von Konzepten zur Verstetigung und dem nachhaltigen Betrieb der entwickelten Plattform.  
-      Dies umfasst zum einen die Guidance, also die Etablierung einer Struktur, die eine Anpassung der Best Practices und Empfehlungen auf Basis veränderter regulatorischer Anforderungen und neuer wissenschaftlicher Ergebnisse für den Einsatz von Pandemieapps in geeigneten Zeitabständen vornimmt, und eine dauerhaft oder im Pandemiefall schnell reaktivierbare Beratungs- und Koordinationsstruktur etabliert. 
-      Auch ein Konzept für eine mögliche dauerhaft bereitgestellte Zertifizierung Struktur wird entwickelt. Neben den Koordinations- und Beratungsstrukturen ist auch die langfristige Nutzbarkeit der Technologieplattform zu sichern, so dass zum einen auch im weiteren Verlauf der Pandemie die entwickelten Apps regelmäßig aktualisiert werden, insbesondere aber bei erneuten Auftreten einer Pandemie die entwickelten Apps sofort zur Verfügung stehen bzw. auf Basis des Frameworks, dass in die jeweils aktuellen mobilen Betriebssysteme integriert werden kann, entwickelt werden können. Dazu muss eine nachhaltige Maintenance Struktur aufgebaut werden, die die technologische App-Plattform betreibt und betreut. 
+      Ziel dieses AP ist die Entwicklung von Konzepten zur Verstetigung und dem nachhaltigen Betrieb der entwickelten Plattform.
+      Dies umfasst zum einen die Guidance, also die Etablierung einer Struktur, die eine Anpassung der Best Practices und Empfehlungen auf Basis veränderter regulatorischer Anforderungen und neuer wissenschaftlicher Ergebnisse für den Einsatz von Pandemieapps in geeigneten Zeitabständen vornimmt, und eine dauerhaft oder im Pandemiefall schnell reaktivierbare Beratungs- und Koordinationsstruktur etabliert.
+      Auch ein Konzept für eine mögliche dauerhaft bereitgestellte Zertifizierung Struktur wird entwickelt. Neben den Koordinations- und Beratungsstrukturen ist auch die langfristige Nutzbarkeit der Technologieplattform zu sichern, so dass zum einen auch im weiteren Verlauf der Pandemie die entwickelten Apps regelmäßig aktualisiert werden, insbesondere aber bei erneuten Auftreten einer Pandemie die entwickelten Apps sofort zur Verfügung stehen bzw. auf Basis des Frameworks, dass in die jeweils aktuellen mobilen Betriebssysteme integriert werden kann, entwickelt werden können. Dazu muss eine nachhaltige Maintenance Struktur aufgebaut werden, die die technologische App-Plattform betreibt und betreut.
     attributes :
       - title : "Koordination"
         values: ["UMG"]

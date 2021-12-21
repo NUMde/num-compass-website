@@ -4,7 +4,7 @@ item    :
     title   : Coordination
     description : >
       In a project setup, an infrastructure including regular meeting structures should be created, which allows to closely monitor the course of the project on the basis of the set milestones and to escalate and adjust in case of deviations. In this way, a sustainable governance structure is to be created that operates in close coordination with the AP2 content.
-      In addition, the project management should ensure appropriate communication in terms of public relations and coordination with international activities and pandemic network activities in order to synchronize the technical aspects. 
+      In addition, the project management should ensure appropriate communication in terms of public relations and coordination with international activities and pandemic network activities in order to synchronize the technical aspects.
     attributes :
       - title : "Coordination"
         values: ["UMM"]
@@ -14,15 +14,15 @@ item    :
   - number  : 2
     title   : Guidance - Best Practices and Recommendations
     description : >
-      In this work package, best practices will be defined and guidelines formulated on how apps can be used as effectively, efficiently and research-compatible as possible within a pandemic response, depending on the focus (information, advice, data collection). The aim is to identify the factors that significantly influence acceptance and, based on this, to define how to achieve the highest possible acceptance for pandemic apps. 
-      To this end, the results obtained in WP 3-5 will be successively combined to form an overall assessment and the recommendations will be updated accordingly. 
+      In this work package, best practices will be defined and guidelines formulated on how apps can be used as effectively, efficiently and research-compatible as possible within a pandemic response, depending on the focus (information, advice, data collection). The aim is to identify the factors that significantly influence acceptance and, based on this, to define how to achieve the highest possible acceptance for pandemic apps.
+      To this end, the results obtained in WP 3-5 will be successively combined to form an overall assessment and the recommendations will be updated accordingly.
       In order to develop an offer of help on how network partners with a need for pandemic apps can proceed with regard to the requirements and possibilities, these guidelines will also be operationalized by creating a digital knowledge base / FAQ.
       Finally, consulting structures will be created which, in interaction with identified partners, provide information on the guidelines and offers from this AP.
     attributes :
       - title : "Coordination"
         values: ["CHA"]
       - title : "Other Parties"
-        values: ["UMG", "UMM"]
+        values: ["UMG", "UMM", "Data4Life"]
 
   - number  : 3
     title   : Policy Compliance Requirements
@@ -37,7 +37,7 @@ item    :
   - number  : 4
     title   : Ethical Requirements
     description : >
-      This work package examines the introduction and also the way to introduce pandemic apps such as the Corona Warn App, as the handling of pandemic apps has caused many uncertainties among citizens. In times of a pandemic, the use of such apps has in fact moved from the voluntary to the mandatory area of use, so citizens had to decide within a short period of time whether or not to trust the technology. The same problem applies to many other groups, such as scientists, who want to obtain reliable data as quickly as possible. 
+      This work package examines the introduction and also the way to introduce pandemic apps such as the Corona Warn App, as the handling of pandemic apps has caused many uncertainties among citizens. In times of a pandemic, the use of such apps has in fact moved from the voluntary to the mandatory area of use, so citizens had to decide within a short period of time whether or not to trust the technology. The same problem applies to many other groups, such as scientists, who want to obtain reliable data as quickly as possible.
     attributes :
       - title : "Coordination"
         values: ["UKW"]
@@ -47,7 +47,7 @@ item    :
   - number  : 5
     title   : Research Compatibility & Interoperability
     description : >
-      The aim of the work package is to identify the essential requirements for the (post-)use of data collected via apps for pandemic research and to derive concrete concepts and recommendations for the development and configuration of pandemic apps. The results of this AP will be combined in AP2 to a consensus recommendation for the development and use of pandemic apps. The technical implementation of the identified data models and interfaces as components of the framework will be done in parallel in AP6, i.e. a generic HL7-FHIR interface component will be developed first, which will be iteratively extended by the data models specified in this AP. 
+      The aim of the work package is to identify the essential requirements for the (post-)use of data collected via apps for pandemic research and to derive concrete concepts and recommendations for the development and configuration of pandemic apps. The results of this AP will be combined in AP2 to a consensus recommendation for the development and use of pandemic apps. The technical implementation of the identified data models and interfaces as components of the framework will be done in parallel in AP6, i.e. a generic HL7-FHIR interface component will be developed first, which will be iteratively extended by the data models specified in this AP.
     attributes :
       - title : "Coordination"
         values: ["UMG"]
@@ -62,14 +62,14 @@ item    :
       - title : "Coordination"
         values: ["CHA", "UMM"]
       - title : "Other Parties"
-        values: ["UKM", "UKEr", "UKW", "UKK"]
+        values: ["UKM", "UKEr", "UKW", "UKK", "Data4Life", "Healex", "IBM"]
 
   - number  : 7
     title   : Sustainability
     description : >
-      The aim of this AP is to develop concepts for the perpetuation and sustainable operation of the developed platform.  
-      This includes on the one hand the guidance, i.e. the establishment of a structure that adapts best practices and recommendations based on changing regulatory requirements and new scientific findings for the use of pandemic apps at appropriate intervals, and on the other hand the establishment of a consulting and coordination structure that can be reactivated permanently or, in the event of a pandemic, quickly. 
-      A concept for a possible permanent certification structure will also be developed. In addition to the coordination and consulting structures, the long-term usability of the technology platform must also be ensured, so that the developed apps are regularly updated during the course of the pandemic, but especially if a pandemic occurs again, the developed apps are immediately available or can be developed on the basis of the framework that can be integrated into the current mobile operating systems. For this purpose, a sustainable maintenance structure must be established to operate and support the technological app platform. 
+      The aim of this AP is to develop concepts for the perpetuation and sustainable operation of the developed platform.
+      This includes on the one hand the guidance, i.e. the establishment of a structure that adapts best practices and recommendations based on changing regulatory requirements and new scientific findings for the use of pandemic apps at appropriate intervals, and on the other hand the establishment of a consulting and coordination structure that can be reactivated permanently or, in the event of a pandemic, quickly.
+      A concept for a possible permanent certification structure will also be developed. In addition to the coordination and consulting structures, the long-term usability of the technology platform must also be ensured, so that the developed apps are regularly updated during the course of the pandemic, but especially if a pandemic occurs again, the developed apps are immediately available or can be developed on the basis of the framework that can be integrated into the current mobile operating systems. For this purpose, a sustainable maintenance structure must be established to operate and support the technological app platform.
     attributes :
       - title : "Coordination"
         values: ["UMG"]
