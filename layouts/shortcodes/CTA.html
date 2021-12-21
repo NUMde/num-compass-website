@@ -1,0 +1,13 @@
+{{"<!-- CTA -->" | safeHTML }}
+<div class="cta d-flex position-relative mx-0 justify-content-between align-items-center flex-column flex-md-row text-center text-md-left">
+  <h3 class="flex-fill mb-0">{{ .Get "title" }}<br>
+    <p class="flex-fill mt-3 mb-0"><small>{{ with .Get "description" }}{{ . }}{{ end }}</small></p>
+  </h3>
+  <a class="btn btn-transparent btn-lg mt-4 mr-5 ml-5" href="{{ .Get "URL" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{ end }}{{ with .Get "download" }} download="{{ . }}"{{ end }}>
+    {{ with .Get "icon"}}
+    <span class="{{ . }} mr-2"></span>
+    {{ end }}
+    {{ .Get "text" }}
+  </a>
+</div>
+{{"<!-- /CTA -->" | safeHTML }}
