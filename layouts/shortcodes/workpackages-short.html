@@ -21,16 +21,16 @@
             {{ end }}
           </div>
           <div class="col-12 pl-3 pr-3">
-            {{ $deliverables := where $.Site.RegularPages "Params.workpackage" $package.number }}
+            {{ $deliverables := sort (where $.Site.RegularPages "Params.workpackage" $package.number) "Params.code" "asc" }}
             {{ with $deliverables}}
             <h4 class="mt-4">{{ i18n "deliverables" }}</h4>
             <dl class="col-12">
               {{ range $index, $item := . }}
-              <div>
+              <div class="d-flex d-row">
                 {{ with $item.Params.Code }}
-                <dt class="inline-block mr-3">{{.}}</dt>
+                <dt class="pr-3">{{.}}</dt>
                 {{end}}
-                <dd class="inline-block">
+                <dd class="">
                   <p>
                     {{ if $item.Params.Directlink }}
                     <a href="{{ $item.Params.Directlink }}" target="_blank" rel="noopener noreferrer">{{ $item.Title }}</a>

@@ -30,16 +30,25 @@
               </dd>
             </dl>
             {{ end }}
-            {{ $deliverables := where $.Site.RegularPages "Params.workpackage" $package.number }}
+            {{ $deliverables := sort (where $.Site.RegularPages "Params.workpackage" $package.number) "Params.code" "asc" }}
             {{ with $deliverables}}
             <dl class="col-sm-12 col-md-6">
               <dt class="">{{ i18n "deliverables" }}</dt>
               {{ range $index, $item := . }}
-              <dd class="">
-                <p>
-                  <a href="{{ $item.Permalink }}">{{ $item.Title }}</a>
-                </p>
-              </dd>
+              <div class="d-flex d-row">
+                {{ with $item.Params.Code }}
+                <dt class="pr-3">{{.}}</dt>
+                {{end}}
+                <dd class="">
+                  <p>
+                    {{ if $item.Params.Directlink }}
+                    <a href="{{ $item.Params.Directlink }}" target="_blank" rel="noopener noreferrer">{{ $item.Title }}</a>
+                    {{ else }}
+                    <a href="{{ $item.Permalink }}">{{ $item.Title }}</a>
+                    {{ end }}
+                  </p>
+                </dd>
+              </div>
               {{ end }}
             </dl>
             {{ end }}
