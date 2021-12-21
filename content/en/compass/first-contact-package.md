@@ -11,12 +11,8 @@ Medical research data is a valuable asset in pandemic response. The NUM-COMPASS 
 
 FAIR stands for findable, accessible, interoperable, reusable. Through the FAIR principles applied, the data collected gains value because the data is available to the research community. If as many researchers as possible base their studies and data collections on these principles, isolated individuals will become a critical mass: together, we have a chance to make much greater progress in pandemic control.
 
-What should be considered when designing "FAIR" data models, questionnaires, data collection approaches, and storage concepts in the context of the Corona pandemic? What tools and open source technology does the NUM platform provide me to do this? How will the NUM team support me in developing my study or app? How do I make my data interoperable?
-
-The NUM team answers these and other questions in the First Contact Package "Apps for the Pandemic".
-
 {{< pdf
-    URL="/news/Apps für die Pandemie_First Contact Package.pdf"
+    URL="/flyer/num-compass_flyer.pdf"
     text="Download PDF"
     height="700px"
     aspectratio="1.4142"
@@ -25,10 +21,15 @@ The NUM team answers these and other questions in the First Contact Package "App
 
 
 {{< btn
-        URL="/news/Apps für die Pandemie_First Contact Package.pdf"
+        URL="/flyer/num-compass_flyer.pdf"
         target="_blank"
         rel="no-opener"
         text="Download"
         icon="tf-ion-document"
         download="true"
 >}}
+
+
+### Looking for more information?
+
+For more information on *FAIR* and the First Contact Package, see deliverable [Working and sharing „FAIR“: Sharing research data]({{< relref path="deliverables/first-contact-package.md" lang="en" >}}).
