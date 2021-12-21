@@ -18,3 +18,27 @@ partners:
         image: images/partners/holfelder_670.jpg
         project_role: Regulatorische Beratung
   #
+  - name: Healex GmbH
+    short: Healex
+    URL: https://healex.systems
+    team:
+      - name: Gustav Vella
+        project_role: Beratung
+      - name: Steffen Weber
+        project_role: Beratung
+  #
+  - name: D4L data4life gGmbH
+    short: data4life
+    URL: https://www.data4life.care/de/
+    team:
+      - name: Jonathan Reisdorf
+        project_role: Beratung
+      - name: Morten Ernebjerg
+        project_role: Beratung
+      - name: Sebastian Woinar
+        project_role: Beratung
+      - name: Florian Helmchen
+        project_role: Beratung
+      - name: Tim Walz
+        project_role: Beratung
+  #
