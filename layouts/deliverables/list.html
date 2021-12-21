@@ -3,7 +3,8 @@
 <section class="blog section" id="blog">
   <div class="container">
     {{ partial "page-headline.html" . }}
-    {{ .Content }}
+    <div id="mdcontent-list" class="col-md-12 mx-auto">
+      {{ .Content }}
     </div>
   </div>
 </section>

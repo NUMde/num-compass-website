@@ -26,11 +26,20 @@
             <h4 class="mt-4">{{ i18n "deliverables" }}</h4>
             <dl class="col-12">
               {{ range $index, $item := . }}
-              <dd class="">
-                <p>
-                  <a href="{{ $item.Permalink }}">{{ $item.Title }}</a>
-                </p>
-              </dd>
+              <div>
+                {{ with $item.Params.Code }}
+                <dt class="inline-block mr-3">{{.}}</dt>
+                {{end}}
+                <dd class="inline-block">
+                  <p>
+                    {{ if $item.Params.Directlink }}
+                    <a href="{{ $item.Params.Directlink }}" target="_blank" rel="noopener noreferrer">{{ $item.Title }}</a>
+                    {{ else }}
+                    <a href="{{ $item.Permalink }}">{{ $item.Title }}</a>
+                    {{ end }}
+                  </p>
+                </dd>
+              </div>
               {{ end }}
             </dl>
             {{ end }}
