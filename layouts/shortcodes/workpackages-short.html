@@ -23,7 +23,7 @@
           <div class="col-12 pl-3 pr-3">
             {{ $deliverables := sort (where $.Site.RegularPages "Params.workpackage" $package.number) "Params.code" "asc" }}
             {{ with $deliverables}}
-            <h4 class="mt-4">{{ i18n "deliverables" }}</h4>
+            <h5 class="mt-4 mb-3">{{ i18n "deliverables" }}</h5>
             <dl class="col-12">
               {{ range $index, $item := . }}
               <div class="d-flex d-row">
