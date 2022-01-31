@@ -12,7 +12,7 @@
 partners:
   - name: LA2 GmbH, Die Software-Manufaktur
     short: LA2
-    URL: https://www.la2.de/
+    URL: "https://www.la2.de/"
     team:
       - name: Marc Holfelder
         image: images/partners/holfelder_670.jpg
@@ -29,7 +29,7 @@ partners:
   #
   - name: D4L data4life gGmbH
     short: data4life
-    URL: https://www.data4life.care/de/
+    URL: "https://www.data4life.care/de/"
     team:
       - name: Jonathan Reisdorf
         project_role: Beratung
@@ -41,4 +41,19 @@ partners:
         project_role: Beratung
       - name: Tim Walz
         project_role: Beratung
+  #
+  - name: IBM Client Innovation Center Germany GmbH
+    short: IBM
+    URL: "https://ibm.biz/cicgermany"
+    team:
+      - name: Alena Schmickl
+        project_role: Cloud Architecture
+      - name: Alexander Gottschall
+        project_role: Frontend Development
+      - name: Christian Lenz
+        project_role: Backend Development
+      - name: Sabina Hühne
+        project_role: Projectmanagement
+      - name: Thorsten Gau
+        project_role: Chief Technology Officer
   #
